@@ -124,12 +124,7 @@ cg = st_read('NoADA/Stations_NoADA_CoverageGroups.shp', layer = "Stations_NoADA_
 sublines = st_read('Subway_Lines_2019/geo_export_d6a69987-1ce0-4e2c-8f9e-6ad76041a2bf.shp',
                    layer = "geo_export_d6a69987-1ce0-4e2c-8f9e-6ad76041a2bf") %>%
   st_transform("+proj=longlat +datum=WGS84")
-substops = st_read('Subway_Stops_2019/SubwayStations.geojson') %>%
-  st_transform("+proj=longlat +datum=WGS84")
 
-sublines=st_read('Subway_Lines_2019/geo_export_d6a69987-1ce0-4e2c-8f9e-6ad76041a2bf.shp', layer="geo_export_d6a69987-1ce0-4e2c-8f9e-6ad76041a2bf") %>%
-  +   st_transform("+proj=longlat +datum=WGS84")
-names(sublines)
 
 
 #adding subway line colors for filtering by accessibility type----------
@@ -405,9 +400,9 @@ map <- leaflet() %>%
                      paste("<h3 class=","header-tiny",">",noplan$name,"</h3>", "<hr>", "<b>","<font size=","0.5","'>","Lines:","</b>", noplan$line, "<br><b>","ADA Status:", "</b>",noplan$ADA_Status)),
                    group = un6,label = const$name,fillOpacity = 1,weight = 0.5,opacity = 0) %>%
   #layers control -----
-  addLayersControl(overlayGroups = c(un1,un2,un3,un4,un5,un6,sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l,sub_al,sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
+  addLayersControl(overlayGroups = c(un1,un2,un3,un4,un5,un6),
+                   baseGroups = c(sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l,sub_al,sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
                                   sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,sub_rl,sub_wl,sub_al,sub_jl,sub_zl),
-                   #overlayGroups = c(un1,un2,un3,un4,un5,un6), 
                    position = "bottomright", 
                    options = layersControlOptions(collapsed = FALSE, sortLayers = FALSE)) %>% 
   hideGroup(c(un2,un3,un4,un5,un6,sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l, sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
