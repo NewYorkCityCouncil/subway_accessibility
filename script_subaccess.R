@@ -367,7 +367,7 @@ map <- leaflet() %>%
                      paste("<h3 class=","header-tiny",">",sub_z$name,"</h3>", "<hr>", "<b>","<font size=","0.5","'>",
                            "Lines:","</b>", sub_z$line, "<br><b>","ADA Status:", "</b>","<br>",sub_z$ADA_Status)),
                    group = sub_zl, fillOpacity = 1,weight = 0.5,label = sub_z$name,opacity = 0) %>%
-
+  
   
   #overlay groups ----
   addPolylines(data = sublines,weight = 3,color = sublines$colors,label = sublines$name,group = 'Lines') %>%
@@ -399,7 +399,7 @@ map <- leaflet() %>%
   addCircleMarkers(data = noplan, color = '#666666', radius = 4,
                    popup = councilPopup(
                      paste("<h3 class=","header-tiny",">",noplan$name,"</h3>", "<hr>", "<b>","<font size=","0.5","'>","Lines:","</b>", noplan$line, "<br><b>","ADA Status:", "</b>",noplan$ADA_Status)),
-                   group = un6,label = const$name,fillOpacity = 1,weight = 0.5,opacity = 0) %>%
+                   group = un6,label = noplan$name,fillOpacity = 1,weight = 0.5,opacity = 0) %>%
   #layers control -----
   addLayersControl(overlayGroups = c(un1,un2,un3,un4,un5,un6),
                    baseGroups = c(sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l,sub_al,sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
