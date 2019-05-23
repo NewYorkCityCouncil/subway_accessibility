@@ -9,6 +9,7 @@ library(dplyr)
 library(plyr)
 library(tidyr)
 library(purrr)
+library(leaflet.extras)
 
 
 #for filtering subway lines -----
@@ -222,7 +223,7 @@ sub_gl=unname(paste0("<div style='background-color:","#6CBE45",
 sub_jl=unname(paste0("<div style='background-color:","#996633",
                      ";position: relative; right:2px; top: 4px; display: inline-block; width: 1em;height: 1em; margin: 2px;'></div>",
                      'J'))
-sub_ll=unname(paste0("<div style='background-color:","#996633",
+sub_ll=unname(paste0("<div style='background-color:","#A7A9AC",
                      ";position: relative; right:2px; top: 4px; display: inline-block; width: 1em;height: 1em; margin: 2px;'></div>",
                      'L'))
 sub_ml=unname(paste0("<div style='background-color:","#FF6319",
@@ -404,9 +405,18 @@ map <- leaflet() %>%
                    baseGroups = c(sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l,sub_al,sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
                                   sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,sub_rl,sub_wl,sub_al,sub_jl,sub_zl),
                    position = "bottomright", 
-                   options = layersControlOptions(collapsed = FALSE, sortLayers = FALSE)) %>% 
+                   options = layersControlOptions(collapsed = FALSE, sortLayers = FALSE)) %>%
+  #search control -----
+  addResetMapButton() %>%   
+  addControl("<P>Search by Station Name</P>",position='topright') %>%   
+  addSearchFeatures(targetGroups =  c(un1,un2,un3,un4,un5,un6,sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l,sub_al, 
+                                      sub_cl,sub_el,sub_bl,sub_dl,sub_fl,sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,
+                                      sub_rl,sub_wl,sub_al,sub_jl,sub_zl),
+                    options = searchFeaturesOptions(zoom=18, openPopup = TRUE, firstTipSubmit = TRUE,
+                                                    autoCollapse = TRUE, hideMarkerOnCollapse = TRUE, position = "topright" )) %>%
   hideGroup(c(un2,un3,un4,un5,un6,sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l, sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
               sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,sub_rl,sub_wl,sub_al,sub_jl,sub_zl)) %>%
+  
   #zoom parameters
   setView(-73.88099670410158,40.72540497175607,  zoom = 10.5)
 
