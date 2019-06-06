@@ -19,20 +19,18 @@ full=st_read('ADA/Stations_ADA_Full.shp', layer="Stations_ADA_Full") %>%
 partial=st_read('ADA/Stations_ADA_Partial.shp', layer="Stations_ADA_Partial") %>%
   st_transform("+proj=longlat +datum=WGS84") %>%
   as.data.frame()
-const=st_read('ADA/Stations_ADA_UnderConstruction.shp', layer="Stations_ADA_UnderConstruction") %>%
+const=st_read('ADA/Stations_ADA_ConstructionInProgress.shp', layer="Stations_ADA_ConstructionInProgress") %>%
   st_transform("+proj=longlat +datum=WGS84")%>%
   as.data.frame()
 noplan=st_read('NoADA/Stations_NoADA_NoPlans.shp', layer="Stations_NoADA_NoPlans") %>%
   st_transform("+proj=longlat +datum=WGS84")%>%
   as.data.frame()
-ff=st_read('NoADA/Stations_NoADA_FastForwardIdentified.shp', layer="Stations_NoADA_FastForwardIdentified") %>%
-  st_transform("+proj=longlat +datum=WGS84")%>%
-  as.data.frame()
-cg=st_read('NoADA/Stations_NoADA_CoverageGroups.shp', layer="Stations_NoADA_CoverageGroups") %>%
+ff=st_read('NoADA/Stations_NoADA_UnderConsideration.shp', layer="Stations_NoADA_UnderConsideration") %>%
   st_transform("+proj=longlat +datum=WGS84")%>%
   as.data.frame()
 
-allstops=rbind(full, partial, const, ff, cg, noplan)
+
+allstops=rbind(full, partial, const, ff, noplan)
 allstops<-st_as_sf(allstops)
 
 allstops1=data.table(allstops[,c(3,5,7:8)])
@@ -56,7 +54,7 @@ for (i in 1:length(u2)){
   s1[i]=strsplit(u2[i],"-")
 }
 
-s1[1]
+#s1[1]
 
 ####add unique lines to dataframe
 allstops1$s=s1
@@ -114,13 +112,11 @@ full = st_read('ADA/Stations_ADA_Full.shp', layer = "Stations_ADA_Full") %>%
   st_transform("+proj=longlat +datum=WGS84")
 partial = st_read('ADA/Stations_ADA_Partial.shp', layer = "Stations_ADA_Partial") %>%
   st_transform("+proj=longlat +datum=WGS84")
-const = st_read('ADA/Stations_ADA_UnderConstruction.shp', layer = "Stations_ADA_UnderConstruction") %>%
+const = st_read('ADA/Stations_ADA_ConstructionInProgress.shp', layer = "Stations_ADA_ConstructionInProgress") %>%
   st_transform("+proj=longlat +datum=WGS84")
 noplan = st_read('NoADA/Stations_NoADA_NoPlans.shp', layer = "Stations_NoADA_NoPlans") %>%
   st_transform("+proj=longlat +datum=WGS84")
-ff = st_read('NoADA/Stations_NoADA_FastForwardIdentified.shp', layer = "Stations_NoADA_FastForwardIdentified") %>%
-  st_transform("+proj=longlat +datum=WGS84")
-cg = st_read('NoADA/Stations_NoADA_CoverageGroups.shp', layer = "Stations_NoADA_CoverageGroups") %>%
+ff = st_read('NoADA/Stations_NoADA_UnderConsideration.shp', layer = "Stations_NoADA_UnderConsideration") %>%
   st_transform("+proj=longlat +datum=WGS84")
 sublines = st_read('Subway_Lines_2019/geo_export_d6a69987-1ce0-4e2c-8f9e-6ad76041a2bf.shp',
                    layer = "geo_export_d6a69987-1ce0-4e2c-8f9e-6ad76041a2bf") %>%
@@ -148,7 +144,6 @@ sublines=sublines[,c(2,1,3:8)]
 full=full[,c(3,5,7,1,2,4,6,8)]
 partial=partial[,c(3,5,7,1,2,4,6,8)]
 const=const[,c(3,5,7,1,2,4,6,8)]
-cg=cg[,c(3,5,7,1,2,4,6,8)]
 ff=ff[,c(3,5,7,1,2,4,6,8)]
 noplan=noplan[,c(3,5,7,1,2,4,6,8)]
 
@@ -169,13 +164,10 @@ un2=unname(paste0("<div style='background-color:","#82C91E",
 un3=unname(paste0("<div style='background-color:","#BE4BDB",
                   ";position: relative; right:2px; top: 4px; display: inline-block; width: 1em;height: 1em; margin: 2px;'></div>",
                   'In Construction'))
-un4=unname(paste0("<div style='background-color:","#F59F00",
+un4=unname(paste0("<div style='background-color:","#D05D4E",
                   ";position: relative; right:2px; top: 4px; display: inline-block; width: 1em;height: 1em; margin: 2px;'></div>",
-                  'No ADA: Fast Forward Coverage Group'))
-un5=unname(paste0("<div style='background-color:","#D05D4E",
-                  ";position: relative; right:2px; top: 4px; display: inline-block; width: 1em;height: 1em; margin: 2px;'></div>",
-                  'No ADA: Fast Forward Priority Identified'))
-un6=unname(paste0("<div style='background-color:","#666666",
+                  'No ADA: Under Consideration'))
+un5=unname(paste0("<div style='background-color:","#666666",
                   ";position: relative; right:2px; top: 4px; display: inline-block; width: 1em;height: 1em; margin: 2px;'></div>",
                   'No ADA: No Funding Plans'))
 
@@ -374,34 +366,30 @@ map <- leaflet() %>%
   addCircleMarkers(data = full,color = '#228AE6', radius = 4,
                    popup = councilPopup(
                      paste("<h3 class=","header-tiny",">",full$name,"</h3>","<hr>", "<b>","<font size=","0.5","'>","Lines:","</b>", 
-                           full$line, "<br><b>","ADA Status:", "</b>",full$ADA_Status)),
+                           full$line, "<br><b>","ADA Status:", "</b><br>",full$ADA_Status)),
                    group = un1, fillOpacity = 1,weight = 0.5,label = full$name,opacity = 0) %>%
   addCircleMarkers(data = partial,color = '#82C91E', radius = 4,
                  popup = councilPopup(
                    paste("<h3 class=","header-tiny",">",partial$name,"</h3>", "<hr>", "<b>","<font size=","0.5","'>","Lines:","</b>", 
-                         partial$line, "<br><b>","ADA Status:", "</b>",partial$ADA_Status)),
+                         partial$line, "<br><b>","ADA Status:", "</b><br>",partial$ADA_Status)),
                  group = un2, fillOpacity = 1,label = partial$name,weight = 0.5,opacity = 0) %>%
   addCircleMarkers(data = const,color = '#BE4BDB', radius = 4,
                    popup = councilPopup(
                      paste("<h3 class=","header-tiny",">",const$name,"</h3>", "<hr>", "<b>","<font size=","0.5","'>","Lines:","</b>", 
-                           const$line, "<br><b>","ADA Status:", "</b>",const$ADA_Status)),
+                           const$line, "<br><b>","ADA Status:", "</b><br>",const$ADA_Status)),
                    group = un3,label = const$name,fillOpacity = 1,weight = 0.5, opacity = 0) %>%
-  addCircleMarkers(data = cg,color = '#F59F00', radius = 4,
-                   popup = councilPopup(
-                     paste("<h3 class=","header-tiny",">",cg$name,"</h3>", "<hr>", "<b>","<font size=","0.5","'>","Lines:","</b>", 
-                           cg$line, "<br><b>","ADA Status:", "</b>",cg$ADA_Status)),
-                   group = un4,label = cg$name,fillOpacity = 1, weight = 0.5,opacity = 0) %>%
-  addCircleMarkers(data = ff, color = '#D05D4E', radius = 4,
+addCircleMarkers(data = ff, color = '#D05D4E', radius = 4,
                    popup = councilPopup(
                      paste("<h3 class=","header-tiny",">",ff$name,"</h3>", "<hr>", "<b>","<font size=","0.5","'>","Lines:","</b>", 
-                           ff$line, "<br><b>","ADA Status:", "</b>",ff$ADA_Status)),
-                   group = un5,label = ff$name,fillOpacity = 1,weight = 0.5,opacity = 0) %>%
+                           ff$line, "<br><b>","ADA Status:", "</b><br>",ff$ADA_Status)),
+                   group = un4,label = ff$name,fillOpacity = 1,weight = 0.5,opacity = 0) %>%
   addCircleMarkers(data = noplan, color = '#666666', radius = 4,
                    popup = councilPopup(
-                     paste("<h3 class=","header-tiny",">",noplan$name,"</h3>", "<hr>", "<b>","<font size=","0.5","'>","Lines:","</b>", noplan$line, "<br><b>","ADA Status:", "</b>",noplan$ADA_Status)),
-                   group = un6,label = noplan$name,fillOpacity = 1,weight = 0.5,opacity = 0) %>%
+                     paste("<h3 class=","header-tiny",">",noplan$name,"</h3>", "<hr>", "<b>","<font size=","0.5","'>","Lines:","</b>", 
+                           noplan$line, "<br><b>","ADA Status:", "</b><br>",noplan$ADA_Status)),
+                   group = un5,label = noplan$name,fillOpacity = 1,weight = 0.5,opacity = 0) %>%
   #layers control -----
-  addLayersControl(overlayGroups = c(un1,un2,un3,un4,un5,un6),
+  addLayersControl(overlayGroups = c(un1,un2,un3,un4,un5),
                    baseGroups = c(sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l,sub_al,sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
                                   sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,sub_rl,sub_wl,sub_al,sub_jl,sub_zl),
                    position = "bottomright", 
@@ -409,12 +397,12 @@ map <- leaflet() %>%
   #search control -----
   addResetMapButton() %>%   
   addControl("<P>Search by Station Name</P>",position='topright') %>%   
-  addSearchFeatures(targetGroups =  c(un1,un2,un3,un4,un5,un6,sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l,sub_al, 
+  addSearchFeatures(targetGroups =  c(un1,un2,un3,un4,un5,sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l,sub_al, 
                                       sub_cl,sub_el,sub_bl,sub_dl,sub_fl,sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,
                                       sub_rl,sub_wl,sub_al,sub_jl,sub_zl),
                     options = searchFeaturesOptions(zoom=18, openPopup = TRUE, firstTipSubmit = TRUE,
                                                     autoCollapse = TRUE, hideMarkerOnCollapse = TRUE, position = "topright" )) %>%
-  hideGroup(c(un2,un3,un4,un5,un6,sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l, sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
+  hideGroup(c(un1,un2,un3,un4,un5,sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l, sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
               sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,sub_rl,sub_wl,sub_al,sub_jl,sub_zl)) %>%
   
   #zoom parameters
