@@ -11,29 +11,48 @@ library(tidyr)
 library(purrr)
 library(leaflet.extras)
 
-
+#stations and lines -----
+ss=st_read('Subway_Stops_2019/stops_nyc_subway_may2019.shp', layer="stops_nyc_subway_may2019") %>%
+  st_transform("+proj=longlat +datum=WGS84")
+sublines2 = st_read('Subway_Lines_2019/routes_nyc_subway_may2019.shp',
+                    layer = "routes_nyc_subway_may2019") %>%
+  st_transform("+proj=longlat +datum=WGS84")
 #for filtering subway lines -----
 full=st_read('ADA/Stations_ADA_Full.shp', layer="Stations_ADA_Full") %>%
-  st_transform("+proj=longlat +datum=WGS84") %>%
-  as.data.frame() 
+  st_transform("+proj=longlat +datum=WGS84")
 partial=st_read('ADA/Stations_ADA_Partial.shp', layer="Stations_ADA_Partial") %>%
-  st_transform("+proj=longlat +datum=WGS84") %>%
-  as.data.frame()
+  st_transform("+proj=longlat +datum=WGS84")
 const=st_read('ADA/Stations_ADA_ConstructionInProgress.shp', layer="Stations_ADA_ConstructionInProgress") %>%
-  st_transform("+proj=longlat +datum=WGS84")%>%
-  as.data.frame()
+  st_transform("+proj=longlat +datum=WGS84")
 noplan=st_read('NoADA/Stations_NoADA_NoPlans.shp', layer="Stations_NoADA_NoPlans") %>%
-  st_transform("+proj=longlat +datum=WGS84")%>%
-  as.data.frame()
+  st_transform("+proj=longlat +datum=WGS84")
 ff=st_read('NoADA/Stations_NoADA_UnderConsideration.shp', layer="Stations_NoADA_UnderConsideration") %>%
-  st_transform("+proj=longlat +datum=WGS84")%>%
-  as.data.frame()
+  st_transform("+proj=longlat +datum=WGS84")
 
+full_sir=st_read('SIR/SIRail_ADA.shp', layer="SIRail_ADA") %>%
+  st_transform("+proj=longlat +datum=WGS84") 
+full_sir$ADA_Status=rep("Full ADA Access", nrow(full_sir))
+full_sir=full_sir[,c(2,3,11,1,10)]
 
+noplan_sir=st_read('SIR/SIRail_NoADA.shp', layer="SIRail_NoADA") %>%
+  st_transform("+proj=longlat +datum=WGS84")
+noplan_sir$ADA_Status=rep("No Access - No Plans for Funding", nrow(noplan_sir))
+noplan_sir=noplan_sir[,c(2,3,11,1,10)]
+
+ff_sir=st_read('SIR/SIRail_NoADA_UnderConsideration.shp', layer="SIRail_NoADA_UnderConsideration") %>%
+  st_transform("+proj=longlat +datum=WGS84")
+ff_sir$ADA_Status=rep("No Access - Under Consideration", nrow(ff_sir))
+ff_sir=ff_sir[,c(2,3,11,1,10)]
+
+#combining all stops ----
 allstops=rbind(full, partial, const, ff, noplan)
-allstops<-st_as_sf(allstops)
+allstops=allstops[,c(3,5,7,4,8)]
+all_sir=rbind(data.frame(full_sir),data.frame(noplan_sir),data.frame(ff_sir))
+names(all_sir)<-names(allstops)
+allstops=rbind(data.frame(allstops),data.frame(all_sir))
 
-allstops1=data.table(allstops[,c(3,5,7:8)])
+
+allstops1=data.table(allstops)
 
 #fixing line column to filter -----
 allstops1$line=gsub(" Express", "", allstops$line)
@@ -65,16 +84,17 @@ allstops1=allstops1 %>%
   unnest(s, .drop = FALSE)
 #add subway colors from sublines for filtering by subway lines-----
 allstops1$colors<-c(rep("",nrow(allstops1)))
-allstops1[which(allstops1$s=='A'|allstops1$s=='C'|allstops1$s=='E' ),6]<-"#0039A6"
-allstops1[which(allstops1$s=='B'|allstops1$s=='D'|allstops1$s=='F'|allstops1$s=='M'),6]<-"#FF6319"
-allstops1[which(allstops1$s=='G'),6]<-"#6CBE45"
-allstops1[which(allstops1$s=='J'|allstops1$s=='Z'),6]<-"#996633"
-allstops1[which(allstops1$s=='L'),6]<-"#A7A9AC"
-allstops1[which(allstops1$s=='N'|allstops1$s=='Q'|allstops1$s=='R'|allstops1$s=='W'),6]<-"#FCCC0A"
-allstops1[which(allstops1$s=='S'),6]<-"#808183"
-allstops1[which(allstops1$s=='1'|allstops1$s=='2'|allstops1$s=='3'),6]<-"#EE352E"
-allstops1[which(allstops1$s=='4'|allstops1$s=='5'|allstops1$s=='6'),6]<-"#00933C"
-allstops1[which(allstops1$s=='7'),6]<-"#B933AD"
+allstops1[which(allstops1$s=='A'|allstops1$s=='C'|allstops1$s=='E' ),7]<-"#0039A6"
+allstops1[which(allstops1$s=='B'|allstops1$s=='D'|allstops1$s=='F'|allstops1$s=='M'),7]<-"#FF6319"
+allstops1[which(allstops1$s=='G'),7]<-"#6CBE45"
+allstops1[which(allstops1$s=='J'|allstops1$s=='Z'),7]<-"#996633"
+allstops1[which(allstops1$s=='L'),7]<-"#A7A9AC"
+allstops1[which(allstops1$s=='N'|allstops1$s=='Q'|allstops1$s=='R'|allstops1$s=='W'),7]<-"#FCCC0A"
+allstops1[which(allstops1$s=='S'),7]<-"#808183"
+allstops1[which(allstops1$s=='1'|allstops1$s=='2'|allstops1$s=='3'),7]<-"#EE352E"
+allstops1[which(allstops1$s=='4'|allstops1$s=='5'|allstops1$s=='6'),7]<-"#00933C"
+allstops1[which(allstops1$s=='7'),7]<-"#B933AD"
+allstops1[which(allstops1$s=='SIR'),7]<-"#053159"
 
 #converting into shapefile ----
 allstops1<-st_as_sf(allstops1) %>%
@@ -82,8 +102,9 @@ allstops1<-st_as_sf(allstops1) %>%
 
 
 #subsetting each lines into its own shapefile for leaflet layer selector ----
-sub_w=allstops1[which(allstops1$s==sort(unique(allstops1$s))[22]),]
-sub_z=allstops1[which(allstops1$s==sort(unique(allstops1$s))[23]),]
+sub_sir=allstops1[which(allstops1$s==sort(unique(allstops1$s))[22]),]
+sub_w=allstops1[which(allstops1$s==sort(unique(allstops1$s))[23]),]
+sub_z=allstops1[which(allstops1$s==sort(unique(allstops1$s))[24]),]
 sub1=allstops1[which(allstops1$s==sort(unique(allstops1$s))[1]),]
 sub2=allstops1[which(allstops1$s==sort(unique(allstops1$s))[2]),]
 sub3=allstops1[which(allstops1$s==sort(unique(allstops1$s))[3]),]
@@ -108,50 +129,40 @@ sub_s=allstops1[which(allstops1$s==sort(unique(allstops1$s))[21]),]
 
 
 #for filtering by accessibility type ---------
-full = st_read('ADA/Stations_ADA_Full.shp', layer = "Stations_ADA_Full") %>%
-  st_transform("+proj=longlat +datum=WGS84")
-partial = st_read('ADA/Stations_ADA_Partial.shp', layer = "Stations_ADA_Partial") %>%
-  st_transform("+proj=longlat +datum=WGS84")
-const = st_read('ADA/Stations_ADA_ConstructionInProgress.shp', layer = "Stations_ADA_ConstructionInProgress") %>%
-  st_transform("+proj=longlat +datum=WGS84")
-noplan = st_read('NoADA/Stations_NoADA_NoPlans.shp', layer = "Stations_NoADA_NoPlans") %>%
-  st_transform("+proj=longlat +datum=WGS84")
-ff = st_read('NoADA/Stations_NoADA_UnderConsideration.shp', layer = "Stations_NoADA_UnderConsideration") %>%
-  st_transform("+proj=longlat +datum=WGS84")
-sublines = st_read('Subway_Lines_2019/geo_export_d6a69987-1ce0-4e2c-8f9e-6ad76041a2bf.shp',
-                   layer = "geo_export_d6a69987-1ce0-4e2c-8f9e-6ad76041a2bf") %>%
-  st_transform("+proj=longlat +datum=WGS84")
+#add the sir shapefiles
+full=full[,c(3,5,7,4,8)]
+names(full_sir)<-names(full)
+full=rbind(data.frame(full),data.frame(full_sir))%>% 
+  as.data.frame() %>% 
+  st_as_sf()
 
+ff=ff[,c(3,5,7,4,8)]
+names(ff_sir)<-names(ff)
+ff=rbind(data.frame(ff),data.frame(ff_sir)) %>% 
+  as.data.frame() %>% 
+  st_as_sf()
+
+noplan=noplan[,c(3,5,7,4,8)]
+names(noplan_sir)<-names(noplan)
+noplan=rbind(data.frame(noplan),data.frame(noplan_sir)) %>% 
+  as.data.frame() %>% 
+  st_as_sf()
 
 
 #adding subway line colors for filtering by accessibility type----------
 #http://web.mta.info/developers/resources/line_colors.htm
-sublines$colors=c(rep("",length(sublines)))
-sublines[which(sublines$rt_symbol=='A'),8]<-"#0039A6"
-sublines[which(sublines$rt_symbol=='B'),8]<-"#FF6319"
-sublines[which(sublines$rt_symbol=='G'),8]<-"#6CBE45"
-sublines[which(sublines$rt_symbol=='J'),8]<-"#996633"
-sublines[which(sublines$rt_symbol=='L'),8]<-"#A7A9AC"
-sublines[which(sublines$rt_symbol=='N'),8]<-"#FCCC0A"
-sublines[which(sublines$rt_symbol=='S'),8]<-"#808183"
-sublines[which(sublines$rt_symbol=='1'),8]<-"#EE352E"
-sublines[which(sublines$rt_symbol=='4'),8]<-"#00933C"
-sublines[which(sublines$rt_symbol=='7'),8]<-"#B933AD"
+#not needed anymore, baruch gis file has colors 
+#https://www.baruch.cuny.edu/confluence/pages/viewpage.action?pageId=28016896
 
 
 #reorder columns for popup -----
-sublines=sublines[,c(2,1,3:8)]
-full=full[,c(3,5,7,1,2,4,6,8)]
-partial=partial[,c(3,5,7,1,2,4,6,8)]
-const=const[,c(3,5,7,1,2,4,6,8)]
-ff=ff[,c(3,5,7,1,2,4,6,8)]
-noplan=noplan[,c(3,5,7,1,2,4,6,8)]
+sublines2=sublines2[,c(2,5,3,4,6)]
 
-#council categorical color palette
+#council categorical color palette ----
 council_pal<- c("#D05D4E","#12B886","#BE4BDB", "#F59F00", "#228AE6", "#A07952", "#82C91E")
 
 
-#using leaflet
+#using leaflet -----
 
 
 #for legend icons in layor selector for overlay groups ------------
@@ -242,6 +253,9 @@ sub_zl=unname(paste0("<div style='background-color:","#996633",
 sub_el=unname(paste0("<div style='background-color:","#0039A6",
                      ";position: relative; right:2px; top: 4px; display: inline-block; width: 1em;height: 1em; margin: 2px;'></div>",
                      'E'))
+sub_sirl=unname(paste0("<div style='background-color:","#053159",
+                     ";position: relative; right:2px; top: 4px; display: inline-block; width: 1em;height: 1em; margin: 2px;'></div>",
+                     'SIR'))
 
 
 
@@ -359,10 +373,15 @@ map <- leaflet() %>%
                      paste("<h3 class=","header-tiny",">",sub_z$name,"</h3>", "<hr>", "<b>","<font size=","0.5","'>",
                            "Lines:","</b>", sub_z$line, "<br><b>","ADA Status:", "</b>","<br>",sub_z$ADA_Status)),
                    group = sub_zl, fillOpacity = 1,weight = 0.5,label = sub_z$name,opacity = 0) %>%
+  addCircleMarkers(data = sub_sir,color =sub_sir$colors, radius = 4,
+                   popup = councilPopup(
+                     paste("<h3 class=","header-tiny",">",sub_sir$name,"</h3>", "<hr>", "<b>","<font size=","0.5","'>",
+                           "Lines:","</b>", sub_sir$line, "<br><b>","ADA Status:", "</b>","<br>",sub_sir$ADA_Status)),
+                   group = sub_sirl, fillOpacity = 1,weight = 0.5,label = sub_sir$name,opacity = 0) %>%
   
   
   #overlay groups ----
-  addPolylines(data = sublines,weight = 3,color = sublines$colors,label = sublines$name,group = 'Lines') %>%
+  addPolylines(data = sublines2,weight = 3,color = sublines2$color,label = sublines2$group,group = 'Lines') %>%
   addCircleMarkers(data = full,color = '#228AE6', radius = 4,
                    popup = councilPopup(
                      paste("<h3 class=","header-tiny",">",full$name,"</h3>","<hr>", "<b>","<font size=","0.5","'>","Lines:","</b>", 
@@ -391,7 +410,7 @@ addCircleMarkers(data = ff, color = '#D05D4E', radius = 4,
   #layers control -----
   addLayersControl(overlayGroups = c(un1,un2,un3,un4,un5),
                    baseGroups = c(sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l,sub_al,sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
-                                  sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,sub_rl,sub_wl,sub_al,sub_jl,sub_zl),
+                                  sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,sub_rl,sub_wl,sub_al,sub_jl,sub_zl, sub_sirl),
                    position = "bottomright", 
                    options = layersControlOptions(collapsed = FALSE, sortLayers = FALSE)) %>%
   #search control -----
@@ -399,11 +418,11 @@ addCircleMarkers(data = ff, color = '#D05D4E', radius = 4,
   addControl("<P>Search by Station Name</P>",position='topright') %>%   
   addSearchFeatures(targetGroups =  c(un1,un2,un3,un4,un5,sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l,sub_al, 
                                       sub_cl,sub_el,sub_bl,sub_dl,sub_fl,sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,
-                                      sub_rl,sub_wl,sub_al,sub_jl,sub_zl),
+                                      sub_rl,sub_wl,sub_al,sub_jl,sub_zl, sub_sirl),
                     options = searchFeaturesOptions(zoom=18, openPopup = TRUE, firstTipSubmit = TRUE,
                                                     autoCollapse = TRUE, hideMarkerOnCollapse = TRUE, position = "topright" )) %>%
-  hideGroup(c(un1,un2,un3,un4,un5,sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l, sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
-              sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,sub_rl,sub_wl,sub_al,sub_jl,sub_zl)) %>%
+  hideGroup(c(un1,un2,un3,un4,un5,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l, sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
+              sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,sub_rl,sub_wl,sub_al,sub_jl,sub_zl, sub_sirl)) %>%
   
   #zoom parameters
   setView(-73.88099670410158,40.72540497175607,  zoom = 10.5)
