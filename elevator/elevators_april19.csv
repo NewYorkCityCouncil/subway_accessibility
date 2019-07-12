@@ -1,0 +1,267 @@
+﻿EquipmentNo,Age (Yrs),Station Name,24Hr,AM,PM,Outages,Scheduled,Non-Scheduled,Entrapments
+EL121,3,Pelham Bay Park - 6 Line(s),96.21 %,97.15 %,100.00 %,7,4,3,1
+EL122,3,Pelham Bay Park - 6 Line(s),98.03 %,99.65 %,98.56 %,4,2,2,1
+EL123,30,175 St - A Line(s),84.51 %,75.82 %,93.85 %,18,2,16,1
+EL124,30,175 St - A Line(s),92.38 %,86.98 %,100.00 %,9,2,7,0
+EL125,3,125 St - 4/5/6 Line(s),96.29 %,100.00 %,95.98 %,4,0,4,1
+EL126,3,125 St - 4/5/6 Line(s),89.36 %,89.48 %,93.33 %,5,1,4,0
+EL127,3,Simpson St - 2/5 Line(s),99.30 %,100.00 %,100.00 %,2,0,2,0
+EL128,3,Simpson St - 2/5 Line(s),98.60 %,100.00 %,98.81 %,4,0,4,1
+EL129,22,149 St - 3 Av - 2/5 Line(s),97.62 %,97.64 %,97.43 %,3,0,3,1
+EL130,22,149 St - 3 Av - 2/5 Line(s),86.11 %,82.32 %,87.34 %,14,2,12,2
+EL131,17,161 St - Yankee Stadium - 4/B/D Line(s),98.55 %,100.00 %,100.00 %,4,2,2,0
+EL132,17,161 St - Yankee Stadium - 4/B/D Line(s),96.95 %,100.00 %,93.71 %,4,2,2,1
+EL133,17,161 St - Yankee Stadium - 4/B/D Line(s),95.44 %,95.78 %,96.67 %,4,1,3,0
+EL134,17,161 St - Yankee Stadium - 4/B/D Line(s),99.23 %,99.93 %,100.00 %,2,1,1,0
+EL135,17,161 St - Yankee Stadium - 4/B/D Line(s),98.45 %,100.00 %,96.67 %,3,1,2,0
+EL136,12,Pelham Pkwy - 2/5 Line(s),97.74 %,100.00 %,97.65 %,2,0,2,0
+EL137,12,Pelham Pkwy - 2/5 Line(s),100.00 %,100.00 %,100.00 %,0,0,0,0
+EL138,12,Pelham Pkwy - 2/5 Line(s),98.62 %,100.00 %,100.00 %,2,2,0,0
+EL139,12,168 St - Washington Hts - 1/A/C Line(s),97.95 %,97.29 %,100.00 %,4,1,3,0
+EL140,12,168 St - Washington Hts - 1/A/C Line(s),98.69 %,100.00 %,100.00 %,3,2,1,0
+EL141,12,168 St - Washington Hts - 1/A/C Line(s),99.27 %,100.00 %,100.00 %,1,1,0,0
+EL142,14,125 St - A/B/C/D Line(s),99.06 %,100.00 %,100.00 %,1,0,1,1
+EL143,14,125 St - A/B/C/D Line(s),98.27 %,96.88 %,100.00 %,2,1,1,0
+EL144,14,125 St - A/B/C/D Line(s),100.00 %,100.00 %,100.00 %,1,0,1,0
+EL145,9,96 St - 1/2/3 Line(s),100.00 %,100.00 %,100.00 %,2,0,2,0
+EL146,9,96 St - 1/2/3 Line(s),96.68 %,100.00 %,99.31 %,6,1,5,1
+EL148,20,207 St - Inwood - A Line(s),93.73 %,96.67 %,92.29 %,5,1,4,0
+EL149,20,207 St - Inwood - A Line(s),99.27 %,100.00 %,100.00 %,1,1,0,0
+EL159,7,East 180 St - 2/5 Line(s),100.00 %,100.00 %,100.00 %,3,0,3,0
+EL160,7,East 180 St - 2/5 Line(s),98.40 %,100.00 %,96.67 %,4,0,4,0
+EL178,6,Dyckman St - 1 Line(s),98.83 %,97.00 %,100.00 %,3,1,2,0
+EL180,11,135 St - 2/3 Line(s),99.39 %,100.00 %,100.00 %,1,1,0,0
+EL181,11,135 St - 2/3 Line(s),98.00 %,100.00 %,98.96 %,4,1,3,0
+EL182,12,Gun Hill Rd - 2/5 Line(s),99.11 %,100.00 %,100.00 %,3,1,2,0
+EL183,12,Gun Hill Rd - 2/5 Line(s),93.34 %,87.77 %,96.67 %,7,2,5,2
+EL184,13,231 St - 1 Line(s),98.32 %,99.86 %,100.00 %,3,2,1,0
+EL185,13,231 St - 1 Line(s),98.66 %,100.00 %,100.00 %,2,2,0,0
+EL186,14,Fordham Rd - 4 Line(s),99.82 %,100.00 %,100.00 %,1,1,0,0
+EL187,14,Fordham Rd - 4 Line(s),98.59 %,97.27 %,100.00 %,3,1,2,0
+EL188,14,Fordham Rd - 4 Line(s),99.30 %,100.00 %,98.19 %,2,1,1,1
+EL189,5,Kingsbridge Road - D/B Line(s),90.32 %,93.92 %,92.71 %,7,1,6,0
+EL18X,,Cortlandt St - R/W Line(s),91.07 %,91.18 %,90.63 %,,,,
+EL190,5,Kingsbridge Road - D/B Line(s),99.73 %,98.38 %,100.00 %,1,0,1,0
+EL191,5,Kingsbridge Road - D/B Line(s),99.07 %,98.19 %,100.00 %,2,0,2,0
+EL192,12,233 St - 2/5 Line(s),92.03 %,97.10 %,92.35 %,10,2,8,2
+EL193,12,233 St - 2/5 Line(s),98.15 %,100.00 %,97.92 %,3,1,2,1
+EL194,12,233 St - 2/5 Line(s),97.60 %,96.67 %,99.15 %,2,0,2,0
+EL195,5,Hunts Point - 6 Line(s),97.40 %,96.67 %,100.00 %,4,2,2,0
+EL196,5,Hunts Point - 6 Line(s),99.68 %,100.00 %,100.00 %,2,1,1,0
+EL197,5,Hunts Point - 6 Line(s),98.17 %,95.63 %,100.00 %,3,1,2,0
+EL201,2,Lexington Av / 51 St - E/M/6 Line(s),99.53 %,100.00 %,99.58 %,1,0,1,0
+EL202,2,Lexington Av / 51 St - E/M/6 Line(s),99.10 %,97.98 %,100.00 %,2,0,2,0
+EL203X,,Lexington Av / 51 St - E/M/6 Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL204,29,42 St - Grand Central - 4/5/6/7/S Line(s),46.11 %,55.23 %,44.59 %,24,0,24,0
+EL205,29,42 St - Grand Central - 4/5/6/7/S Line(s),87.70 %,79.83 %,95.60 %,14,0,14,1
+EL206,29,42 St - Grand Central - 4/5/6/7/S Line(s),98.51 %,100.00 %,96.88 %,3,1,2,1
+EL207X,,50 St - C/E Line(s),96.96 %,97.11 %,98.19 %,,,,
+EL208X,,50 St - C/E Line(s),98.58 %,97.23 %,100.00 %,,,,
+EL209,26,34 St - Herald Sq - B/D/F/M/N/Q/R/W Line(s),99.67 %,100.00 %,100.00 %,2,1,1,0
+EL210,26,34 St - Herald Sq - B/D/F/M/N/Q/R/W Line(s),96.95 %,100.00 %,96.67 %,3,2,1,1
+EL211,26,34 St - Herald Sq - B/D/F/M/N/Q/R/W Line(s),99.20 %,99.32 %,100.00 %,2,1,1,1
+EL212,26,34 St - Herald Sq - B/D/F/M/N/Q/R/W Line(s),98.43 %,96.67 %,100.00 %,2,1,1,1
+EL213,4,34 St - Herald Sq - B/D/F/M/N/Q/R/W Line(s),99.40 %,100.00 %,100.00 %,1,0,1,0
+EL214,15,34 St - Penn - 1/2/3 Line(s),90.06 %,88.18 %,91.48 %,4,1,3,0
+EL215,20,34 St - Penn - 1/2/3 Line(s),92.29 %,91.26 %,97.50 %,10,2,8,0
+EL216,16,34 St - Penn - 1/2/3 Line(s),99.26 %,99.93 %,100.00 %,1,1,0,0
+EL217,19,14 St - Union Sq - 4/5/6/L/N/Q/R/W Line(s),100.00 %,100.00 %,100.00 %,0,0,0,0
+EL218,19,14 St - Union Sq - 4/5/6/L/N/Q/R/W Line(s),100.00 %,100.00 %,100.00 %,0,0,0,0
+EL219,19,14 St - Union Sq - 4/5/6/L/N/Q/R/W Line(s),99.00 %,99.77 %,98.33 %,2,0,2,0
+EL220,19,14 St - Union Sq - 4/5/6/L/N/Q/R/W Line(s),98.42 %,100.00 %,100.00 %,2,1,1,0
+EL221,17,14 St - 8 Av - A/C/E/L Line(s),87.21 %,89.29 %,84.81 %,5,0,5,1
+EL222,17,14 St - 8 Av - A/C/E/L Line(s),99.44 %,100.00 %,97.71 %,3,0,3,1
+EL223,17,14 St - 8 Av - A/C/E/L Line(s),100.00 %,100.00 %,100.00 %,1,0,1,0
+EL224,17,14 St - 8 Av - A/C/E/L Line(s),82.84 %,84.42 %,82.03 %,16,1,15,1
+EL225,17,34 St - Penn - A/C/E Line(s),77.39 %,79.12 %,75.41 %,10,1,9,1
+EL226,17,34 St - Penn - A/C/E Line(s),100.00 %,100.00 %,100.00 %,3,0,3,0
+EL227,17,34 St - Penn - A/C/E Line(s),99.33 %,100.00 %,100.00 %,1,1,0,0
+EL228,17,34 St - Penn - A/C/E Line(s),92.23 %,95.79 %,95.83 %,12,1,11,1
+EL229,16,Times Sq - 42 St / Port Authority Bus Terminal Station - N/Q/R/S/W/1/2/3/7 Line(s),93.67 %,95.28 %,93.36 %,4,0,4,1
+EL230,16,Times Sq - 42 St / Port Authority Bus Terminal Station - N/Q/R/S/W/1/2/3/7 Line(s),97.91 %,100.00 %,97.53 %,2,1,1,0
+EL231X,,Times Sq - 42 St / Port Authority Bus Terminal Station - N/Q/R/S/W/1/2/3/7 Line(s),99.18 %,100.00 %,96.67 %,,,,
+EL232,13,Times Sq - 42 St / Port Authority Bus Terminal Station - N/Q/R/S/W/1/2/3/7 Line(s),87.08 %,89.86 %,86.67 %,2,0,2,0
+EL233,13,Times Sq - 42 St / Port Authority Bus Terminal Station - N/Q/R/S/W/1/2/3/7 Line(s),98.05 %,99.63 %,100.00 %,4,1,3,1
+EL234,10,47-50 St - Rockefeller Ctr - B/D/F/M Line(s),97.22 %,98.69 %,96.25 %,4,0,4,0
+EL235,10,47-50 St - Rockefeller Ctr - B/D/F/M Line(s),93.66 %,96.67 %,93.33 %,2,1,1,0
+EL236,10,47-50 St - Rockefeller Ctr - B/D/F/M Line(s),100.00 %,100.00 %,100.00 %,0,0,0,0
+EL237,20,66 St - Lincoln Center - 1 Line(s),98.39 %,98.86 %,100.00 %,2,0,2,0
+EL238,20,66 St - Lincoln Center - 1 Line(s),98.01 %,98.28 %,98.86 %,4,0,4,0
+EL239,16,72 St - 1/2/3 Line(s),99.35 %,100.00 %,96.94 %,3,0,3,0
+EL23X,,Chambers St/WTC/Park Place - A/C/E/2/3 Line(s),98.76 %,100.00 %,96.63 %,,,,
+EL240,16,72 St - 1/2/3 Line(s),100.00 %,100.00 %,100.00 %,1,0,1,0
+EL244,18,42 St - Grand Central - 4/5/6/7/S Line(s),99.85 %,100.00 %,100.00 %,3,1,2,0
+EL245,14,Lexington Av / 51 St - E/M/6 Line(s),95.80 %,95.08 %,96.67 %,5,0,5,0
+EL247,2,96 St / 2 Av - Q Line(s),100.00 %,100.00 %,100.00 %,0,0,0,0
+EL248,2,96 St / 2 Av - Q Line(s),97.49 %,100.00 %,95.07 %,3,2,1,0
+EL249,2,86 St / 2 Av - Q Line(s),99.36 %,100.00 %,100.00 %,1,1,0,0
+EL250,2,86 St / 2 Av - Q Line(s),92.81 %,93.28 %,95.53 %,5,2,3,0
+EL259,2,72 St / 2 Av - Q Line(s),99.06 %,100.00 %,100.00 %,1,1,0,0
+EL262,2,72 St / 2 Av - Q Line(s),62.76 %,62.98 %,63.33 %,2,0,2,0
+EL264,2,72 St / 2 Av - Q Line(s),96.39 %,93.97 %,100.00 %,7,4,3,0
+EL265,2,72 St / 2 Av - Q Line(s),98.88 %,100.00 %,100.00 %,2,1,1,0
+EL266,2,72 St / 2 Av - Q Line(s),99.05 %,100.00 %,98.40 %,2,1,1,0
+EL267,2,72 St / 2 Av - Q Line(s),98.50 %,100.00 %,97.11 %,4,1,3,0
+EL268X,,49 St - N/Q/R/W Line(s),95.29 %,98.78 %,93.33 %,,,,
+EL276X,,59 St - Columbus Cir - 1/A/B/C/D Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL277,10,59 St - Columbus Cir - 1/A/B/C/D Line(s),97.94 %,96.67 %,96.98 %,3,1,2,1
+EL278,10,59 St - Columbus Cir - 1/A/B/C/D Line(s),99.00 %,100.00 %,100.00 %,2,1,1,1
+EL279,10,59 St - Columbus Cir - 1/A/B/C/D Line(s),99.70 %,100.00 %,100.00 %,1,1,0,0
+EL279X,,28 St - 6 Line(s),92.04 %,93.89 %,87.98 %,,,,
+EL280,9,59 St - Columbus Cir - 1/A/B/C/D Line(s),95.64 %,99.61 %,93.33 %,4,2,2,0
+EL288X,,Times Sq - 42 St / Port Authority Bus Terminal Station - N/Q/R/S/W/1/2/3/7 Line(s),0.00 %,0.00 %,0.00 %,,,,
+EL289X,,Times Sq - 42 St / Port Authority Bus Terminal Station - N/Q/R/S/W/1/2/3/7 Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL290X,,Times Sq - 42 St / Port Authority Bus Terminal Station - N/Q/R/S/W/1/2/3/7 Line(s),95.39 %,93.89 %,96.73 %,,,,
+EL291X,,Times Sq - 42 St / Port Authority Bus Terminal Station - N/Q/R/S/W/1/2/3/7 Line(s),97.25 %,96.67 %,96.67 %,,,,
+EL298,3,23 St - 6 Line(s),99.33 %,100.00 %,100.00 %,1,1,0,0
+EL299,3,23 St - 6 Line(s),97.77 %,97.08 %,100.00 %,3,1,2,1
+EL300X,,Atlantic Av-Barclays Ctr - 2/3/4/5/B/Q/D/N/R Line(s),99.44 %,99.17 %,100.00 %,,,,
+EL301,15,Atlantic Av-Barclays Ctr - 2/3/4/5/B/Q/D/N/R Line(s),100.00 %,100.00 %,100.00 %,0,0,0,0
+EL302,15,Atlantic Av-Barclays Ctr - 2/3/4/5/B/Q/D/N/R Line(s),99.39 %,100.00 %,96.92 %,4,0,4,0
+EL303,15,Atlantic Av-Barclays Ctr - 2/3/4/5/B/Q/D/N/R Line(s),100.00 %,100.00 %,100.00 %,0,0,0,0
+EL304,15,Atlantic Av-Barclays Ctr - 2/3/4/5/B/Q/D/N/R Line(s),99.78 %,98.65 %,100.00 %,1,0,1,1
+EL305,15,Atlantic Av-Barclays Ctr - 2/3/4/5/B/Q/D/N/R Line(s),99.52 %,100.00 %,99.17 %,1,0,1,0
+EL306,15,Atlantic Av-Barclays Ctr - 2/3/4/5/B/Q/D/N/R Line(s),97.35 %,98.33 %,99.03 %,4,1,3,0
+EL307,15,Atlantic Av-Barclays Ctr - 2/3/4/5/B/Q/D/N/R Line(s),95.10 %,96.60 %,94.85 %,6,1,5,0
+EL314,2,Brooklyn Bridge - City Hall - Chambers St - 4/5/6/J/Z Line(s),100.00 %,100.00 %,100.00 %,0,0,0,0
+EL315,2,Brooklyn Bridge - City Hall - Chambers St - 4/5/6/J/Z Line(s),99.28 %,100.00 %,100.00 %,1,1,0,0
+EL316,2,Brooklyn Bridge - City Hall - Chambers St - 4/5/6/J/Z Line(s),99.21 %,100.00 %,100.00 %,2,1,1,0
+EL317,24,Borough Hall / Court St - 2/3/4/5/R Line(s),98.56 %,100.00 %,100.00 %,2,1,1,1
+EL318,24,Borough Hall / Court St - 2/3/4/5/R Line(s),99.17 %,100.00 %,100.00 %,1,1,0,0
+EL319,22,Flatbush Av Brooklyn College - 2/5 Line(s),98.64 %,100.00 %,100.00 %,3,2,1,0
+EL320,21,Church Av - 2/5 Line(s),98.21 %,97.92 %,99.69 %,4,2,2,0
+EL321,21,Church Av - 2/5 Line(s),97.88 %,94.60 %,100.00 %,3,1,2,0
+EL322,15,Crown Hts - Utica Av - 3/4 Line(s),99.76 %,100.00 %,99.38 %,1,0,1,0
+EL323,15,Crown Hts - Utica Av - 3/4 Line(s),99.28 %,100.00 %,98.78 %,3,0,3,0
+EL324,18,Canal St - J/Z/N/Q/R/W/6 Line(s),99.25 %,100.00 %,100.00 %,1,1,0,0
+EL325,18,Canal St - J/Z/N/Q/R/W/6 Line(s),87.02 %,89.55 %,87.50 %,7,1,6,1
+EL326,1,Chambers St/WTC/Park Place - A/C/E/2/3 Line(s),97.19 %,98.61 %,94.23 %,9,1,8,0
+EL328,7,Broadway-Lafayette/Bleecker St - B/D/F/6 Line(s),98.84 %,100.00 %,100.00 %,9,1,8,0
+EL329,7,Broadway-Lafayette/Bleecker St - B/D/F/6 Line(s),100.00 %,100.00 %,100.00 %,1,0,1,0
+EL330,7,Broadway-Lafayette/Bleecker St - B/D/F/6 Line(s),94.97 %,93.38 %,96.67 %,7,1,6,0
+EL331,7,Broadway-Lafayette/Bleecker St - B/D/F/6 Line(s),99.10 %,97.56 %,100.00 %,4,0,4,0
+EL332,7,Broadway-Lafayette/Bleecker St - B/D/F/6 Line(s),96.67 %,97.69 %,94.58 %,5,2,3,0
+EL333,14,West 4 St - Washington Sq - A/B/C/D/E/F/M Line(s),97.75 %,100.00 %,96.72 %,8,2,6,0
+EL334,14,West 4 St - Washington Sq - A/B/C/D/E/F/M Line(s),83.60 %,84.88 %,86.67 %,6,2,4,0
+EL335,14,West 4 St - Washington Sq - A/B/C/D/E/F/M Line(s),96.72 %,95.00 %,100.00 %,5,2,3,0
+EL336,10,Chambers St - 1/2/3 Line(s),99.21 %,100.00 %,97.83 %,3,1,2,0
+EL337,10,Chambers St - 1/2/3 Line(s),98.41 %,98.27 %,100.00 %,2,1,1,0
+EL338,10,Chambers St - 1/2/3 Line(s),99.31 %,100.00 %,100.00 %,1,1,0,0
+EL339,20,Franklin Av - C/S Line(s),99.49 %,99.67 %,100.00 %,2,0,2,0
+EL340,20,Franklin Av - C/S Line(s),98.65 %,100.00 %,100.00 %,2,1,1,0
+EL341,13,Euclid Av - A/C Line(s),97.88 %,97.98 %,98.42 %,4,1,3,0
+EL342,13,Euclid Av - A/C Line(s),99.06 %,100.00 %,96.67 %,1,0,1,0
+EL343,13,Euclid Av - A/C Line(s),98.77 %,100.00 %,100.00 %,3,2,1,0
+EL344,5,Utica Av - A/C Line(s),97.53 %,96.19 %,96.67 %,5,0,5,0
+EL345,5,Utica Av - A/C Line(s),99.71 %,100.00 %,98.25 %,1,0,1,0
+EL346,5,Utica Av - A/C Line(s),99.55 %,100.00 %,100.00 %,2,0,2,1
+EL34X,,34 St - Penn - 1/2/3 Line(s),99.62 %,97.92 %,100.00 %,,,,
+EL370,14,Dekalb Av - B/Q/R Line(s),96.22 %,99.42 %,96.52 %,5,3,2,0
+EL371,14,Dekalb Av - B/Q/R Line(s),98.62 %,100.00 %,100.00 %,2,2,0,0
+EL372,14,Dekalb Av - B/Q/R Line(s),98.57 %,100.00 %,100.00 %,3,2,1,0
+EL373,11,Church Av - F/G Line(s),97.74 %,97.71 %,99.29 %,3,2,1,0
+EL374,11,Church Av - F/G Line(s),97.10 %,100.00 %,96.53 %,7,3,4,0
+EL375,11,Church Av - F/G Line(s),95.88 %,94.31 %,99.63 %,7,5,2,0
+EL376,7,Bay Parkway - D Line(s),97.59 %,100.00 %,96.67 %,5,3,2,0
+EL377,7,Bay Parkway - D Line(s),99.28 %,100.00 %,100.00 %,1,1,0,0
+EL378,7,Bay Parkway - D Line(s),98.54 %,98.98 %,100.00 %,3,2,1,0
+EL382,16,Prospect Park - B/Q/S Line(s),96.80 %,96.94 %,99.98 %,8,1,7,1
+EL383,16,Prospect Park - B/Q/S Line(s),99.05 %,98.92 %,100.00 %,3,1,2,1
+EL391,15,Marcy Av - J/M/Z Line(s),97.40 %,97.15 %,96.67 %,4,0,4,0
+EL392,15,Marcy Av - J/M/Z Line(s),98.12 %,97.28 %,99.92 %,2,0,2,0
+EL393,16,Flushing Av - J/M Line(s),96.35 %,98.33 %,98.83 %,5,0,5,1
+EL394,16,Flushing Av - J/M Line(s),99.67 %,100.00 %,98.02 %,1,0,1,0
+EL395,16,Flushing Av - J/M Line(s),97.63 %,100.00 %,94.88 %,5,1,4,1
+EL396,11,Myrtle Av / Wyckoff Av - L/M Line(s),99.40 %,100.00 %,100.00 %,2,1,1,0
+EL397,11,Myrtle Av / Wyckoff Av - L/M Line(s),98.64 %,100.00 %,100.00 %,2,1,1,0
+EL398,11,Myrtle Av / Wyckoff Av - L/M Line(s),98.11 %,98.82 %,98.33 %,4,1,3,0
+EL401,4,Lexington Av / 63 St - F/Q Line(s),96.38 %,96.67 %,96.67 %,1,0,1,0
+EL402,30,Lexington Av / 63 St - F/Q Line(s),97.34 %,96.67 %,96.67 %,1,0,1,0
+EL403,30,Roosevelt Island - F Line(s),94.19 %,95.05 %,92.64 %,7,1,6,0
+EL404,30,Roosevelt Island - F Line(s),99.32 %,100.00 %,100.00 %,3,1,2,0
+EL405,2,21 St - Queensbridge - F Line(s),93.45 %,88.23 %,96.81 %,9,1,8,2
+EL406,2,21 St - Queensbridge - F Line(s),99.31 %,100.00 %,100.00 %,2,1,1,0
+EL407,2,21 St - Queensbridge - F Line(s),98.43 %,98.04 %,99.73 %,3,1,2,0
+EL408,2,Jamaica - Van Wyck - E Line(s),99.43 %,100.00 %,100.00 %,2,1,1,0
+EL409,2,Jamaica - Van Wyck - E Line(s),99.20 %,98.19 %,100.00 %,1,0,1,0
+EL411,31,Sutphin Blvd - Archer Av - JFK Airport - E/J/Z Line(s),80.33 %,81.81 %,80.00 %,3,2,1,0
+EL412,31,Jamaica Center Parsons/Archer - E/J Line(s),99.88 %,100.00 %,99.31 %,2,0,2,0
+EL413,31,Jamaica Center Parsons/Archer - E/J Line(s),95.84 %,93.85 %,97.88 %,6,1,5,0
+EL414,19,Flushing Main St - 7 Line(s),98.10 %,100.00 %,96.02 %,3,1,2,0
+EL415X,,61 St - Woodside - 7 Line(s),98.93 %,100.00 %,97.98 %,,,,
+EL416X,,61 St - Woodside - 7 Line(s),99.31 %,97.08 %,100.00 %,,,,
+EL417X,,61 St - Woodside - 7 Line(s),99.31 %,98.33 %,100.00 %,,,,
+EL420,13,Jackson Hts-Roosevelt Av-74 St - E/F/M/R/7 Line(s),99.33 %,97.36 %,100.00 %,1,0,1,1
+EL421,13,Jackson Hts-Roosevelt Av-74 St - E/F/M/R/7 Line(s),99.49 %,98.88 %,100.00 %,1,0,1,0
+EL422,13,Jackson Hts-Roosevelt Av-74 St - E/F/M/R/7 Line(s),96.53 %,95.14 %,97.43 %,5,1,4,1
+EL423,13,Jackson Hts-Roosevelt Av-74 St - E/F/M/R/7 Line(s),98.42 %,98.77 %,100.00 %,2,1,1,0
+EL425,12,Junction Blvd - 7 Line(s),94.86 %,98.43 %,95.07 %,5,1,4,0
+EL426,12,Junction Blvd - 7 Line(s),97.25 %,95.19 %,98.89 %,5,0,5,0
+EL427,12,Junction Blvd - 7 Line(s),98.87 %,100.00 %,99.48 %,2,1,1,0
+EL428,13,Queens Plaza - E/R/M Line(s),98.61 %,100.00 %,98.07 %,3,1,2,0
+EL429,13,Queens Plaza - E/R/M Line(s),99.37 %,100.00 %,100.00 %,1,1,0,0
+EL430,13,Queens Plaza - E/R/M Line(s),97.03 %,97.78 %,96.67 %,6,2,4,0
+EL431,14,179 St - Jamaica - F Line(s),98.83 %,100.00 %,100.00 %,2,1,1,0
+EL432,14,179 St - Jamaica - F Line(s),99.34 %,100.00 %,100.00 %,2,1,1,0
+EL433,14,179 St - Jamaica - F Line(s),99.27 %,100.00 %,100.00 %,1,1,0,0
+EL434,11,Kew Gardens / Union Tpk - E/F Line(s),99.76 %,100.00 %,100.00 %,3,0,3,0
+EL435,11,Kew Gardens / Union Tpk - E/F Line(s),99.34 %,100.00 %,100.00 %,1,1,0,0
+EL436,11,Kew Gardens / Union Tpk - E/F Line(s),99.29 %,100.00 %,100.00 %,1,1,0,0
+EL437,5,Forest Hills - 71 Av - E/F/R/M Line(s),99.46 %,100.00 %,98.61 %,2,0,2,0
+EL438,5,Forest Hills - 71 Av - E/F/R/M Line(s),97.55 %,95.63 %,100.00 %,5,0,5,0
+EL439,5,Forest Hills - 71 Av - E/F/R/M Line(s),98.91 %,97.96 %,97.50 %,4,0,4,0
+EL440,3,Lexington Av / 63 St - F/Q Line(s),98.22 %,97.01 %,100.00 %,6,0,6,0
+EL441,3,Lexington Av / 63 St - F/Q Line(s),98.34 %,97.64 %,99.07 %,6,1,5,1
+EL442,3,Lexington Av / 63 St - F/Q Line(s),98.57 %,100.00 %,100.00 %,4,2,2,0
+EL443,3,Lexington Av / 63 St - F/Q Line(s),98.02 %,100.00 %,97.50 %,3,2,1,0
+EL444,3,Lexington Av / 63 St - F/Q Line(s),99.18 %,100.00 %,96.67 %,1,0,1,0
+EL445X,,Court Square / 23 St - G/7/E/M Line(s),98.19 %,100.00 %,95.09 %,,,,
+EL446,8,Court Square / 23 St - G/7/E/M Line(s),96.31 %,92.94 %,99.38 %,6,1,5,0
+EL447,8,Court Square / 23 St - G/7/E/M Line(s),99.20 %,100.00 %,100.00 %,3,2,1,0
+EL448X,,Sutphin Blvd - Archer Av - JFK Airport - E/J/Z Line(s),89.38 %,84.21 %,92.98 %,,,,
+EL449X,,Sutphin Blvd - Archer Av - JFK Airport - E/J/Z Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL450X,,Sutphin Blvd - Archer Av - JFK Airport - E/J/Z Line(s),93.26 %,88.09 %,92.67 %,,,,
+EL462,1,Ozone Park / Lefferts Blvd - A Line(s),90.32 %,84.27 %,97.89 %,10,0,10,1
+EL463,1,Ozone Park / Lefferts Blvd - A Line(s),99.31 %,99.92 %,100.00 %,2,0,2,0
+EL489X,,Aqueduct Racetrack - A Line(s),91.82 %,90.96 %,90.00 %,,,,
+EL490X,,Howard Beach - JFK Airport - A Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL491X,,Howard Beach - JFK Airport - A Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL492X,,Howard Beach - JFK Airport - A Line(s),96.44 %,96.67 %,93.33 %,,,,
+EL493X,,Howard Beach - JFK Airport - A Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL494X,,Howard Beach - JFK Airport - A Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL495X,,Howard Beach - JFK Airport - A Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL497,7,Far Rockaway - Mott Av - A Line(s),99.54 %,100.00 %,100.00 %,1,1,0,0
+EL498,7,Far Rockaway - Mott Av - A Line(s),97.88 %,97.48 %,97.36 %,2,1,1,1
+EL600,4,34 St - Hudson Yards - 7 Line(s),98.54 %,100.00 %,100.00 %,2,1,1,1
+EL601,4,34 St - Hudson Yards - 7 Line(s),76.55 %,73.26 %,73.02 %,24,2,22,1
+EL602,4,34 St - Hudson Yards - 7 Line(s),88.60 %,90.65 %,81.33 %,16,0,16,1
+EL603,4,34 St - Hudson Yards - 7 Line(s),98.78 %,100.00 %,97.92 %,3,2,1,0
+EL700X,,Atlantic Av-Barclays Ctr - 2/3/4/5/B/Q/D/N/R Line(s),89.59 %,91.92 %,86.67 %,,,,
+EL701,14,Coney Island Stillwell Av - D/F/N/Q Line(s),96.05 %,96.67 %,96.67 %,2,1,1,0
+EL702,14,Coney Island Stillwell Av - D/F/N/Q Line(s),97.72 %,100.00 %,97.33 %,3,1,2,1
+EL706,9,Jay St - MetroTech - A/C/F/R Line(s),99.23 %,100.00 %,99.02 %,7,0,7,0
+EL707,9,Jay St - MetroTech - A/C/F/R Line(s),98.46 %,100.00 %,99.04 %,5,1,4,0
+EL708,9,Jay St - MetroTech - A/C/F/R Line(s),97.37 %,97.08 %,99.51 %,12,2,10,0
+EL709,9,Jay St - MetroTech - A/C/F/R Line(s),98.50 %,100.00 %,98.06 %,4,1,3,0
+EL710,12,Bowling Green - 4/5 Line(s),93.87 %,94.93 %,93.53 %,12,4,8,0
+EL711,12,Bowling Green - 4/5 Line(s),99.22 %,100.00 %,100.00 %,3,1,2,0
+EL712,1,WTC Cortlandt - 1 Line(s),99.20 %,100.00 %,100.00 %,2,2,0,0
+EL713,1,WTC Cortlandt - 1 Line(s),98.45 %,98.78 %,100.00 %,4,2,2,0
+EL716,5,Fulton St - A/C/J/Z/2/3/4/5 Line(s),98.73 %,100.00 %,99.21 %,3,2,1,0
+EL717X,,Fulton St - A/C/J/Z/2/3/4/5 Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL718X,,Fulton St - A/C/J/Z/2/3/4/5 Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL719,6,Fulton St - A/C/J/Z/2/3/4/5 Line(s),91.89 %,94.55 %,90.62 %,11,3,8,0
+EL720,5,Fulton St - A/C/J/Z/2/3/4/5 Line(s),97.75 %,96.67 %,97.54 %,5,1,4,1
+EL721,6,Fulton St - A/C/J/Z/2/3/4/5 Line(s),92.50 %,91.06 %,96.17 %,11,2,9,0
+EL722,6,Fulton St - A/C/J/Z/2/3/4/5 Line(s),99.41 %,99.65 %,99.86 %,4,0,4,1
+EL723,6,Fulton St - A/C/J/Z/2/3/4/5 Line(s),98.69 %,100.00 %,99.06 %,3,2,1,0
+EL726X,,Fulton St - A/C/J/Z/2/3/4/5 Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL727X,,Fulton St - A/C/J/Z/2/3/4/5 Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL728X,,Fulton St - A/C/J/Z/2/3/4/5 Line(s),99.07 %,98.89 %,99.67 %,,,,
+EL729X,,Fulton St - A/C/J/Z/2/3/4/5 Line(s),95.84 %,96.67 %,93.33 %,,,,
+EL730,2,South Ferry / Whitehall St - 1/R/W Line(s),98.71 %,99.04 %,100.00 %,3,2,1,0
+EL731,2,South Ferry / Whitehall St - 1/R/W Line(s),98.62 %,95.69 %,98.23 %,4,0,4,0
+EL732,12,Fulton St - A/C/J/Z/2/3/4/5 Line(s),98.97 %,100.00 %,99.60 %,2,1,1,0
+EL737X,,Atlantic Av-Barclays Ctr - 2/3/4/5/B/Q/D/N/R Line(s),99.44 %,100.00 %,99.58 %,,,,
+EL760,8,Kings Highway - B/Q Line(s),100.00 %,100.00 %,100.00 %,3,0,3,0
+EL761,8,Kings Highway - B/Q Line(s),99.34 %,100.00 %,100.00 %,1,0,1,0

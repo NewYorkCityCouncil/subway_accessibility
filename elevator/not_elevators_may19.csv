@@ -1,0 +1,38 @@
+﻿EquipmentNo,Age (Yrs),Station Name,24Hr,AM,PM,Outages,Scheduled,Non-Scheduled,Entrapments
+EL107,20,181 St - 1 Line(s),92.42 %,92.40 %,93.55 %,4,3,1,0
+EL108,20,181 St - 1 Line(s),84.23 %,88.46 %,86.39 %,47,2,45,0
+EL109,20,181 St - 1 Line(s),98.29 %,100.00 %,98.73 %,2,0,2,0
+EL110,20,181 St - 1 Line(s),98.66 %,100.00 %,97.64 %,4,0,4,0
+EL117,17,181 St - A Line(s),99.43 %,99.90 %,100.00 %,5,3,2,0
+EL118,15,181 St - A Line(s),98.90 %,98.39 %,99.71 %,7,2,5,0
+EL119,34,181 St - A Line(s),93.05 %,94.15 %,95.44 %,18,2,16,1
+EL115,18,190 St - A Line(s),96.91 %,100.00 %,96.03 %,8,2,6,0
+EL116,14,190 St - A Line(s),98.89 %,100.00 %,98.32 %,5,2,3,1
+EL120,34,190 St - A Line(s),97.25 %,99.85 %,97.90 %,7,2,5,1
+EL103,15,191 St - 1 Line(s),98.75 %,95.34 %,100.00 %,5,1,4,0
+EL104,15,191 St - 1 Line(s),92.98 %,92.10 %,95.73 %,11,1,10,4
+EL105,17,191 St - 1 Line(s),100.00 %,100.00 %,100.00 %,1,0,1,0
+EL106,17,191 St - 1 Line(s),98.09 %,99.19 %,98.46 %,7,0,7,0
+EL200X,,34 St - Herald Sq - B/D/F/M/N/Q/R/W Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL287X,,42 St - Bryant Park - 5 Av - B/D/F/M/7 Line(s),98.30 %,97.35 %,96.77 %,,,,
+EL294X,,42 St - Bryant Park - 5 Av - B/D/F/M/7 Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL295X,,42 St - Bryant Park - 5 Av - B/D/F/M/7 Line(s),96.76 %,96.77 %,96.77 %,,,,
+EL281,10,57 St - 7 Av - N/Q/R/W Line(s),98.86 %,99.03 %,99.90 %,3,1,2,0
+EL418X,,61 St - Woodside - 7 Line(s),98.59 %,98.39 %,99.19 %,,,,
+EL419X,,61 St - Woodside - 7 Line(s),98.80 %,98.04 %,100.00 %,,,,
+EL308,18,Borough Hall / Court St - 2/3/4/5/R Line(s),99.80 %,100.00 %,98.79 %,1,0,1,0
+EL309,18,Borough Hall / Court St - 2/3/4/5/R Line(s),100.00 %,100.00 %,100.00 %,1,0,1,0
+EL424,2,Briarwood - Van Wyck - E/F Line(s),96.61 %,100.00 %,96.46 %,6,1,5,0
+EL310,19,Clark St - 2/3 Line(s),96.22 %,99.19 %,95.56 %,7,1,6,0
+EL311,19,Clark St - 2/3 Line(s),96.86 %,98.84 %,95.94 %,16,3,13,0
+EL312,19,Clark St - 2/3 Line(s),98.91 %,99.26 %,100.00 %,3,2,1,0
+EL14X,,Cortlandt St - R/W Line(s),99.45 %,100.00 %,99.73 %,,,,
+EL16X,,Cortlandt St - R/W Line(s),99.99 %,100.00 %,100.00 %,,,,
+EL17X,,Cortlandt St - R/W Line(s),99.82 %,100.00 %,99.94 %,,,,
+EL22X,,Cortlandt St - R/W Line(s),97.51 %,98.66 %,98.65 %,,,,
+EL733X,,Fulton St - A/C/J/Z/2/3/4/5 Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL747X,,Hoyt-Schermerhorn St,98.36 %,100.00 %,97.42 %,,,,
+EL327X,,Jay St - MetroTech - A/C/F/R Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL11X,,WTC Cortlandt - 1 Line(s),94.66 %,93.55 %,97.74 %,,,,
+EL12X,,WTC Cortlandt - 1 Line(s),100.00 %,100.00 %,100.00 %,,,,
+EL13X,,WTC Cortlandt - 1 Line(s),98.66 %,97.52 %,100.00 %,,,,

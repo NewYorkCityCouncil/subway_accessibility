@@ -1,0 +1,762 @@
+Elevator_ID,Age,Location,Lines,X1st_Quarter_2019_24_Hour_Availability_,X1st_Quarter_2019_24_Hour_Availability_AM_Peak,X1st_Quarter_2019_24_Hour_Availability_PM_Peak,Non_Scheduled_Outages,Scheduled_Outages,Entrapments,Owner,s,Station_Code1,Station_Code2,match_id2,name_in_Rose_Data_set
+EL182,12,Gun Hill Rd,25,89.02%,85.90%,91.97%,14,14,4,MTA,2,421,NA,Gun Hill Rd2,Gun Hill Rd
+EL182,12,Gun Hill Rd,25,89.02%,85.90%,91.97%,14,14,4,MTA,5,421,NA,Gun Hill Rd5,Gun Hill Rd
+EL129,22,3 Av-149 St,25,91.33%,89.43%,94.44%,3,20,1,MTA,2,434,NA,3 Ave-149 St2,3rd Ave - 149th St
+EL129,22,3 Av-149 St,25,91.33%,89.43%,94.44%,3,20,1,MTA,5,434,NA,3 Ave-149 St5,3rd Ave - 149th St
+EL189,4,Kingsbridge Rd,BD,91.52%,86.14%,96.36%,16,16,2,MTA,B,381,NA,Kingsbridge RdB,Kingsbridge Rd
+EL189,4,Kingsbridge Rd,BD,91.52%,86.14%,96.36%,16,16,2,MTA,D,381,NA,Kingsbridge RdD,Kingsbridge Rd
+EL192,11,233 St,25,94.32%,93.36%,94.77%,10,10,4,MTA,2,418,NA,233 St2,233rd St
+EL192,11,233 St,25,94.32%,93.36%,94.77%,10,10,4,MTA,5,418,NA,233 St5,233rd St
+EL121,3,Pelham Bay Park,6,95.62%,98.73%,95.42%,18,7,7,MTA,6,360,NA,Pelham Bay Park6,Pelham Bay Park
+EL127,2,Simpson St,25,95.65%,97.92%,97.44%,13,4,2,MTA,2,430,NA,Simpson St2,Simpson St
+EL127,2,Simpson St,25,95.65%,97.92%,97.44%,13,4,2,MTA,5,430,NA,Simpson St5,Simpson St
+EL128,2,Simpson St,25,96.32%,98.20%,96.56%,13,4,2,MTA,2,430,NA,Simpson St2,Simpson St
+EL128,2,Simpson St,25,96.32%,98.20%,96.56%,13,4,2,MTA,5,430,NA,Simpson St5,Simpson St
+EL160,6,180 St,25,96.76%,97.86%,97.52%,4,3,2,MTA,2,426,NA,180 St2,E 180th St
+EL160,6,180 St,25,96.76%,97.86%,97.52%,4,3,2,MTA,5,426,NA,180 St5,E 180th St
+EL188,13,Fordham Rd,4,97.01%,95.42%,98.26%,11,3,0,MTA,4,382,NA,Fordham Rd4,Fordham Rd
+EL122,3,Pelham Bay Park,6,97.35%,97.82%,98.36%,3,8,1,MTA,6,360,NA,Pelham Bay Park6,Pelham Bay Park
+EL133,17,161 St-Yankee Stadium,4,97.36%,98.93%,97.17%,8,5,3,MTA,4,389,NA,161 St-Yankee Stadium4,161st St - Yankee Stadium
+EL135,17,161 St-Yankee Stadium,BD,97.37%,97.43%,97.96%,1,5,0,MTA,B,219,NA,161 St-Yankee StadiumB,161st St - Yankee Stadium
+EL135,17,161 St-Yankee Stadium,BD,97.37%,97.43%,97.96%,1,5,0,MTA,D,219,NA,161 St-Yankee StadiumD,161st St - Yankee Stadium
+EL183,12,Gun Hill Rd,25,97.38%,98.55%,97.25%,6,7,3,MTA,2,421,NA,Gun Hill Rd2,Gun Hill Rd
+EL183,12,Gun Hill Rd,25,97.38%,98.55%,97.25%,6,7,3,MTA,5,421,NA,Gun Hill Rd5,Gun Hill Rd
+EL130,22,3 Av-149 St,25,97.54%,98.38%,97.10%,7,4,4,MTA,2,434,NA,3 Ave-149 St2,3rd Ave - 149th St
+EL130,22,3 Av-149 St,25,97.54%,98.38%,97.10%,7,4,4,MTA,5,434,NA,3 Ave-149 St5,3rd Ave - 149th St
+EL132,17,161 St-Yankee Stadium,4,97.59%,99.58%,96.57%,7,6,0,MTA,4,389,NA,161 St-Yankee Stadium4,161st St - Yankee Stadium
+EL184,12,23 St,1,97.78%,97.10%,98.30%,10,2,2,MTA,1,228,NA,23 St1,23rd St
+EL136,11,Pelham Pkwy,25,98.09%,97.99%,99.38%,6,6,1,MTA,2,424,NA,Pelham Pkwy2,Pelham Pkwy
+EL136,11,Pelham Pkwy,25,98.09%,97.99%,99.38%,6,6,1,MTA,5,424,NA,Pelham Pkwy5,Pelham Pkwy
+EL186,13,Fordham Rd,4,98.40%,98.47%,98.89%,4,3,0,MTA,4,382,NA,Fordham Rd4,Fordham Rd
+EL195,4,Hunts Point Av,6,98.45%,97.58%,98.66%,9,2,1,MTA,6,371,NA,Hunts Point Ave6,Hunts Point Ave
+EL137,11,Pelham Pkwy,25,98.45%,98.88%,99.20%,2,7,1,MTA,2,424,NA,Pelham Pkwy2,Pelham Pkwy
+EL137,11,Pelham Pkwy,25,98.45%,98.88%,99.20%,2,7,1,MTA,5,424,NA,Pelham Pkwy5,Pelham Pkwy
+EL193,11,233 St,25,98.48%,98.29%,99.37%,5,3,1,MTA,2,418,NA,233 St2,233rd St
+EL193,11,233 St,25,98.48%,98.29%,99.37%,5,3,1,MTA,5,418,NA,233 St5,233rd St
+EL196,4,Hunts Point Av,6,98.49%,100.00%,99.58%,3,6,0,MTA,6,371,NA,Hunts Point Ave6,Hunts Point Ave
+EL131,17,161 St-Yankee Stadium,4BD,98.52%,99.38%,99.01%,2,4,1,MTA,4,219,NA,161 St-Yankee Stadium4,161st St - Yankee Stadium
+EL131,17,161 St-Yankee Stadium,4BD,98.52%,99.38%,99.01%,2,4,1,MTA,B,219,NA,161 St-Yankee StadiumB,161st St - Yankee Stadium
+EL131,17,161 St-Yankee Stadium,4BD,98.52%,99.38%,99.01%,2,4,1,MTA,D,219,NA,161 St-Yankee StadiumD,161st St - Yankee Stadium
+EL187,13,Fordham Rd,4,98.52%,99.44%,98.90%,5,3,0,MTA,4,382,NA,Fordham Rd4,Fordham Rd
+EL159,6,180 St,25,98.55%,98.62%,99.63%,5,5,0,MTA,2,426,NA,180 St2,E 180th St
+EL159,6,180 St,25,98.55%,98.62%,99.63%,5,5,0,MTA,5,426,NA,180 St5,E 180th St
+EL134,17,161 St-Yankee Stadium,BD,98.56%,99.93%,98.89%,0,6,0,MTA,B,219,NA,161 St-Yankee StadiumB,161st St - Yankee Stadium
+EL134,17,161 St-Yankee Stadium,BD,98.56%,99.93%,98.89%,0,6,0,MTA,D,219,NA,161 St-Yankee StadiumD,161st St - Yankee Stadium
+EL138,11,Pelham Pkwy,25,98.65%,99.49%,99.70%,4,7,1,MTA,2,424,NA,Pelham Pkwy2,Pelham Pkwy
+EL138,11,Pelham Pkwy,25,98.65%,99.49%,99.70%,4,7,1,MTA,5,424,NA,Pelham Pkwy5,Pelham Pkwy
+EL191,4,Kingsbridge Rd,BD,98.71%,100.00%,99.16%,10,4,0,MTA,B,381,NA,Kingsbridge RdB,Kingsbridge Rd
+EL191,4,Kingsbridge Rd,BD,98.71%,100.00%,99.16%,10,4,0,MTA,D,381,NA,Kingsbridge RdD,Kingsbridge Rd
+EL197,4,Hunts Point Av,6,98.77%,99.65%,99.71%,2,4,0,MTA,6,371,NA,Hunts Point Ave6,Hunts Point Ave
+EL194,11,233 St,25,98.98%,99.81%,99.17%,2,3,1,MTA,2,418,NA,233 St2,233rd St
+EL194,11,233 St,25,98.98%,99.81%,99.17%,2,3,1,MTA,5,418,NA,233 St5,233rd St
+EL190,4,Kingsbridge Rd,BD,99.15%,100.00%,100.00%,6,5,0,MTA,B,381,NA,Kingsbridge RdB,Kingsbridge Rd
+EL190,4,Kingsbridge Rd,BD,99.15%,100.00%,100.00%,6,5,0,MTA,D,381,NA,Kingsbridge RdD,Kingsbridge Rd
+EL185,12,23 St,1,99.29%,100.00%,100.00%,0,4,0,MTA,1,228,NA,23 St1,23rd St
+EL440,2,Lexington Av-63 St,FQ,86.61%,87.89%,84.77%,36,23,1,MTA,F,223,NA,Lexington Ave-63 StF,Lexington Ave - 63rd St
+EL440,2,Lexington Av-63 St,FQ,86.61%,87.89%,84.77%,36,23,1,MTA,Q,7,NA,Lexington Ave-63 StQ,Lexington Ave - 63rd St
+EL601,3,34 St-Hudson Yards,7,86.96%,88.35%,88.04%,7,6,0,MTA,7,471,NA,34 St-Hudson Yards7,34th St - Hudson Yards
+EL716,4,Fulton St,ACJZ2345,89.93%,91.61%,89.58%,17,5,1,MTA,2,292,NA,Fulton St2,Fulton St
+EL716,4,Fulton St,ACJZ2345,89.93%,91.61%,89.58%,17,5,1,MTA,3,292,NA,Fulton St3,Fulton St
+EL716,4,Fulton St,ACJZ2345,89.93%,91.61%,89.58%,17,5,1,MTA,4,292,NA,Fulton St4,Fulton St
+EL716,4,Fulton St,ACJZ2345,89.93%,91.61%,89.58%,17,5,1,MTA,5,292,NA,Fulton St5,Fulton St
+EL716,4,Fulton St,ACJZ2345,89.93%,91.61%,89.58%,17,5,1,MTA,A,292,NA,Fulton StA,Fulton St
+EL716,4,Fulton St,ACJZ2345,89.93%,91.61%,89.58%,17,5,1,MTA,C,292,NA,Fulton StC,Fulton St
+EL716,4,Fulton St,ACJZ2345,89.93%,91.61%,89.58%,17,5,1,MTA,J,292,NA,Fulton StJ,Fulton St
+EL716,4,Fulton St,ACJZ2345,89.93%,91.61%,89.58%,17,5,1,MTA,Z,292,NA,Fulton StZ,Fulton St
+EL119,33,181 St,A,90.06%,91.23%,87.52%,25,5,5,MTA,A,301,NA,181 StA,181st St
+EL106,16,9 St,1,90.11%,91.34%,85.76%,55,10,4,MTA,1,300,NA,9 St1,79th St
+EL277,9,59 St-Columbus Circle,ABCD1,90.35%,91.69%,90.90%,17,8,4,MTA,1,161,NA,59 St-Columbus Circle1,59th St - Columbus Circle
+EL277,9,59 St-Columbus Circle,ABCD1,90.35%,91.69%,90.90%,17,8,4,MTA,A,161,NA,59 St-Columbus CircleA,59th St - Columbus Circle
+EL277,9,59 St-Columbus Circle,ABCD1,90.35%,91.69%,90.90%,17,8,4,MTA,B,161,NA,59 St-Columbus CircleB,59th St - Columbus Circle
+EL277,9,59 St-Columbus Circle,ABCD1,90.35%,91.69%,90.90%,17,8,4,MTA,C,161,NA,59 St-Columbus CircleC,59th St - Columbus Circle
+EL277,9,59 St-Columbus Circle,ABCD1,90.35%,91.69%,90.90%,17,8,4,MTA,D,161,NA,59 St-Columbus CircleD,59th St - Columbus Circle
+EL266,2,72 St,Q,90.87%,92.07%,91.22%,41,13,1,MTA,Q,313,NA,72 StQ,72nd St
+EL230,15,Times Sq-42 St,NQRW,92.00%,96.51%,91.09%,13,14,1,MTA,N,11,NA,Times Sq-42 StN,Times Sq - 42nd St
+EL230,15,Times Sq-42 St,NQRW,92.00%,96.51%,91.09%,13,14,1,MTA,Q,11,NA,Times Sq-42 StQ,Times Sq - 42nd St
+EL230,15,Times Sq-42 St,NQRW,92.00%,96.51%,91.09%,13,14,1,MTA,R,11,NA,Times Sq-42 StR,Times Sq - 42nd St
+EL230,15,Times Sq-42 St,NQRW,92.00%,96.51%,91.09%,13,14,1,MTA,W,11,NA,Times Sq-42 StW,Times Sq - 42nd St
+EL237,19,66 St-Lincoln Center,1,92.20%,88.68%,95.59%,4,19,0,MTA,1,12,NA,66 St-Lincoln Ctr1,66th St - Lincoln Ctr
+EL178,5,Dyckman St,1,92.26%,94.78%,91.12%,26,14,5,MTA,1,144,NA,Dyckman St1,Dyckman St
+EL206,28,Grand Central-42 St,456,92.53%,93.33%,93.22%,2,3,0,MTA,4,402,NA,Grand Central-42 St4,Grand Central - 42nd St
+EL206,28,Grand Central-42 St,456,92.53%,93.33%,93.22%,2,3,0,MTA,5,402,NA,Grand Central-42 St5,Grand Central - 42nd St
+EL206,28,Grand Central-42 St,456,92.53%,93.33%,93.22%,2,3,0,MTA,6,402,NA,Grand Central-42 St6,Grand Central - 42nd St
+EL267,2,72 St,Q,92.71%,93.76%,92.84%,12,11,2,MTA,Q,313,NA,72 StQ,72nd St
+EL328,6,Bleecker St,DFBM6,93.19%,94.64%,93.03%,17,12,0,MTA,6,408,NA,Bleecker St6,Bleecker St
+EL328,6,Bleecker St,DFBM6,93.19%,94.64%,93.03%,17,12,0,MTA,B,408,NA,Broadway-Lafayette StB,Broadway - Lafayette St
+EL328,6,Bleecker St,DFBM6,93.19%,94.64%,93.03%,17,12,0,MTA,D,408,NA,Broadway-Lafayette StD,Broadway - Lafayette St
+EL328,6,Bleecker St,DFBM6,93.19%,94.64%,93.03%,17,12,0,MTA,F,408,NA,Broadway-Lafayette StF,Broadway - Lafayette St
+EL328,6,Bleecker St,DFBM6,93.19%,94.64%,93.03%,17,12,0,MTA,M,408,NA,Broadway-Lafayette StM,Broadway - Lafayette St
+EL245,14,Lexington Av-53 St,EM,93.20%,95.65%,93.61%,15,4,1,MTA,E,275,NA,Lexington Ave-53 StE,Lexington Ave - 53rd St
+EL245,14,Lexington Av-53 St,EM,93.20%,95.65%,93.61%,15,4,1,MTA,M,275,NA,Lexington Ave-53 StM,Lexington Ave - 53rd St
+EL335,14,West 4 St,ABCDEFM,93.21%,91.24%,94.60%,11,19,2,MTA,A,167,NA,W 4 St-Washington Sq Upper A,W 4th St - Washington Sq (Upper)
+EL335,14,West 4 St,ABCDEFM,93.21%,91.24%,94.60%,11,19,2,MTA,B,167,NA,W 4 St-Washington Sq Lower B,W 4th St - Washington Sq (Lower)
+EL335,14,West 4 St,ABCDEFM,93.21%,91.24%,94.60%,11,19,2,MTA,C,167,NA,W 4 St-Washington Sq Upper C,W 4th St - Washington Sq (Upper)
+EL335,14,West 4 St,ABCDEFM,93.21%,91.24%,94.60%,11,19,2,MTA,D,167,NA,W 4 St-Washington Sq Lower D,W 4th St - Washington Sq (Lower)
+EL335,14,West 4 St,ABCDEFM,93.21%,91.24%,94.60%,11,19,2,MTA,E,167,NA,W 4 St-Washington Sq Upper E,W 4th St - Washington Sq (Upper)
+EL335,14,West 4 St,ABCDEFM,93.21%,91.24%,94.60%,11,19,2,MTA,F,167,NA,W 4 St-Washington Sq Lower F,W 4th St - Washington Sq (Lower)
+EL335,14,West 4 St,ABCDEFM,93.21%,91.24%,94.60%,11,19,2,MTA,M,167,NA,W 4 St-Washington Sq Lower M,W 4th St - Washington Sq (Lower)
+EL224,16,8 Av,L,93.49%,93.18%,94.28%,25,6,1,MTA,L,115,NA,8 AveL,8th Ave
+EL181,10,135 St,23,93.69%,91.51%,96.14%,5,17,1,MTA,2,152,NA,135 St2,135th St
+EL181,10,135 St,23,93.69%,91.51%,96.14%,5,17,1,MTA,3,152,NA,135 St3,135th St
+EL114**,21,68 St,1,94.06%,81.25%,100.00%,4,0,1,MTA,1,302,NA,68 St1,168th St
+EL602,3,34 St-Hudson Yards,7,94.14%,95.33%,91.24%,23,11,2,MTA,7,471,NA,34 St-Hudson Yards7,34th St - Hudson Yards
+EL244,17,Grand Central-42 St,7,94.19%,95.36%,94.56%,8,7,1,MTA,7,465,NA,Grand Central-42 St7,Grand Central - 42nd St
+EL215,19,34 St-Penn Station,23,94.25%,97.65%,93.72%,9,13,0,MTA,2,164,NA,34 St-Penn Station2,34th St - Penn Station
+EL215,19,34 St-Penn Station,23,94.25%,97.65%,93.72%,9,13,0,MTA,3,164,NA,34 St-Penn Station3,34th St - Penn Station
+EL213,3,34 St-Herald Sq,BDFMNQRW,94.29%,95.76%,93.49%,21,7,1,MTA,B,227,NA,Herald Sq-34 StB,Herald Sq - 34th St
+EL213,3,34 St-Herald Sq,BDFMNQRW,94.29%,95.76%,93.49%,21,7,1,MTA,D,227,NA,Herald Sq-34 StD,Herald Sq - 34th St
+EL213,3,34 St-Herald Sq,BDFMNQRW,94.29%,95.76%,93.49%,21,7,1,MTA,F,227,NA,Herald Sq-34 StF,Herald Sq - 34th St
+EL213,3,34 St-Herald Sq,BDFMNQRW,94.29%,95.76%,93.49%,21,7,1,MTA,M,227,NA,Herald Sq-34 StM,Herald Sq - 34th St
+EL213,3,34 St-Herald Sq,BDFMNQRW,94.29%,95.76%,93.49%,21,7,1,MTA,N,12,NA,Herald Sq-34 StN,Herald Sq - 34th St
+EL213,3,34 St-Herald Sq,BDFMNQRW,94.29%,95.76%,93.49%,21,7,1,MTA,Q,12,NA,Herald Sq-34 StQ,Herald Sq - 34th St
+EL213,3,34 St-Herald Sq,BDFMNQRW,94.29%,95.76%,93.49%,21,7,1,MTA,R,12,NA,Herald Sq-34 StR,Herald Sq - 34th St
+EL213,3,34 St-Herald Sq,BDFMNQRW,94.29%,95.76%,93.49%,21,7,1,MTA,W,12,NA,Herald Sq-34 StW,Herald Sq - 34th St
+EL333,14,West 4 St,ABCDEFM,94.57%,97.38%,92.75%,16,14,5,MTA,A,167,NA,W 4 St-Washington Sq Upper A,W 4th St - Washington Sq (Upper)
+EL333,14,West 4 St,ABCDEFM,94.57%,97.38%,92.75%,16,14,5,MTA,B,167,NA,W 4 St-Washington Sq Lower B,W 4th St - Washington Sq (Lower)
+EL333,14,West 4 St,ABCDEFM,94.57%,97.38%,92.75%,16,14,5,MTA,C,167,NA,W 4 St-Washington Sq Upper C,W 4th St - Washington Sq (Upper)
+EL333,14,West 4 St,ABCDEFM,94.57%,97.38%,92.75%,16,14,5,MTA,D,167,NA,W 4 St-Washington Sq Lower D,W 4th St - Washington Sq (Lower)
+EL333,14,West 4 St,ABCDEFM,94.57%,97.38%,92.75%,16,14,5,MTA,E,167,NA,W 4 St-Washington Sq Upper E,W 4th St - Washington Sq (Upper)
+EL333,14,West 4 St,ABCDEFM,94.57%,97.38%,92.75%,16,14,5,MTA,F,167,NA,W 4 St-Washington Sq Lower F,W 4th St - Washington Sq (Lower)
+EL333,14,West 4 St,ABCDEFM,94.57%,97.38%,92.75%,16,14,5,MTA,M,167,NA,W 4 St-Washington Sq Lower M,W 4th St - Washington Sq (Lower)
+EL225,16,34 St-Penn Station,CE,94.59%,96.29%,94.72%,10,4,2,MTA,C,164,NA,34 St-Penn StationC,34th St - Penn Station
+EL225,16,34 St-Penn Station,CE,94.59%,96.29%,94.72%,10,4,2,MTA,E,164,NA,34 St-Penn StationE,34th St - Penn Station
+EL218,18,14 St-Union Sq,L,94.61%,95.56%,95.59%,2,4,0,MTA,L,117,NA,Union Sq-14 StL,Union Sq - 14th St
+EL720,4,Fulton St,ACJZ2345,94.65%,96.48%,95.20%,23,12,2,MTA,2,292,NA,Fulton St2,Fulton St
+EL720,4,Fulton St,ACJZ2345,94.65%,96.48%,95.20%,23,12,2,MTA,3,292,NA,Fulton St3,Fulton St
+EL720,4,Fulton St,ACJZ2345,94.65%,96.48%,95.20%,23,12,2,MTA,4,292,NA,Fulton St4,Fulton St
+EL720,4,Fulton St,ACJZ2345,94.65%,96.48%,95.20%,23,12,2,MTA,5,292,NA,Fulton St5,Fulton St
+EL720,4,Fulton St,ACJZ2345,94.65%,96.48%,95.20%,23,12,2,MTA,A,292,NA,Fulton StA,Fulton St
+EL720,4,Fulton St,ACJZ2345,94.65%,96.48%,95.20%,23,12,2,MTA,C,292,NA,Fulton StC,Fulton St
+EL720,4,Fulton St,ACJZ2345,94.65%,96.48%,95.20%,23,12,2,MTA,J,292,NA,Fulton StJ,Fulton St
+EL720,4,Fulton St,ACJZ2345,94.65%,96.48%,95.20%,23,12,2,MTA,Z,292,NA,Fulton StZ,Fulton St
+EL116,14,190 St,A,94.66%,97.78%,94.69%,19,7,5,MTA,A,145,NA,190 StA,190th St
+EL125,2,125 St,456,94.85%,93.52%,96.59%,22,13,2,MTA,4,153,NA,125 St4,125th St
+EL125,2,125 St,456,94.85%,93.52%,96.59%,22,13,2,MTA,5,153,NA,125 St5,125th St
+EL125,2,125 St,456,94.85%,93.52%,96.59%,22,13,2,MTA,6,153,NA,125 St6,125th St
+EL441,2,Lexington Av-63 St,FQ,94.85%,95.78%,94.34%,19,12,2,MTA,F,223,NA,Lexington Ave-63 StF,Lexington Ave - 63rd St
+EL441,2,Lexington Av-63 St,FQ,94.85%,95.78%,94.34%,19,12,2,MTA,Q,7,NA,Lexington Ave-63 StQ,Lexington Ave - 63rd St
+EL104,15,9 St,1,94.86%,95.38%,96.96%,10,11,1,MTA,1,300,NA,9 St1,79th St
+EL204,28,Grand Central-42 St,4567S,94.98%,91.09%,99.24%,1,20,0,MTA,4,402,NA,Grand Central-42 St4,Grand Central - 42nd St
+EL204,28,Grand Central-42 St,4567S,94.98%,91.09%,99.24%,1,20,0,MTA,5,402,NA,Grand Central-42 St5,Grand Central - 42nd St
+EL204,28,Grand Central-42 St,4567S,94.98%,91.09%,99.24%,1,20,0,MTA,6,402,NA,Grand Central-42 St6,Grand Central - 42nd St
+EL204,28,Grand Central-42 St,4567S,94.98%,91.09%,99.24%,1,20,0,MTA,7,465,NA,Grand Central-42 St7,Grand Central - 42nd St
+EL204,28,Grand Central-42 St,4567S,94.98%,91.09%,99.24%,1,20,0,MTA,S,465,NA,Grand Central-42 StS,Grand Central - 42nd St
+EL145,8,96 St,231,95.14%,97.17%,94.28%,28,10,0,MTA,1,157,NA,96 St1,96th St
+EL145,8,96 St,231,95.14%,97.17%,94.28%,28,10,0,MTA,2,157,NA,96 St2,96th St
+EL145,8,96 St,231,95.14%,97.17%,94.28%,28,10,0,MTA,3,157,NA,96 St3,96th St
+EL325,17,Canal St,6,95.15%,93.71%,95.71%,5,13,0,MTA,6,410,NA,Canal St6,Canal St
+EL123,29,175 St,A,95.20%,94.98%,96.23%,12,8,1,MTA,A,147,NA,175 StA,175th St
+EL334,14,West 4 St,ABCDEFM,95.27%,96.67%,95.30%,14,5,0,MTA,A,167,NA,W 4 St-Washington Sq Upper A,W 4th St - Washington Sq (Upper)
+EL334,14,West 4 St,ABCDEFM,95.27%,96.67%,95.30%,14,5,0,MTA,B,167,NA,W 4 St-Washington Sq Lower B,W 4th St - Washington Sq (Lower)
+EL334,14,West 4 St,ABCDEFM,95.27%,96.67%,95.30%,14,5,0,MTA,C,167,NA,W 4 St-Washington Sq Upper C,W 4th St - Washington Sq (Upper)
+EL334,14,West 4 St,ABCDEFM,95.27%,96.67%,95.30%,14,5,0,MTA,D,167,NA,W 4 St-Washington Sq Lower D,W 4th St - Washington Sq (Lower)
+EL334,14,West 4 St,ABCDEFM,95.27%,96.67%,95.30%,14,5,0,MTA,E,167,NA,W 4 St-Washington Sq Upper E,W 4th St - Washington Sq (Upper)
+EL334,14,West 4 St,ABCDEFM,95.27%,96.67%,95.30%,14,5,0,MTA,F,167,NA,W 4 St-Washington Sq Lower F,W 4th St - Washington Sq (Lower)
+EL334,14,West 4 St,ABCDEFM,95.27%,96.67%,95.30%,14,5,0,MTA,M,167,NA,W 4 St-Washington Sq Lower M,W 4th St - Washington Sq (Lower)
+EL232,12,Times Sq-42 St,1237,95.60%,98.38%,96.12%,8,4,2,MTA,1,317,NA,Times Sq-42 St1,Times Sq - 42nd St
+EL232,12,Times Sq-42 St,1237,95.60%,98.38%,96.12%,8,4,2,MTA,2,317,NA,Times Sq-42 St2,Times Sq - 42nd St
+EL232,12,Times Sq-42 St,1237,95.60%,98.38%,96.12%,8,4,2,MTA,3,317,NA,Times Sq-42 St3,Times Sq - 42nd St
+EL232,12,Times Sq-42 St,1237,95.60%,98.38%,96.12%,8,4,2,MTA,7,317,NA,Times Sq-42 St7,Times Sq - 42nd St
+EL233,12,Times Sq-42 St,123,95.62%,93.71%,97.69%,3,15,0,MTA,1,317,NA,Times Sq-42 St1,Times Sq - 42nd St
+EL233,12,Times Sq-42 St,123,95.62%,93.71%,97.69%,3,15,0,MTA,2,317,NA,Times Sq-42 St2,Times Sq - 42nd St
+EL233,12,Times Sq-42 St,123,95.62%,93.71%,97.69%,3,15,0,MTA,3,317,NA,Times Sq-42 St3,Times Sq - 42nd St
+EL124,29,175 St,A,95.71%,95.36%,95.18%,13,6,2,MTA,A,147,NA,175 StA,175th St
+EL217,18,14 St-Union Sq,LNQRW,95.83%,96.85%,95.41%,6,6,2,MTA,L,406,NA,Union Sq-14 StL,Union Sq - 14th St
+EL217,18,14 St-Union Sq,LNQRW,95.83%,96.85%,95.41%,6,6,2,MTA,N,406,NA,Union Sq-14 StN,Union Sq - 14th St
+EL217,18,14 St-Union Sq,LNQRW,95.83%,96.85%,95.41%,6,6,2,MTA,Q,406,NA,Union Sq-14 StQ,Union Sq - 14th St
+EL217,18,14 St-Union Sq,LNQRW,95.83%,96.85%,95.41%,6,6,2,MTA,R,406,NA,Union Sq-14 StR,Union Sq - 14th St
+EL217,18,14 St-Union Sq,LNQRW,95.83%,96.85%,95.41%,6,6,2,MTA,W,406,NA,Union Sq-14 StW,Union Sq - 14th St
+EL710,11,Bowling Green,45,95.88%,96.25%,95.67%,30,5,0,MTA,4,45,NA,Bowling Green4,Bowling Green
+EL710,11,Bowling Green,45,95.88%,96.25%,95.67%,30,5,0,MTA,5,45,NA,Bowling Green5,Bowling Green
+EL264,2,72 St,Q,95.90%,96.16%,95.94%,10,12,3,MTA,Q,313,NA,72 StQ,72nd St
+EL105,16,9 St,1,95.90%,97.44%,96.30%,5,6,2,MTA,1,300,NA,9 St1,79th St
+EL402,29,Lexington Av-63 St,FQ,96.08%,96.06%,97.03%,10,9,0,MTA,F,223,NA,Lexington Ave-63 StF,Lexington Ave - 63rd St
+EL402,29,Lexington Av-63 St,FQ,96.08%,96.06%,97.03%,10,9,0,MTA,Q,223,NA,Lexington Ave-63 StQ,Lexington Ave - 63rd St
+EL211,25,34 St-Herald Sq,NQRW,96.12%,96.33%,95.21%,6,6,1,MTA,N,12,NA,Herald Sq-34 StN,Herald Sq - 34th St
+EL211,25,34 St-Herald Sq,NQRW,96.12%,96.33%,95.21%,6,6,1,MTA,Q,12,NA,Herald Sq-34 StQ,Herald Sq - 34th St
+EL211,25,34 St-Herald Sq,NQRW,96.12%,96.33%,95.21%,6,6,1,MTA,R,12,NA,Herald Sq-34 StR,Herald Sq - 34th St
+EL211,25,34 St-Herald Sq,NQRW,96.12%,96.33%,95.21%,6,6,1,MTA,W,12,NA,Herald Sq-34 StW,Herald Sq - 34th St
+EL331,6,Bleecker St,DFBM6,96.14%,95.94%,98.03%,14,15,2,MTA,6,408,NA,Bleecker St6,Bleecker St
+EL331,6,Bleecker St,DFBM6,96.14%,95.94%,98.03%,14,15,2,MTA,B,408,NA,Broadway-Lafayette StB,Broadway - Lafayette St
+EL331,6,Bleecker St,DFBM6,96.14%,95.94%,98.03%,14,15,2,MTA,D,408,NA,Broadway-Lafayette StD,Broadway - Lafayette St
+EL331,6,Bleecker St,DFBM6,96.14%,95.94%,98.03%,14,15,2,MTA,F,408,NA,Broadway-Lafayette StF,Broadway - Lafayette St
+EL331,6,Bleecker St,DFBM6,96.14%,95.94%,98.03%,14,15,2,MTA,M,408,NA,Broadway-Lafayette StM,Broadway - Lafayette St
+EL109,19,181 St,1,96.33%,97.34%,96.59%,17,5,1,MTA,1,301,NA,181 St1,181st St
+EL223,16,14 St,ACE,96.42%,96.58%,97.15%,11,8,0,MTA,A,166,NA,14 StA,14th St
+EL223,16,14 St,ACE,96.42%,96.58%,97.15%,11,8,0,MTA,C,166,NA,14 StC,14th St
+EL223,16,14 St,ACE,96.42%,96.58%,97.15%,11,8,0,MTA,E,166,NA,14 StE,14th St
+EL315,1,Brooklyn Bridge,456,96.48%,99.23%,95.47%,9,4,2,MTA,4,411,NA,Brooklyn Bridge4,Brooklyn Bridge - City Hall
+EL315,1,Brooklyn Bridge,456,96.48%,99.23%,95.47%,9,4,2,MTA,5,411,NA,Brooklyn Bridge5,Brooklyn Bridge - City Hall
+EL315,1,Brooklyn Bridge,456,96.48%,99.23%,95.47%,9,4,2,MTA,6,411,NA,Brooklyn Bridge6,Brooklyn Bridge - City Hall
+EL238,19,66 St-Lincoln Center,1,96.66%,96.40%,98.29%,3,10,0,MTA,1,12,NA,66 St-Lincoln Ctr1,66th St - Lincoln Ctr
+EL219,18,14 St-Union Sq,NQRW,96.68%,96.01%,99.17%,5,10,0,MTA,N,15,NA,Union Sq-14 StN,Union Sq - 14th St
+EL219,18,14 St-Union Sq,NQRW,96.68%,96.01%,99.17%,5,10,0,MTA,Q,15,NA,Union Sq-14 StQ,Union Sq - 14th St
+EL219,18,14 St-Union Sq,NQRW,96.68%,96.01%,99.17%,5,10,0,MTA,R,15,NA,Union Sq-14 StR,Union Sq - 14th St
+EL219,18,14 St-Union Sq,NQRW,96.68%,96.01%,99.17%,5,10,0,MTA,W,15,NA,Union Sq-14 StW,Union Sq - 14th St
+EL278,9,59 St-Columbus Circle,ABCD1,96.71%,98.95%,96.93%,11,6,0,MTA,1,161,NA,59 St-Columbus Circle1,59th St - Columbus Circle
+EL278,9,59 St-Columbus Circle,ABCD1,96.71%,98.95%,96.93%,11,6,0,MTA,A,161,NA,59 St-Columbus CircleA,59th St - Columbus Circle
+EL278,9,59 St-Columbus Circle,ABCD1,96.71%,98.95%,96.93%,11,6,0,MTA,B,161,NA,59 St-Columbus CircleB,59th St - Columbus Circle
+EL278,9,59 St-Columbus Circle,ABCD1,96.71%,98.95%,96.93%,11,6,0,MTA,C,161,NA,59 St-Columbus CircleC,59th St - Columbus Circle
+EL278,9,59 St-Columbus Circle,ABCD1,96.71%,98.95%,96.93%,11,6,0,MTA,D,161,NA,59 St-Columbus CircleD,59th St - Columbus Circle
+EL444,2,Lexington Av-63 St,FQ,96.79%,98.39%,96.71%,9,9,0,MTA,F,223,NA,Lexington Ave-63 StF,Lexington Ave - 63rd St
+EL444,2,Lexington Av-63 St,FQ,96.79%,98.39%,96.71%,9,9,0,MTA,Q,7,NA,Lexington Ave-63 StQ,Lexington Ave - 63rd St
+EL202,1,51 St,6,97.07%,98.89%,97.13%,6,5,1,MTA,6,401,NA,51 St6,51st St
+EL250,2,86 St,Q,97.09%,96.61%,98.45%,14,6,2,MTA,Q,79,NA,86 StQ,86th St
+EL721,5,Fulton St,ACJZ2345,97.14%,96.41%,98.06%,12,9,0,MTA,2,292,NA,Fulton St2,Fulton St
+EL721,5,Fulton St,ACJZ2345,97.14%,96.41%,98.06%,12,9,0,MTA,3,292,NA,Fulton St3,Fulton St
+EL721,5,Fulton St,ACJZ2345,97.14%,96.41%,98.06%,12,9,0,MTA,4,292,NA,Fulton St4,Fulton St
+EL721,5,Fulton St,ACJZ2345,97.14%,96.41%,98.06%,12,9,0,MTA,5,292,NA,Fulton St5,Fulton St
+EL721,5,Fulton St,ACJZ2345,97.14%,96.41%,98.06%,12,9,0,MTA,A,292,NA,Fulton StA,Fulton St
+EL721,5,Fulton St,ACJZ2345,97.14%,96.41%,98.06%,12,9,0,MTA,C,292,NA,Fulton StC,Fulton St
+EL721,5,Fulton St,ACJZ2345,97.14%,96.41%,98.06%,12,9,0,MTA,J,292,NA,Fulton StJ,Fulton St
+EL721,5,Fulton St,ACJZ2345,97.14%,96.41%,98.06%,12,9,0,MTA,Z,292,NA,Fulton StZ,Fulton St
+EL316,1,Brooklyn Bridge,456,97.14%,97.08%,97.34%,9,3,0,MTA,4,411,NA,Brooklyn Bridge4,Brooklyn Bridge - City Hall
+EL316,1,Brooklyn Bridge,456,97.14%,97.08%,97.34%,9,3,0,MTA,5,411,NA,Brooklyn Bridge5,Brooklyn Bridge - City Hall
+EL316,1,Brooklyn Bridge,456,97.14%,97.08%,97.34%,9,3,0,MTA,6,411,NA,Brooklyn Bridge6,Brooklyn Bridge - City Hall
+EL111**,21,68 St,1,97.16%,100.00%,95.00%,3,1,0,MTA,1,302,NA,68 St1,168th St
+EL107,19,181 St,1,97.18%,96.42%,98.59%,13,6,0,MTA,1,301,NA,181 St1,181st St
+EL279,9,59 St-Columbus Circle,ABCD1,97.19%,97.25%,98.42%,4,2,1,MTA,1,161,NA,59 St-Columbus Circle1,59th St - Columbus Circle
+EL279,9,59 St-Columbus Circle,ABCD1,97.19%,97.25%,98.42%,4,2,1,MTA,A,161,NA,59 St-Columbus CircleA,59th St - Columbus Circle
+EL279,9,59 St-Columbus Circle,ABCD1,97.19%,97.25%,98.42%,4,2,1,MTA,B,161,NA,59 St-Columbus CircleB,59th St - Columbus Circle
+EL279,9,59 St-Columbus Circle,ABCD1,97.19%,97.25%,98.42%,4,2,1,MTA,C,161,NA,59 St-Columbus CircleC,59th St - Columbus Circle
+EL279,9,59 St-Columbus Circle,ABCD1,97.19%,97.25%,98.42%,4,2,1,MTA,D,161,NA,59 St-Columbus CircleD,59th St - Columbus Circle
+EL205,28,Grand Central-42 St,456,97.19%,97.32%,98.54%,7,5,0,MTA,4,402,NA,Grand Central-42 St4,Grand Central - 42nd St
+EL205,28,Grand Central-42 St,456,97.19%,97.32%,98.54%,7,5,0,MTA,5,402,NA,Grand Central-42 St5,Grand Central - 42nd St
+EL205,28,Grand Central-42 St,456,97.19%,97.32%,98.54%,7,5,0,MTA,6,402,NA,Grand Central-42 St6,Grand Central - 42nd St
+EL262,2,72 St,Q,97.22%,98.14%,98.12%,19,13,0,MTA,Q,313,NA,72 StQ,72nd St
+EL280,9,59 St-Columbus Circle,ABCD1,97.30%,97.64%,95.91%,27,4,0,MTA,1,161,NA,59 St-Columbus Circle1,59th St - Columbus Circle
+EL280,9,59 St-Columbus Circle,ABCD1,97.30%,97.64%,95.91%,27,4,0,MTA,A,161,NA,59 St-Columbus CircleA,59th St - Columbus Circle
+EL280,9,59 St-Columbus Circle,ABCD1,97.30%,97.64%,95.91%,27,4,0,MTA,B,161,NA,59 St-Columbus CircleB,59th St - Columbus Circle
+EL280,9,59 St-Columbus Circle,ABCD1,97.30%,97.64%,95.91%,27,4,0,MTA,C,161,NA,59 St-Columbus CircleC,59th St - Columbus Circle
+EL280,9,59 St-Columbus Circle,ABCD1,97.30%,97.64%,95.91%,27,4,0,MTA,D,161,NA,59 St-Columbus CircleD,59th St - Columbus Circle
+EL108,19,181 St,1,97.40%,94.59%,98.74%,27,1,0,MTA,1,301,NA,181 St1,181st St
+EL221,16,14 St/8 Av,ACEL,97.42%,98.03%,98.24%,11,6,1,MTA,A,115,NA,14 StA,14th St
+EL221,16,14 St/8 Av,ACEL,97.42%,98.03%,98.24%,11,6,1,MTA,C,115,NA,14 StC,14th St
+EL221,16,14 St/8 Av,ACEL,97.42%,98.03%,98.24%,11,6,1,MTA,E,115,NA,14 StE,14th St
+EL221,16,14 St/8 Av,ACEL,97.42%,98.03%,98.24%,11,6,1,MTA,L,115,NA,14 StL,Union Sq - 14th St
+EL330,6,Bleecker St,DFBM6,97.42%,98.50%,96.77%,9,6,1,MTA,6,408,NA,Bleecker St6,Bleecker St
+EL330,6,Bleecker St,DFBM6,97.42%,98.50%,96.77%,9,6,1,MTA,B,408,NA,Broadway-Lafayette StB,Broadway - Lafayette St
+EL330,6,Bleecker St,DFBM6,97.42%,98.50%,96.77%,9,6,1,MTA,D,408,NA,Broadway-Lafayette StD,Broadway - Lafayette St
+EL330,6,Bleecker St,DFBM6,97.42%,98.50%,96.77%,9,6,1,MTA,F,408,NA,Broadway-Lafayette StF,Broadway - Lafayette St
+EL330,6,Bleecker St,DFBM6,97.42%,98.50%,96.77%,9,6,1,MTA,M,408,NA,Broadway-Lafayette StM,Broadway - Lafayette St
+EL401,3,Lexington Av-63 St,FQ,97.44%,98.82%,96.04%,6,4,1,MTA,F,223,NA,Lexington Ave-63 StF,Lexington Ave - 63rd St
+EL401,3,Lexington Av-63 St,FQ,97.44%,98.82%,96.04%,6,4,1,MTA,Q,223,NA,Lexington Ave-63 StQ,Lexington Ave - 63rd St
+EL332,6,Bleecker St,DFBM6,97.45%,99.26%,97.22%,11,6,0,MTA,6,408,NA,Bleecker St6,Bleecker St
+EL332,6,Bleecker St,DFBM6,97.45%,99.26%,97.22%,11,6,0,MTA,B,408,NA,Broadway-Lafayette StB,Broadway - Lafayette St
+EL332,6,Bleecker St,DFBM6,97.45%,99.26%,97.22%,11,6,0,MTA,D,408,NA,Broadway-Lafayette StD,Broadway - Lafayette St
+EL332,6,Bleecker St,DFBM6,97.45%,99.26%,97.22%,11,6,0,MTA,F,408,NA,Broadway-Lafayette StF,Broadway - Lafayette St
+EL332,6,Bleecker St,DFBM6,97.45%,99.26%,97.22%,11,6,0,MTA,M,408,NA,Broadway-Lafayette StM,Broadway - Lafayette St
+EL103,15,9 St,1,97.48%,98.63%,96.43%,5,8,1,MTA,1,300,NA,9 St1,79th St
+EL144,13,125 St,ABCD,97.55%,98.56%,98.86%,8,4,0,MTA,A,153,NA,125 StA,125th St
+EL144,13,125 St,ABCD,97.55%,98.56%,98.86%,8,4,0,MTA,B,153,NA,125 StB,125th St
+EL144,13,125 St,ABCD,97.55%,98.56%,98.86%,8,4,0,MTA,C,153,NA,125 StC,125th St
+EL144,13,125 St,ABCD,97.55%,98.56%,98.86%,8,4,0,MTA,D,153,NA,125 StD,125th St
+EL148,19,Inwood-207 St,A,97.62%,100.00%,96.83%,7,7,0,MTA,A,143,NA,Inwood-207 StA,Inwood - 207th St
+EL228,16,34 St-Penn Station,CE,97.69%,99.47%,97.86%,10,4,0,MTA,C,164,NA,34 St-Penn StationC,34th St - Penn Station
+EL228,16,34 St-Penn Station,CE,97.69%,99.47%,97.86%,10,4,0,MTA,E,164,NA,34 St-Penn StationE,34th St - Penn Station
+EL265,2,72 St,Q,97.71%,99.41%,97.02%,17,10,0,MTA,Q,313,NA,72 StQ,72nd St
+EL209,25,34 St-Herald Sq,BDFM,97.73%,98.89%,98.89%,3,4,1,MTA,B,227,NA,Herald Sq-34 StB,Herald Sq - 34th St
+EL209,25,34 St-Herald Sq,BDFM,97.73%,98.89%,98.89%,3,4,1,MTA,D,227,NA,Herald Sq-34 StD,Herald Sq - 34th St
+EL209,25,34 St-Herald Sq,BDFM,97.73%,98.89%,98.89%,3,4,1,MTA,F,227,NA,Herald Sq-34 StF,Herald Sq - 34th St
+EL209,25,34 St-Herald Sq,BDFM,97.73%,98.89%,98.89%,3,4,1,MTA,M,227,NA,Herald Sq-34 StM,Herald Sq - 34th St
+EL336,9,Chambers St,123,97.78%,98.51%,99.18%,5,6,0,MTA,1,170,NA,Chambers St1,Chambers St
+EL336,9,Chambers St,123,97.78%,98.51%,99.18%,5,6,0,MTA,2,170,NA,Chambers St2,Chambers St
+EL336,9,Chambers St,123,97.78%,98.51%,99.18%,5,6,0,MTA,3,170,NA,Chambers St3,Chambers St
+EL329,6,Bleecker St,DFBM6,97.81%,98.70%,97.68%,8,7,2,MTA,6,408,NA,Bleecker St6,Bleecker St
+EL329,6,Bleecker St,DFBM6,97.81%,98.70%,97.68%,8,7,2,MTA,B,408,NA,Broadway-Lafayette StB,Broadway - Lafayette St
+EL329,6,Bleecker St,DFBM6,97.81%,98.70%,97.68%,8,7,2,MTA,D,408,NA,Broadway-Lafayette StD,Broadway - Lafayette St
+EL329,6,Bleecker St,DFBM6,97.81%,98.70%,97.68%,8,7,2,MTA,F,408,NA,Broadway-Lafayette StF,Broadway - Lafayette St
+EL329,6,Bleecker St,DFBM6,97.81%,98.70%,97.68%,8,7,2,MTA,M,408,NA,Broadway-Lafayette StM,Broadway - Lafayette St
+EL149,19,Inwood-207 St,A,97.81%,99.04%,96.85%,5,7,1,MTA,A,143,NA,Inwood-207 StA,Inwood - 207th St
+EL723,5,Fulton St,23,97.91%,98.58%,98.11%,12,3,1,MTA,2,292,NA,Fulton St2,Fulton St
+EL723,5,Fulton St,23,97.91%,98.58%,98.11%,12,3,1,MTA,3,292,NA,Fulton St3,Fulton St
+EL214,15,34 St-Penn Station,1,97.91%,98.66%,99.13%,5,7,1,MTA,1,164,NA,34 St-Penn Station1,34th St - Penn Station
+EL210,25,34 St-Herald Sq,BDFM,97.95%,98.22%,99.41%,7,4,2,MTA,B,227,NA,Herald Sq-34 StB,Herald Sq - 34th St
+EL210,25,34 St-Herald Sq,BDFM,97.95%,98.22%,99.41%,7,4,2,MTA,D,227,NA,Herald Sq-34 StD,Herald Sq - 34th St
+EL210,25,34 St-Herald Sq,BDFM,97.95%,98.22%,99.41%,7,4,2,MTA,F,227,NA,Herald Sq-34 StF,Herald Sq - 34th St
+EL210,25,34 St-Herald Sq,BDFM,97.95%,98.22%,99.41%,7,4,2,MTA,M,227,NA,Herald Sq-34 StM,Herald Sq - 34th St
+EL711,11,Bowling Green,45,97.95%,98.87%,98.43%,11,5,3,MTA,4,45,NA,Bowling Green4,Bowling Green
+EL711,11,Bowling Green,45,97.95%,98.87%,98.43%,11,5,3,MTA,5,45,NA,Bowling Green5,Bowling Green
+EL126,2,125 St,456,97.98%,99.97%,97.83%,5,3,1,MTA,4,392,NA,125 St4,125th St
+EL126,2,125 St,456,97.98%,99.97%,97.83%,5,3,1,MTA,5,392,NA,125 St5,125th St
+EL126,2,125 St,456,97.98%,99.97%,97.83%,5,3,1,MTA,6,392,NA,125 St6,125th St
+EL180,10,135 St,23,98.00%,98.56%,98.44%,5,7,1,MTA,2,152,NA,135 St2,135th St
+EL180,10,135 St,23,98.00%,98.56%,98.44%,5,7,1,MTA,3,152,NA,135 St3,135th St
+EL120,33,190 St,A,98.00%,99.83%,97.47%,15,6,0,MTA,A,145,NA,190 StA,190th St
+EL227,16,34 St-Penn Station,A,98.02%,99.51%,97.69%,7,7,0,MTA,A,164,NA,34 St-Penn StationA,34th St - Penn Station
+EL281,9,57 St-7 Av,NQRW,98.03%,99.47%,98.89%,12,2,1,MTA,N,9,NA,57 StN,57th St
+EL281,9,57 St-7 Av,NQRW,98.03%,99.47%,98.89%,12,2,1,MTA,Q,9,NA,57 StQ,57th St
+EL281,9,57 St-7 Av,NQRW,98.03%,99.47%,98.89%,12,2,1,MTA,R,9,NA,57 StR,57th St
+EL281,9,57 St-7 Av,NQRW,98.03%,99.47%,98.89%,12,2,1,MTA,W,9,NA,57 StW,57th St
+EL443,2,Lexington Av-63 St,FQ,98.05%,98.56%,98.20%,5,10,0,MTA,F,223,NA,Lexington Ave-63 StF,Lexington Ave - 63rd St
+EL443,2,Lexington Av-63 St,FQ,98.05%,98.56%,98.20%,5,10,0,MTA,Q,7,NA,Lexington Ave-63 StQ,Lexington Ave - 63rd St
+EL146,8,96 St,231,98.06%,97.42%,98.48%,14,4,1,MTA,1,157,NA,96 St1,96th St
+EL146,8,96 St,231,98.06%,97.42%,98.48%,14,4,1,MTA,2,157,NA,96 St2,96th St
+EL146,8,96 St,231,98.06%,97.42%,98.48%,14,4,1,MTA,3,157,NA,96 St3,96th St
+EL442,2,Lexington Av-63 St,FQ,98.12%,99.78%,99.00%,16,12,0,MTA,F,223,NA,Lexington Ave-63 StF,Lexington Ave - 63rd St
+EL442,2,Lexington Av-63 St,FQ,98.12%,99.78%,99.00%,16,12,0,MTA,Q,7,NA,Lexington Ave-63 StQ,Lexington Ave - 63rd St
+EL229,15,Times Sq-42 St,NQRW,98.13%,100.00%,99.25%,6,5,2,MTA,N,11,NA,Times Sq-42 StN,Times Sq - 42nd St
+EL229,15,Times Sq-42 St,NQRW,98.13%,100.00%,99.25%,6,5,2,MTA,Q,11,NA,Times Sq-42 StQ,Times Sq - 42nd St
+EL229,15,Times Sq-42 St,NQRW,98.13%,100.00%,99.25%,6,5,2,MTA,R,11,NA,Times Sq-42 StR,Times Sq - 42nd St
+EL229,15,Times Sq-42 St,NQRW,98.13%,100.00%,99.25%,6,5,2,MTA,W,11,NA,Times Sq-42 StW,Times Sq - 42nd St
+EL731,1,South Ferry,1,98.20%,98.70%,97.13%,6,6,0,MTA,1,330,NA,South Ferry1,South Ferry
+EL730,1,South Ferry,1,98.30%,98.36%,99.21%,12,3,1,MTA,1,330,NA,South Ferry1,South Ferry
+EL403,29,Roosevelt Island,F,98.31%,99.86%,97.78%,2,4,0,MTA,F,222,NA,Roosevelt IslandF,Roosevelt Island - Main St
+EL115,17,190 St,A,98.35%,96.32%,97.84%,12,3,1,MTA,A,145,NA,190 StA,190th St
+EL201,1,51 St,6,98.36%,98.88%,99.89%,7,3,1,MTA,6,401,NA,51 St6,51st St
+EL142,13,125 St,ABCD,98.37%,99.03%,99.03%,2,5,0,MTA,A,153,NA,125 StA,125th St
+EL142,13,125 St,ABCD,98.37%,99.03%,99.03%,2,5,0,MTA,B,153,NA,125 StB,125th St
+EL142,13,125 St,ABCD,98.37%,99.03%,99.03%,2,5,0,MTA,C,153,NA,125 StC,125th St
+EL142,13,125 St,ABCD,98.37%,99.03%,99.03%,2,5,0,MTA,D,153,NA,125 StD,125th St
+EL326,0,World Trade Center,E,98.42%,99.90%,98.74%,6,3,0,MTA,E,171,NA,World Trade CtrE,World Trade Center
+EL110,19,181 St,1,98.45%,97.81%,99.31%,43,6,1,MTA,1,301,NA,181 St1,181st St
+EL113**,21,68 St,1,98.50%,100.00%,94.40%,3,1,0,MTA,1,302,NA,68 St1,168th St
+EL216,15,34 St-Penn Station,1,98.53%,100.00%,98.86%,1,11,0,MTA,1,164,NA,34 St-Penn Station1,34th St - Penn Station
+EL314,1,Brooklyn Bridge,456,98.56%,99.24%,98.94%,4,6,2,MTA,4,411,NA,Brooklyn Bridge4,Brooklyn Bridge - City Hall
+EL314,1,Brooklyn Bridge,456,98.56%,99.24%,98.94%,4,6,2,MTA,5,411,NA,Brooklyn Bridge5,Brooklyn Bridge - City Hall
+EL314,1,Brooklyn Bridge,456,98.56%,99.24%,98.94%,4,6,2,MTA,6,411,NA,Brooklyn Bridge6,Brooklyn Bridge - City Hall
+EL719,5,Fulton St,ACJZ2345,98.61%,99.68%,98.80%,12,3,3,MTA,2,292,NA,Fulton St2,Fulton St
+EL719,5,Fulton St,ACJZ2345,98.61%,99.68%,98.80%,12,3,3,MTA,3,292,NA,Fulton St3,Fulton St
+EL719,5,Fulton St,ACJZ2345,98.61%,99.68%,98.80%,12,3,3,MTA,4,292,NA,Fulton St4,Fulton St
+EL719,5,Fulton St,ACJZ2345,98.61%,99.68%,98.80%,12,3,3,MTA,5,292,NA,Fulton St5,Fulton St
+EL719,5,Fulton St,ACJZ2345,98.61%,99.68%,98.80%,12,3,3,MTA,A,292,NA,Fulton StA,Fulton St
+EL719,5,Fulton St,ACJZ2345,98.61%,99.68%,98.80%,12,3,3,MTA,C,292,NA,Fulton StC,Fulton St
+EL719,5,Fulton St,ACJZ2345,98.61%,99.68%,98.80%,12,3,3,MTA,J,292,NA,Fulton StJ,Fulton St
+EL719,5,Fulton St,ACJZ2345,98.61%,99.68%,98.80%,12,3,3,MTA,Z,292,NA,Fulton StZ,Fulton St
+EL139,12,168 St,1AC,98.64%,99.26%,98.89%,5,4,1,MTA,1,302,NA,168 St1,168th St
+EL139,12,168 St,1AC,98.64%,99.26%,98.89%,5,4,1,MTA,A,302,NA,168 StA,168th St
+EL139,12,168 St,1AC,98.64%,99.26%,98.89%,5,4,1,MTA,C,302,NA,168 StC,168th St
+EL712,0,Cortlandt St,1,98.65%,98.89%,99.17%,1,4,0,MTA,1,328,NA,Cortlandt St1,Cortlandt St
+EL324,17,Canal St,6,98.70%,99.83%,98.94%,4,3,0,MTA,6,410,NA,Canal St6,Canal St
+EL247,2,96 St,Q,98.74%,100.00%,98.98%,4,5,0,MTA,Q,157,NA,96 StQ,96th St
+EL338,9,Chambers St,123,98.75%,99.35%,100.00%,9,5,0,MTA,1,170,NA,Chambers St1,Chambers St
+EL338,9,Chambers St,123,98.75%,99.35%,100.00%,9,5,0,MTA,2,170,NA,Chambers St2,Chambers St
+EL338,9,Chambers St,123,98.75%,99.35%,100.00%,9,5,0,MTA,3,170,NA,Chambers St3,Chambers St
+EL212,25,34 St-Herald Sq,NQRW,98.77%,100.00%,99.07%,5,5,0,MTA,N,12,NA,Herald Sq-34 StN,Herald Sq - 34th St
+EL212,25,34 St-Herald Sq,NQRW,98.77%,100.00%,99.07%,5,5,0,MTA,Q,12,NA,Herald Sq-34 StQ,Herald Sq - 34th St
+EL212,25,34 St-Herald Sq,NQRW,98.77%,100.00%,99.07%,5,5,0,MTA,R,12,NA,Herald Sq-34 StR,Herald Sq - 34th St
+EL212,25,34 St-Herald Sq,NQRW,98.77%,100.00%,99.07%,5,5,0,MTA,W,12,NA,Herald Sq-34 StW,Herald Sq - 34th St
+EL140,12,168 St,AC,98.78%,99.42%,99.87%,4,2,0,MTA,A,302,NA,168 StA,168th St
+EL140,12,168 St,AC,98.78%,99.42%,99.87%,4,2,0,MTA,C,302,NA,168 StC,168th St
+EL235,10,47-50 Sts-Rockefeller Center,BDFM,98.79%,98.44%,100.00%,5,4,0,MTA,B,225,NA,47-50 Sts-Rockefeller CtrB,47th-50th Sts - Rockefeller Ctr
+EL235,10,47-50 Sts-Rockefeller Center,BDFM,98.79%,98.44%,100.00%,5,4,0,MTA,D,225,NA,47-50 Sts-Rockefeller CtrD,47th-50th Sts - Rockefeller Ctr
+EL235,10,47-50 Sts-Rockefeller Center,BDFM,98.79%,98.44%,100.00%,5,4,0,MTA,F,225,NA,47-50 Sts-Rockefeller CtrF,47th-50th Sts - Rockefeller Ctr
+EL235,10,47-50 Sts-Rockefeller Center,BDFM,98.79%,98.44%,100.00%,5,4,0,MTA,M,225,NA,47-50 Sts-Rockefeller CtrM,47th-50th Sts - Rockefeller Ctr
+EL337,9,Chambers St,123,98.80%,99.97%,99.21%,1,6,0,MTA,1,170,NA,Chambers St1,Chambers St
+EL337,9,Chambers St,123,98.80%,99.97%,99.21%,1,6,0,MTA,2,170,NA,Chambers St2,Chambers St
+EL337,9,Chambers St,123,98.80%,99.97%,99.21%,1,6,0,MTA,3,170,NA,Chambers St3,Chambers St
+EL404,29,Roosevelt Island,F,98.80%,100.00%,98.98%,1,4,0,MTA,F,222,NA,Roosevelt IslandF,Roosevelt Island - Main St
+EL713,0,Cortlandt St,1,98.85%,100.00%,99.31%,4,6,0,MTA,1,328,NA,Cortlandt St1,Cortlandt St
+EL226,16,34 St-Penn Station,CE,98.88%,100.00%,99.27%,3,3,1,MTA,C,164,NA,34 St-Penn StationC,34th St - Penn Station
+EL226,16,34 St-Penn Station,CE,98.88%,100.00%,99.27%,3,3,1,MTA,E,164,NA,34 St-Penn StationE,34th St - Penn Station
+EL299,2,23 St,6,98.94%,99.19%,98.45%,4,2,1,MTA,6,228,NA,23 St6,23rd St
+EL112**,21,68 St,1,98.98%,100.00%,100.00%,N/A,1,0,MTA,1,302,NA,68 St1,168th St
+EL722,5,Fulton St,JZ,98.99%,99.91%,99.35%,4,7,0,MTA,J,292,NA,Fulton StJ,Fulton St
+EL722,5,Fulton St,JZ,98.99%,99.91%,99.35%,4,7,0,MTA,Z,292,NA,Fulton StZ,Fulton St
+EL259,2,72 St,Q,99.01%,99.94%,100.00%,3,7,0,MTA,Q,313,NA,72 StQ,72nd St
+EL118,14,181 St,A,99.07%,98.96%,99.85%,8,6,0,MTA,A,146,NA,181 StA,181st St
+EL222,16,14 St,ACE,99.07%,100.00%,98.42%,5,4,0,MTA,A,166,NA,14 StA,14th St
+EL222,16,14 St,ACE,99.07%,100.00%,98.42%,5,4,0,MTA,C,166,NA,14 StC,14th St
+EL222,16,14 St,ACE,99.07%,100.00%,98.42%,5,4,0,MTA,E,166,NA,14 StE,14th St
+EL141,12,168 St,AC,99.09%,99.42%,99.95%,3,2,0,MTA,A,302,NA,168 StA,168th St
+EL141,12,168 St,AC,99.09%,99.42%,99.95%,3,2,0,MTA,C,302,NA,168 StC,168th St
+EL249,2,86 St,Q,99.09%,100.00%,99.72%,N/A,6,0,MTA,Q,79,NA,86 StQ,86th St
+EL234,10,47-50 Sts-Rockefeller Center,BDFM,99.13%,99.51%,98.83%,4,4,0,MTA,B,225,NA,47-50 Sts-Rockefeller CtrB,47th-50th Sts - Rockefeller Ctr
+EL234,10,47-50 Sts-Rockefeller Center,BDFM,99.13%,99.51%,98.83%,4,4,0,MTA,D,225,NA,47-50 Sts-Rockefeller CtrD,47th-50th Sts - Rockefeller Ctr
+EL234,10,47-50 Sts-Rockefeller Center,BDFM,99.13%,99.51%,98.83%,4,4,0,MTA,F,225,NA,47-50 Sts-Rockefeller CtrF,47th-50th Sts - Rockefeller Ctr
+EL234,10,47-50 Sts-Rockefeller Center,BDFM,99.13%,99.51%,98.83%,4,4,0,MTA,M,225,NA,47-50 Sts-Rockefeller CtrM,47th-50th Sts - Rockefeller Ctr
+EL248,2,96 St,Q,99.14%,100.00%,100.00%,1,6,0,MTA,Q,157,NA,96 StQ,96th St
+EL732,11,Fulton St,23,99.19%,99.28%,100.00%,2,3,0,MTA,2,292,NA,Fulton St2,Fulton St
+EL732,11,Fulton St,23,99.19%,99.28%,100.00%,2,3,0,MTA,3,292,NA,Fulton St3,Fulton St
+EL117,16,181 St,A,99.19%,99.81%,99.86%,6,8,0,MTA,A,145,NA,181 StA,181st St
+EL298,2,23 St,6,99.20%,99.14%,100.00%,5,2,0,MTA,6,228,NA,23 St6,23rd St
+EL143,13,125 St,ABCD,99.26%,100.00%,100.00%,N/A,3,0,MTA,A,153,NA,125 StA,125th St
+EL143,13,125 St,ABCD,99.26%,100.00%,100.00%,N/A,3,0,MTA,B,153,NA,125 StB,125th St
+EL143,13,125 St,ABCD,99.26%,100.00%,100.00%,N/A,3,0,MTA,C,153,NA,125 StC,125th St
+EL143,13,125 St,ABCD,99.26%,100.00%,100.00%,N/A,3,0,MTA,D,153,NA,125 StD,125th St
+EL236,10,47-50 Sts-Rockefeller Center,BDFM,99.27%,99.51%,100.00%,1,4,0,MTA,B,225,NA,47-50 Sts-Rockefeller CtrB,47th-50th Sts - Rockefeller Ctr
+EL236,10,47-50 Sts-Rockefeller Center,BDFM,99.27%,99.51%,100.00%,1,4,0,MTA,D,225,NA,47-50 Sts-Rockefeller CtrD,47th-50th Sts - Rockefeller Ctr
+EL236,10,47-50 Sts-Rockefeller Center,BDFM,99.27%,99.51%,100.00%,1,4,0,MTA,F,225,NA,47-50 Sts-Rockefeller CtrF,47th-50th Sts - Rockefeller Ctr
+EL236,10,47-50 Sts-Rockefeller Center,BDFM,99.27%,99.51%,100.00%,1,4,0,MTA,M,225,NA,47-50 Sts-Rockefeller CtrM,47th-50th Sts - Rockefeller Ctr
+EL240,15,72 St,123,99.27%,100.00%,100.00%,N/A,3,0,MTA,1,313,NA,72 St1,72nd St
+EL240,15,72 St,123,99.27%,100.00%,100.00%,N/A,3,0,MTA,2,313,NA,72 St2,72nd St
+EL240,15,72 St,123,99.27%,100.00%,100.00%,N/A,3,0,MTA,3,313,NA,72 St3,72nd St
+EL239,15,72 St,123,99.28%,100.00%,100.00%,N/A,3,0,MTA,1,313,NA,72 St1,72nd St
+EL239,15,72 St,123,99.28%,100.00%,100.00%,N/A,3,0,MTA,2,313,NA,72 St2,72nd St
+EL239,15,72 St,123,99.28%,100.00%,100.00%,N/A,3,0,MTA,3,313,NA,72 St3,72nd St
+EL220,18,14 St-Union Sq,NQRW,99.31%,100.00%,100.00%,2,3,0,MTA,N,15,NA,Union Sq-14 StN,Union Sq - 14th St
+EL220,18,14 St-Union Sq,NQRW,99.31%,100.00%,100.00%,2,3,0,MTA,Q,15,NA,Union Sq-14 StQ,Union Sq - 14th St
+EL220,18,14 St-Union Sq,NQRW,99.31%,100.00%,100.00%,2,3,0,MTA,R,15,NA,Union Sq-14 StR,Union Sq - 14th St
+EL220,18,14 St-Union Sq,NQRW,99.31%,100.00%,100.00%,2,3,0,MTA,W,15,NA,Union Sq-14 StW,Union Sq - 14th St
+EL600,3,34 St-Hudson Yards,7,99.34%,99.53%,99.93%,2,5,0,MTA,7,471,NA,34 St-Hudson Yards7,34th St - Hudson Yards
+EL603,3,34 St-Hudson Yards,7,99.73%,100.00%,100.00%,3,5,0,MTA,7,471,NA,34 St-Hudson Yards7,34th St - Hudson Yards
+EL340,19,Franklin Av,CS,78.96%,79.75%,81.55%,5,5,0,MTA,C,139,NA,Franklin AveC,Franklin Ave
+EL340,19,Franklin Av,CS,78.96%,79.75%,81.55%,5,5,0,MTA,S,139,NA,Franklin Ave-Fulton StS,Franklin Ave - Fulton St
+EL312,18,Clark St,23,81.47%,83.61%,83.04%,12,11,3,MTA,2,334,NA,Clark St2,Clark St
+EL312,18,Clark St,23,81.47%,83.61%,83.04%,12,11,3,MTA,3,334,NA,Clark St3,Clark St
+EL342,13,Euclid Av,AC,88.16%,86.57%,90.51%,8,8,2,MTA,A,188,NA,Euclid AveA,Euclid Ave
+EL342,13,Euclid Av,AC,88.16%,86.57%,90.51%,8,8,2,MTA,C,188,NA,Euclid AveC,Euclid Ave
+EL310,18,Clark St,23,89.73%,91.11%,89.87%,5,7,2,MTA,2,334,NA,Clark St2,Clark St
+EL310,18,Clark St,23,89.73%,91.11%,89.87%,5,7,2,MTA,3,334,NA,Clark St3,Clark St
+EL382,15,Prospect Park,BQS,93.61%,90.81%,95.23%,4,19,0,MTA,B,42,NA,Prospect ParkB,Prospect Park
+EL382,15,Prospect Park,BQS,93.61%,90.81%,95.23%,4,19,0,MTA,Q,42,NA,Prospect ParkQ,Prospect Park
+EL382,15,Prospect Park,BQS,93.61%,90.81%,95.23%,4,19,0,MTA,S,42,NA,Prospect ParkS,Prospect Park
+EL398,11,Myrtle-Wyckoff Avs,M,93.99%,92.91%,95.56%,3,5,0,MTA,M,#N/A,NA,Myrtle-Wyckoff AvesM,Myrtle - Wyckoff Aves
+EL397,11,Myrtle-Wyckoff Avs,L,94.28%,94.44%,95.56%,2,6,0,MTA,L,128,NA,Myrtle-Wyckoff AvesL,Myrtle - Wyckoff Aves
+EL311,18,Clark St,23,94.28%,99.14%,92.56%,17,17,2,MTA,2,334,NA,Clark St2,Clark St
+EL311,18,Clark St,23,94.28%,99.14%,92.56%,17,17,2,MTA,3,334,NA,Clark St3,Clark St
+EL376,6,Bay Parkway,D,94.71%,95.49%,92.95%,19,7,0,MTA,D,68,NA,Bay PkyD,Bay Pky
+EL301,14,Pacific St-Atlantic Av,DNR,95.12%,94.79%,97.08%,14,7,0,MTA,D,27,NA,Atlantic Ave-Barclays CtrD,Atlantic Av - Barclay's Center
+EL301,14,Pacific St-Atlantic Av,DNR,95.12%,94.79%,97.08%,14,7,0,MTA,N,27,NA,Atlantic Ave-Barclays CtrN,Atlantic Av - Barclay's Center
+EL301,14,Pacific St-Atlantic Av,DNR,95.12%,94.79%,97.08%,14,7,0,MTA,R,27,NA,Atlantic Ave-Barclays CtrR,Atlantic Av - Barclay's Center
+EL393,16,Flushing Av,JM,95.53%,96.77%,93.96%,18,10,0,MTA,J,287,NA,Flushing AveJ,Flushing Ave
+EL393,16,Flushing Av,JM,95.53%,96.77%,93.96%,18,10,0,MTA,M,287,NA,Flushing AveM,Flushing Ave
+EL339,19,Franklin Av,CS,95.94%,96.06%,96.04%,3,4,0,MTA,C,139,NA,Franklin AveC,Franklin Ave
+EL339,19,Franklin Av,CS,95.94%,96.06%,96.04%,3,4,0,MTA,S,139,NA,Franklin Ave-Fulton StS,Franklin Ave - Fulton St
+EL383,15,Prospect Park,BQS,95.97%,98.33%,96.28%,16,8,0,MTA,B,42,NA,Prospect ParkB,Prospect Park
+EL383,15,Prospect Park,BQS,95.97%,98.33%,96.28%,16,8,0,MTA,Q,42,NA,Prospect ParkQ,Prospect Park
+EL383,15,Prospect Park,BQS,95.97%,98.33%,96.28%,16,8,0,MTA,S,42,NA,Prospect ParkS,Prospect Park
+EL761,7,Kings Highway,BQ,96.09%,98.89%,95.62%,10,6,1,MTA,B,#N/A,NA,Kings HighwayB,Kings Hwy
+EL761,7,Kings Highway,BQ,96.09%,98.89%,95.62%,10,6,1,MTA,Q,#N/A,NA,Kings HighwayQ,Kings Hwy
+EL304,14,Atlantic Av,23,96.31%,96.09%,97.88%,3,6,0,MTA,2,338,NA,Atlantic Ave-Barclays Ctr2,Atlantic Av - Barclay's Center
+EL304,14,Atlantic Av,23,96.31%,96.09%,97.88%,3,6,0,MTA,3,338,NA,Atlantic Ave-Barclays Ctr3,Atlantic Av - Barclay's Center
+EL343,13,Euclid Av,AC,96.31%,97.68%,96.51%,1,6,0,MTA,A,188,NA,Euclid AveA,Euclid Ave
+EL343,13,Euclid Av,AC,96.31%,97.68%,96.51%,1,6,0,MTA,C,188,NA,Euclid AveC,Euclid Ave
+EL302,14,Pacific St-Atlantic Av,DNR,96.45%,97.86%,96.46%,11,5,0,MTA,D,27,NA,Atlantic Ave-Barclays CtrD,Atlantic Av - Barclay's Center
+EL302,14,Pacific St-Atlantic Av,DNR,96.45%,97.86%,96.46%,11,5,0,MTA,N,27,NA,Atlantic Ave-Barclays CtrN,Atlantic Av - Barclay's Center
+EL302,14,Pacific St-Atlantic Av,DNR,96.45%,97.86%,96.46%,11,5,0,MTA,R,27,NA,Atlantic Ave-Barclays CtrR,Atlantic Av - Barclay's Center
+EL346,4,Utica Av,AC,96.93%,97.11%,99.35%,13,9,1,MTA,A,181,NA,Utica AveA,Utica Ave
+EL346,4,Utica Av,AC,96.93%,97.11%,99.35%,13,9,1,MTA,C,181,NA,Utica AveC,Utica Ave
+EL708,8,Jay St,ACFR,96.96%,99.01%,96.61%,39,10,0,MTA,A,174,NA,Jay St-MetroTechA,Jay St - MetroTech
+EL708,8,Jay St,ACFR,96.96%,99.01%,96.61%,39,10,0,MTA,C,174,NA,Jay St-MetroTechC,Jay St - MetroTech
+EL708,8,Jay St,ACFR,96.96%,99.01%,96.61%,39,10,0,MTA,F,174,NA,Jay St-MetroTechF,Jay St - MetroTech
+EL708,8,Jay St,ACFR,96.96%,99.01%,96.61%,39,10,0,MTA,R,174,NA,Jay St-MetroTechR,Jay St - MetroTech
+EL344,4,Utica Av,AC,97.18%,99.17%,97.77%,11,8,0,MTA,A,181,NA,Utica AveA,Utica Ave
+EL344,4,Utica Av,AC,97.18%,99.17%,97.77%,11,8,0,MTA,C,181,NA,Utica AveC,Utica Ave
+EL760,7,Kings Highway,BQ,97.18%,99.51%,95.81%,14,8,1,MTA,B,#N/A,NA,Kings HighwayB,Kings Hwy
+EL760,7,Kings Highway,BQ,97.18%,99.51%,95.81%,14,8,1,MTA,Q,#N/A,NA,Kings HighwayQ,Kings Hwy
+EL318,24,Borough Hall,2345,97.23%,99.63%,97.55%,6,8,0,MTA,2,24,NA,Borough Hall2,Borough Hall
+EL318,24,Borough Hall,2345,97.23%,99.63%,97.55%,6,8,0,MTA,3,24,NA,Borough Hall3,Borough Hall
+EL318,24,Borough Hall,2345,97.23%,99.63%,97.55%,6,8,0,MTA,4,24,NA,Borough Hall4,Borough Hall
+EL318,24,Borough Hall,2345,97.23%,99.63%,97.55%,6,8,0,MTA,5,24,NA,Borough Hall5,Borough Hall
+EL320,20,Church Av,25,97.26%,97.85%,96.16%,6,9,1,MTA,2,356,NA,Church Ave2,Church Ave
+EL320,20,Church Av,25,97.26%,97.85%,96.16%,6,9,1,MTA,5,356,NA,Church Ave5,Church Ave
+EL707,8,Jay St,ACFR,97.33%,98.07%,98.87%,8,9,1,MTA,A,174,NA,Jay St-MetroTechA,Jay St - MetroTech
+EL707,8,Jay St,ACFR,97.33%,98.07%,98.87%,8,9,1,MTA,C,174,NA,Jay St-MetroTechC,Jay St - MetroTech
+EL707,8,Jay St,ACFR,97.33%,98.07%,98.87%,8,9,1,MTA,F,174,NA,Jay St-MetroTechF,Jay St - MetroTech
+EL707,8,Jay St,ACFR,97.33%,98.07%,98.87%,8,9,1,MTA,R,174,NA,Jay St-MetroTechR,Jay St - MetroTech
+EL373,10,Church Av,FG,97.59%,97.73%,98.14%,5,7,0,MTA,F,243,NA,Church AveF,Church Ave
+EL373,10,Church Av,FG,97.59%,97.73%,98.14%,5,7,0,MTA,G,243,NA,Church AveG,Church Ave
+EL309,17,Court St,R,97.62%,97.84%,98.89%,5,3,1,MTA,R,24,NA,Court StR,Court St
+EL341,13,Euclid Av,AC,97.70%,99.30%,95.72%,9,5,0,MTA,A,188,NA,Euclid AveA,Euclid Ave
+EL341,13,Euclid Av,AC,97.70%,99.30%,95.72%,9,5,0,MTA,C,188,NA,Euclid AveC,Euclid Ave
+EL345,4,Utica Av,AC,97.86%,97.59%,98.53%,5,7,0,MTA,A,181,NA,Utica AveA,Utica Ave
+EL345,4,Utica Av,AC,97.86%,97.59%,98.53%,5,7,0,MTA,C,181,NA,Utica AveC,Utica Ave
+EL391,14,Marcy Av,JMZ,98.00%,98.33%,99.51%,8,7,1,MTA,J,101,NA,Marcy AveJ,Marcy Ave
+EL391,14,Marcy Av,JMZ,98.00%,98.33%,99.51%,8,7,1,MTA,M,101,NA,Marcy AveM,Marcy Ave
+EL391,14,Marcy Av,JMZ,98.00%,98.33%,99.51%,8,7,1,MTA,Z,101,NA,Marcy AveZ,Marcy Ave
+EL377,6,Bay Parkway,D,98.07%,98.25%,97.95%,6,6,0,MTA,D,68,NA,Bay PkyD,Bay Pky
+EL307,15,Atlantic Av,BQ,98.07%,99.88%,98.89%,2,7,0,MTA,B,40,NA,Atlantic Ave-Barclays CtrB,Atlantic Av - Barclay's Center
+EL307,15,Atlantic Av,BQ,98.07%,99.88%,98.89%,2,7,0,MTA,Q,40,NA,Atlantic Ave-Barclays CtrQ,Atlantic Av - Barclay's Center
+EL394,16,Flushing Av,JM,98.12%,99.58%,99.06%,5,5,2,MTA,J,287,NA,Flushing AveJ,Flushing Ave
+EL394,16,Flushing Av,JM,98.12%,99.58%,99.06%,5,5,2,MTA,M,287,NA,Flushing AveM,Flushing Ave
+EL371,13,DeKalb Av,BQR,98.21%,99.94%,98.54%,6,6,1,MTA,B,26,NA,DeKalb AveB,DeKalb Ave
+EL371,13,DeKalb Av,BQR,98.21%,99.94%,98.54%,6,6,1,MTA,Q,26,NA,DeKalb AveQ,DeKalb Ave
+EL371,13,DeKalb Av,BQR,98.21%,99.94%,98.54%,6,6,1,MTA,R,26,NA,DeKalb AveR,DeKalb Ave
+EL306,14,Atlantic Av,23,98.32%,99.10%,98.92%,3,5,2,MTA,2,338,NA,Atlantic Ave-Barclays Ctr2,Atlantic Av - Barclay's Center
+EL306,14,Atlantic Av,23,98.32%,99.10%,98.92%,3,5,2,MTA,3,338,NA,Atlantic Ave-Barclays Ctr3,Atlantic Av - Barclay's Center
+EL378,6,Bay Parkway,D,98.40%,99.84%,99.63%,2,7,0,MTA,D,68,NA,Bay PkyD,Bay Pky
+EL317,24,Borough Hall,2345,98.46%,99.98%,99.45%,3,7,0,MTA,2,24,NA,Borough Hall2,Borough Hall
+EL317,24,Borough Hall,2345,98.46%,99.98%,99.45%,3,7,0,MTA,3,24,NA,Borough Hall3,Borough Hall
+EL317,24,Borough Hall,2345,98.46%,99.98%,99.45%,3,7,0,MTA,4,24,NA,Borough Hall4,Borough Hall
+EL317,24,Borough Hall,2345,98.46%,99.98%,99.45%,3,7,0,MTA,5,24,NA,Borough Hall5,Borough Hall
+EL322,14,Crown Hts-Utica Av,34,98.48%,100.00%,99.26%,5,5,0,MTA,3,345,NA,Crown Hts-Utica Ave3,Crown Hts - Utica Ave
+EL322,14,Crown Hts-Utica Av,34,98.48%,100.00%,99.26%,5,5,0,MTA,4,345,NA,Crown Hts-Utica Ave4,Crown Hts - Utica Ave
+EL308,17,Court St,R,98.54%,99.69%,99.25%,3,5,2,MTA,R,24,NA,Court StR,Court St
+EL396,11,Myrtle-Wyckoff Avs,LM,98.58%,97.79%,98.86%,4,5,0,MTA,L,112,NA,Myrtle-Wyckoff AvesL,Myrtle - Wyckoff Aves
+EL396,11,Myrtle-Wyckoff Avs,LM,98.58%,97.79%,98.86%,4,5,0,MTA,M,112,NA,Myrtle-Wyckoff AvesM,Myrtle - Wyckoff Aves
+EL305,14,Atlantic Av,45,98.62%,99.44%,99.20%,5,9,0,MTA,4,338,NA,Atlantic Ave-Barclays Ctr4,Atlantic Av - Barclay's Center
+EL305,14,Atlantic Av,45,98.62%,99.44%,99.20%,5,9,0,MTA,5,338,NA,Atlantic Ave-Barclays Ctr5,Atlantic Av - Barclay's Center
+EL395,16,Flushing Av,JM,98.64%,98.19%,98.30%,5,4,1,MTA,J,287,NA,Flushing AveJ,Flushing Ave
+EL395,16,Flushing Av,JM,98.64%,98.19%,98.30%,5,4,1,MTA,M,287,NA,Flushing AveM,Flushing Ave
+EL303,14,Pacific St-Atlantic Av,DNR,98.66%,99.63%,98.71%,3,3,1,MTA,D,27,NA,Atlantic Ave-Barclays CtrD,Atlantic Av - Barclay's Center
+EL303,14,Pacific St-Atlantic Av,DNR,98.66%,99.63%,98.71%,3,3,1,MTA,N,27,NA,Atlantic Ave-Barclays CtrN,Atlantic Av - Barclay's Center
+EL303,14,Pacific St-Atlantic Av,DNR,98.66%,99.63%,98.71%,3,3,1,MTA,R,27,NA,Atlantic Ave-Barclays CtrR,Atlantic Av - Barclay's Center
+EL323,14,Crown Hts-Utica Av,34,98.69%,99.31%,98.78%,4,4,0,MTA,3,345,NA,Crown Hts-Utica Ave3,Crown Hts - Utica Ave
+EL323,14,Crown Hts-Utica Av,34,98.69%,99.31%,98.78%,4,4,0,MTA,4,345,NA,Crown Hts-Utica Ave4,Crown Hts - Utica Ave
+EL321,20,Church Av,25,98.70%,99.74%,100.00%,0,8,0,MTA,2,356,NA,Church Ave2,Church Ave
+EL321,20,Church Av,25,98.70%,99.74%,100.00%,0,8,0,MTA,5,356,NA,Church Ave5,Church Ave
+EL709,8,Jay St,ACFR,98.70%,99.94%,99.42%,8,4,2,MTA,A,174,NA,Jay St-MetroTechA,Jay St - MetroTech
+EL709,8,Jay St,ACFR,98.70%,99.94%,99.42%,8,4,2,MTA,C,174,NA,Jay St-MetroTechC,Jay St - MetroTech
+EL709,8,Jay St,ACFR,98.70%,99.94%,99.42%,8,4,2,MTA,F,174,NA,Jay St-MetroTechF,Jay St - MetroTech
+EL709,8,Jay St,ACFR,98.70%,99.94%,99.42%,8,4,2,MTA,R,174,NA,Jay St-MetroTechR,Jay St - MetroTech
+EL706,8,Jay St,ACFR,98.82%,99.48%,99.89%,13,6,1,MTA,A,174,NA,Jay St-MetroTechA,Jay St - MetroTech
+EL706,8,Jay St,ACFR,98.82%,99.48%,99.89%,13,6,1,MTA,C,174,NA,Jay St-MetroTechC,Jay St - MetroTech
+EL706,8,Jay St,ACFR,98.82%,99.48%,99.89%,13,6,1,MTA,F,174,NA,Jay St-MetroTechF,Jay St - MetroTech
+EL706,8,Jay St,ACFR,98.82%,99.48%,99.89%,13,6,1,MTA,R,174,NA,Jay St-MetroTechR,Jay St - MetroTech
+EL374,10,Church Av,FG,98.83%,98.17%,99.19%,5,2,1,MTA,F,243,NA,Church AveF,Church Ave
+EL374,10,Church Av,FG,98.83%,98.17%,99.19%,5,2,1,MTA,G,243,NA,Church AveG,Church Ave
+EL375,10,Church Av,FG,98.90%,100.00%,99.63%,3,2,0,MTA,F,243,NA,Church AveF,Church Ave
+EL375,10,Church Av,FG,98.90%,100.00%,99.63%,3,2,0,MTA,G,243,NA,Church AveG,Church Ave
+EL319,21,Brooklyn College-Flatbush Av,25,98.96%,99.80%,100.00%,3,5,1,MTA,2,359,NA,Brooklyn College-Flatbush Ave2,Brooklyn College - Flatbush Ave
+EL319,21,Brooklyn College-Flatbush Av,25,98.96%,99.80%,100.00%,3,5,1,MTA,5,359,NA,Brooklyn College-Flatbush Ave5,Brooklyn College - Flatbush Ave
+EL370,13,DeKalb Av,BQR,99.05%,99.40%,100.00%,1,3,0,MTA,B,26,NA,DeKalb AveB,DeKalb Ave
+EL370,13,DeKalb Av,BQR,99.05%,99.40%,100.00%,1,3,0,MTA,Q,26,NA,DeKalb AveQ,DeKalb Ave
+EL370,13,DeKalb Av,BQR,99.05%,99.40%,100.00%,1,3,0,MTA,R,26,NA,DeKalb AveR,DeKalb Ave
+EL392,14,Marcy Av,JMZ,99.07%,99.77%,99.98%,1,4,0,MTA,J,101,NA,Marcy AveJ,Marcy Ave
+EL392,14,Marcy Av,JMZ,99.07%,99.77%,99.98%,1,4,0,MTA,M,101,NA,Marcy AveM,Marcy Ave
+EL392,14,Marcy Av,JMZ,99.07%,99.77%,99.98%,1,4,0,MTA,Z,101,NA,Marcy AveZ,Marcy Ave
+EL372,13,DeKalb Av,BQR,99.12%,100.00%,99.77%,5,2,0,MTA,B,26,NA,DeKalb AveB,DeKalb Ave
+EL372,13,DeKalb Av,BQR,99.12%,100.00%,99.77%,5,2,0,MTA,Q,26,NA,DeKalb AveQ,DeKalb Ave
+EL372,13,DeKalb Av,BQR,99.12%,100.00%,99.77%,5,2,0,MTA,R,26,NA,DeKalb AveR,DeKalb Ave
+EL701,13,Coney Island-Stillwell Av,DFNQ,99.29%,99.44%,98.89%,1,2,0,MTA,D,58,NA,Coney Island-Stillwell AveD,Coney Island - Stillwell Av
+EL701,13,Coney Island-Stillwell Av,DFNQ,99.29%,99.44%,98.89%,1,2,0,MTA,F,58,NA,Coney Island-Stillwell AveF,Coney Island - Stillwell Av
+EL701,13,Coney Island-Stillwell Av,DFNQ,99.29%,99.44%,98.89%,1,2,0,MTA,N,58,NA,Coney Island-Stillwell AveN,Coney Island - Stillwell Av
+EL701,13,Coney Island-Stillwell Av,DFNQ,99.29%,99.44%,98.89%,1,2,0,MTA,Q,58,NA,Coney Island-Stillwell AveQ,Coney Island - Stillwell Av
+EL702,13,Coney Island-Stillwell Av,DFNQ,99.30%,99.51%,99.68%,3,3,1,MTA,D,58,NA,Coney Island-Stillwell AveD,Coney Island - Stillwell Av
+EL702,13,Coney Island-Stillwell Av,DFNQ,99.30%,99.51%,99.68%,3,3,1,MTA,F,58,NA,Coney Island-Stillwell AveF,Coney Island - Stillwell Av
+EL702,13,Coney Island-Stillwell Av,DFNQ,99.30%,99.51%,99.68%,3,3,1,MTA,N,58,NA,Coney Island-Stillwell AveN,Coney Island - Stillwell Av
+EL702,13,Coney Island-Stillwell Av,DFNQ,99.30%,99.51%,99.68%,3,3,1,MTA,Q,58,NA,Coney Island-Stillwell AveQ,Coney Island - Stillwell Av
+EL427,12,Junction Blvd,7,89.84%,89.39%,89.91%,3,10,0,MTA,7,451,NA,Junction Blvd7,Junction Blvd
+EL426,12,Junction Blvd,7,91.17%,86.17%,95.34%,10,20,2,MTA,7,451,NA,Junction Blvd7,Junction Blvd
+EL425,12,Junction Blvd,7,92.67%,94.95%,93.76%,13,7,3,MTA,7,451,NA,Junction Blvd7,Junction Blvd
+EL424,1,Briarwood,EF,92.90%,92.39%,93.67%,17,13,3,MTA,E,258,NA,BriarwoodE,Briarwood - Van Wyck Blvd
+EL424,1,Briarwood,EF,92.90%,92.39%,93.67%,17,13,3,MTA,F,258,NA,BriarwoodF,Briarwood - Van Wyck Blvd
+EL432,13,Jamaica-179 St,F,94.25%,91.95%,95.27%,4,16,0,MTA,F,#N/A,NA,Jamaica-179 StF,Jamaica - 179th St
+EL434,10,Kew Gardens-Union Tpke,EF,94.86%,95.48%,95.87%,9,6,0,MTA,E,259,NA,Kew Gardens-Union TpkeE,Kew Gardens - Union Tpke
+EL434,10,Kew Gardens-Union Tpke,EF,94.86%,95.48%,95.87%,9,6,0,MTA,F,259,NA,Kew Gardens-Union TpkeF,Kew Gardens - Union Tpke
+EL431,13,Jamaica-179 St,F,95.18%,94.86%,95.15%,13,9,0,MTA,F,#N/A,NA,Jamaica-179 StF,Jamaica - 179th St
+EL405,2,21 St-Queensbridge,F,96.18%,96.99%,98.25%,11,7,3,MTA,F,221,NA,21 St-QueensbridgeF,21st St - Queensbridge
+EL421,13,Jackson Hts-Roosevelt Av,EFMR,96.22%,96.89%,96.23%,3,13,2,MTA,E,267,NA,Jackson Hts-Roosevelt AveE,Jackson Hts - Roosevelt Av
+EL421,13,Jackson Hts-Roosevelt Av,EFMR,96.22%,96.89%,96.23%,3,13,2,MTA,F,267,NA,Jackson Hts-Roosevelt AveF,Jackson Hts - Roosevelt Av
+EL421,13,Jackson Hts-Roosevelt Av,EFMR,96.22%,96.89%,96.23%,3,13,2,MTA,M,267,NA,Jackson Hts-Roosevelt AveM,Jackson Hts - Roosevelt Av
+EL421,13,Jackson Hts-Roosevelt Av,EFMR,96.22%,96.89%,96.23%,3,13,2,MTA,R,267,NA,Jackson Hts-Roosevelt AveR,Jackson Hts - Roosevelt Av
+EL462,1,Ozone Park-Lefferts Boulevard,A,96.60%,96.99%,93.09%,6,6,1,MTA,A,#N/A,NA,Ozone Park-Lefferts BlvdA,Ozone Park - Lefferts Blvd
+EL437,4,Forest Hills,EFMR,96.63%,96.20%,95.05%,13,7,1,MTA,E,261,NA,Forest Hills-71 AveE,Forest Hills - 71st Av
+EL437,4,Forest Hills,EFMR,96.63%,96.20%,95.05%,13,7,1,MTA,F,261,NA,Forest Hills-71 AveF,Forest Hills - 71st Av
+EL437,4,Forest Hills,EFMR,96.63%,96.20%,95.05%,13,7,1,MTA,M,261,NA,Forest Hills-71 AveM,Forest Hills - 71st Av
+EL437,4,Forest Hills,EFMR,96.63%,96.20%,95.05%,13,7,1,MTA,R,261,NA,Forest Hills-71 AveR,Forest Hills - 71st Av
+EL420,13,74 St-Broadway,7,96.71%,97.71%,97.34%,8,6,1,MTA,7,454,NA,74 St-Broadway7,74th St - Broadway
+EL412,30,Jamaica Center,EJZ,96.76%,97.02%,98.54%,15,7,1,MTA,E,278,NA,Jamaica CtrE,Jamaica Ctr - Parsons / Archer
+EL412,30,Jamaica Center,EJZ,96.76%,97.02%,98.54%,15,7,1,MTA,J,278,NA,Jamaica CtrJ,Jamaica Ctr - Parsons / Archer
+EL412,30,Jamaica Center,EJZ,96.76%,97.02%,98.54%,15,7,1,MTA,Z,278,NA,Jamaica CtrZ,Jamaica Ctr - Parsons / Archer
+EL423,13,74 St-Broadway,7,96.91%,95.29%,99.86%,3,10,0,MTA,7,454,NA,74 St-Broadway7,74th St - Broadway
+EL439,4,Forest Hills,EFMR,96.99%,98.17%,96.86%,10,12,0,MTA,E,261,NA,Forest Hills-71 AveE,Forest Hills - 71st Av
+EL439,4,Forest Hills,EFMR,96.99%,98.17%,96.86%,10,12,0,MTA,F,261,NA,Forest Hills-71 AveF,Forest Hills - 71st Av
+EL439,4,Forest Hills,EFMR,96.99%,98.17%,96.86%,10,12,0,MTA,M,261,NA,Forest Hills-71 AveM,Forest Hills - 71st Av
+EL439,4,Forest Hills,EFMR,96.99%,98.17%,96.86%,10,12,0,MTA,R,261,NA,Forest Hills-71 AveR,Forest Hills - 71st Av
+EL413,30,Jamaica Center,EJZ,97.15%,97.97%,99.53%,10,8,0,MTA,E,278,NA,Jamaica CtrE,Jamaica Ctr - Parsons / Archer
+EL413,30,Jamaica Center,EJZ,97.15%,97.97%,99.53%,10,8,0,MTA,J,278,NA,Jamaica CtrJ,Jamaica Ctr - Parsons / Archer
+EL413,30,Jamaica Center,EJZ,97.15%,97.97%,99.53%,10,8,0,MTA,Z,278,NA,Jamaica CtrZ,Jamaica Ctr - Parsons / Archer
+EL414,19,Flushing-Main St,7,97.69%,99.12%,96.70%,6,6,1,MTA,7,447,NA,Flushing-Main St7,Flushing - Main St
+EL433,13,Jamaica-179 St,F,97.91%,97.94%,98.76%,6,5,0,MTA,F,#N/A,NA,Jamaica-179 StF,Jamaica - 179th St
+EL409,2,Jamaica-Van Wyck,E,98.02%,97.59%,100.00%,6,4,2,MTA,E,280,NA,Jamaica-Van WyckE,Jamaica - Van Wyck
+EL429,13,Queens Plaza,EMR,98.05%,99.36%,99.98%,3,7,0,MTA,E,273,NA,Queens PlazaE,Queens Plz
+EL429,13,Queens Plaza,EMR,98.05%,99.36%,99.98%,3,7,0,MTA,M,273,NA,Queens PlazaM,Queens Plz
+EL429,13,Queens Plaza,EMR,98.05%,99.36%,99.98%,3,7,0,MTA,R,273,NA,Queens PlazaR,Queens Plz
+EL446,7,CitiCorp/Court Square,7EG,98.06%,98.38%,99.33%,6,5,3,MTA,7,462,NA,Court Sq7,Court Sq
+EL446,7,CitiCorp/Court Square,7EG,98.06%,98.38%,99.33%,6,5,3,MTA,E,274,NA,Court Sq-23 StE,Court Sq - 23rd St
+EL446,7,CitiCorp/Court Square,7EG,98.06%,98.38%,99.33%,6,5,3,MTA,G,281,NA,Long Island City-Court SqG,Long Island City - Court Sq
+EL435,10,Kew Gardens-Union Tpke,EF,98.06%,99.79%,98.49%,4,7,1,MTA,E,259,NA,Kew Gardens-Union TpkeE,Kew Gardens - Union Tpke
+EL435,10,Kew Gardens-Union Tpke,EF,98.06%,99.79%,98.49%,4,7,1,MTA,F,259,NA,Kew Gardens-Union TpkeF,Kew Gardens - Union Tpke
+EL463,1,Ozone Park-Lefferts Boulevard,A,98.25%,98.73%,97.09%,4,5,0,MTA,A,#N/A,NA,Ozone Park-Lefferts BlvdA,Ozone Park - Lefferts Blvd
+EL438,4,Forest Hills,EFMR,98.35%,100.00%,97.73%,13,4,0,MTA,E,261,NA,Forest Hills-71 AveE,Forest Hills - 71st Av
+EL438,4,Forest Hills,EFMR,98.35%,100.00%,97.73%,13,4,0,MTA,F,261,NA,Forest Hills-71 AveF,Forest Hills - 71st Av
+EL438,4,Forest Hills,EFMR,98.35%,100.00%,97.73%,13,4,0,MTA,M,261,NA,Forest Hills-71 AveM,Forest Hills - 71st Av
+EL438,4,Forest Hills,EFMR,98.35%,100.00%,97.73%,13,4,0,MTA,R,261,NA,Forest Hills-71 AveR,Forest Hills - 71st Av
+EL497,7,Mott v,A,98.36%,98.45%,98.08%,2,6,1,MTA,A,#N/A,NA,Far Rockaway-Mott AveA,Far Rockaway - Mott Ave
+EL430,13,Queens Plaza,EMR,98.37%,99.51%,98.82%,3,4,1,MTA,E,273,NA,Queens PlazaE,Queens Plz
+EL430,13,Queens Plaza,EMR,98.37%,99.51%,98.82%,3,4,1,MTA,M,273,NA,Queens PlazaM,Queens Plz
+EL430,13,Queens Plaza,EMR,98.37%,99.51%,98.82%,3,4,1,MTA,R,273,NA,Queens PlazaR,Queens Plz
+EL408,2,Jamaica-Van Wyck,E,98.50%,100.00%,100.00%,3,6,0,MTA,E,280,NA,Jamaica-Van WyckE,Jamaica - Van Wyck
+EL428,13,Queens Plaza,EMR,98.58%,99.82%,98.88%,3,6,0,MTA,E,273,NA,Queens PlazaE,Queens Plz
+EL428,13,Queens Plaza,EMR,98.58%,99.82%,98.88%,3,6,0,MTA,M,273,NA,Queens PlazaM,Queens Plz
+EL428,13,Queens Plaza,EMR,98.58%,99.82%,98.88%,3,6,0,MTA,R,273,NA,Queens PlazaR,Queens Plz
+EL407,2,21 St-Queensbridge,F,98.64%,100.00%,99.58%,2,5,1,MTA,F,221,NA,21 St-QueensbridgeF,21st St - Queensbridge
+EL406,2,21 St-Queensbridge,F,98.69%,100.00%,98.33%,2,5,0,MTA,F,221,NA,21 St-QueensbridgeF,21st St - Queensbridge
+EL411,30,Sutphin Blvd-Archer Av-JFK,EJZ,98.83%,99.38%,99.57%,4,3,0,MTA,E,279,NA,Sutphin Blvd-Archer AveE,Sutphin Blvd - Archer Av
+EL411,30,Sutphin Blvd-Archer Av-JFK,EJZ,98.83%,99.38%,99.57%,4,3,0,MTA,J,279,NA,Sutphin Blvd-Archer AveJ,Sutphin Blvd - Archer Av
+EL411,30,Sutphin Blvd-Archer Av-JFK,EJZ,98.83%,99.38%,99.57%,4,3,0,MTA,Z,279,NA,Sutphin Blvd-Archer AveZ,Sutphin Blvd - Archer Av
+EL447,7,CitiCorp/Court Square,7EG,99.00%,98.89%,100.00%,0,5,0,MTA,7,462,NA,Court Sq7,Court Sq
+EL447,7,CitiCorp/Court Square,7EG,99.00%,98.89%,100.00%,0,5,0,MTA,E,274,NA,Court Sq-23 StE,Court Sq - 23rd St
+EL447,7,CitiCorp/Court Square,7EG,99.00%,98.89%,100.00%,0,5,0,MTA,G,281,NA,Long Island City-Court SqG,Long Island City - Court Sq
+EL422,13,Jackson Hts-Roosevelt Av,EFMR,99.03%,99.40%,99.08%,0,4,0,MTA,E,267,NA,Jackson Hts-Roosevelt AveE,Jackson Hts - Roosevelt Av
+EL422,13,Jackson Hts-Roosevelt Av,EFMR,99.03%,99.40%,99.08%,0,4,0,MTA,F,267,NA,Jackson Hts-Roosevelt AveF,Jackson Hts - Roosevelt Av
+EL422,13,Jackson Hts-Roosevelt Av,EFMR,99.03%,99.40%,99.08%,0,4,0,MTA,M,267,NA,Jackson Hts-Roosevelt AveM,Jackson Hts - Roosevelt Av
+EL422,13,Jackson Hts-Roosevelt Av,EFMR,99.03%,99.40%,99.08%,0,4,0,MTA,R,267,NA,Jackson Hts-Roosevelt AveR,Jackson Hts - Roosevelt Av
+EL436,10,Kew Gardens-Union Tpke,EF,99.31%,99.46%,100.00%,1,3,0,MTA,E,259,NA,Kew Gardens-Union TpkeE,Kew Gardens - Union Tpke
+EL436,10,Kew Gardens-Union Tpke,EF,99.31%,99.46%,100.00%,1,3,0,MTA,F,259,NA,Kew Gardens-Union TpkeF,Kew Gardens - Union Tpke
+EL498,7,Mott v,A,99.31%,99.95%,99.72%,1,3,0,MTA,A,#N/A,NA,Far Rockaway-Mott AveA,Far Rockaway - Mott Ave
+EL489X,No Data,Aqueduct Racetrack,A,33.55%,33.33%,34.18%,No Data,No Data,No Data,Genting New York LLC,A,#N/A,NA,Aqueduct RacetrackA,Aqueduct Racetrack
+EL14X,No Data,Cortlandt St,RW,72.18%,71.34%,73.32%,No Data,No Data,No Data,Port Authority,R,21,NA,Cortlandt StR,Cortlandt St
+EL14X,No Data,Cortlandt St,RW,72.18%,71.34%,73.32%,No Data,No Data,No Data,Port Authority,W,328,NA,Cortlandt StW,Cortlandt St
+EL268X,No Data,49 St,NQRW,79.24%,78.61%,80.00%,No Data,No Data,No Data,Barclays,N,10,NA,49 StN,49th St
+EL268X,No Data,49 St,NQRW,79.24%,78.61%,80.00%,No Data,No Data,No Data,Barclays,Q,10,NA,49 StQ,49th St
+EL268X,No Data,49 St,NQRW,79.24%,78.61%,80.00%,No Data,No Data,No Data,Barclays,R,10,NA,49 StR,49th St
+EL268X,No Data,49 St,NQRW,79.24%,78.61%,80.00%,No Data,No Data,No Data,Barclays,W,10,NA,49 StW,49th St
+EL34X,No Data,34 St - Penn,123,81.28%,81.09%,81.71%,No Data,No Data,No Data,LIRR,1,318,NA,34 St-Penn Station1,34th St - Penn Station
+EL34X,No Data,34 St - Penn,123,81.28%,81.09%,81.71%,No Data,No Data,No Data,LIRR,2,318,NA,34 St-Penn Station2,34th St - Penn Station
+EL34X,No Data,34 St - Penn,123,81.28%,81.09%,81.71%,No Data,No Data,No Data,LIRR,3,318,NA,34 St-Penn Station3,34th St - Penn Station
+EL700X,No Data,Atlantic Av-Barclays Ctr,2345BQ,84.38%,87.02%,80.39%,No Data,No Data,No Data,"Atlantic Rail Yards, LLC c/o Forest City
+Ratner Co",2,338,NA,Atlantic Ave-Barclays Ctr2,Atlantic Av - Barclay's Center
+EL700X,No Data,Atlantic Av-Barclays Ctr,2345BQ,84.38%,87.02%,80.39%,No Data,No Data,No Data,"Atlantic Rail Yards, LLC c/o Forest City
+Ratner Co",3,338,NA,Atlantic Ave-Barclays Ctr3,Atlantic Av - Barclay's Center
+EL700X,No Data,Atlantic Av-Barclays Ctr,2345BQ,84.38%,87.02%,80.39%,No Data,No Data,No Data,"Atlantic Rail Yards, LLC c/o Forest City
+Ratner Co",4,338,NA,Atlantic Ave-Barclays Ctr4,Atlantic Av - Barclay's Center
+EL700X,No Data,Atlantic Av-Barclays Ctr,2345BQ,84.38%,87.02%,80.39%,No Data,No Data,No Data,"Atlantic Rail Yards, LLC c/o Forest City
+Ratner Co",5,338,NA,Atlantic Ave-Barclays Ctr5,Atlantic Av - Barclay's Center
+EL700X,No Data,Atlantic Av-Barclays Ctr,2345BQ,84.38%,87.02%,80.39%,No Data,No Data,No Data,"Atlantic Rail Yards, LLC c/o Forest City
+Ratner Co",B,40,NA,Atlantic Ave-Barclays CtrB,Atlantic Av - Barclay's Center
+EL700X,No Data,Atlantic Av-Barclays Ctr,2345BQ,84.38%,87.02%,80.39%,No Data,No Data,No Data,"Atlantic Rail Yards, LLC c/o Forest City
+Ratner Co",Q,40,NA,Atlantic Ave-Barclays CtrQ,Atlantic Av - Barclay's Center
+EL18X,No Data,Cortlandt St,RW,86.76%,85.37%,87.37%,No Data,No Data,No Data,Port Authority,R,21,NA,Cortlandt StR,Cortlandt St
+EL18X,No Data,Cortlandt St,RW,86.76%,85.37%,87.37%,No Data,No Data,No Data,Port Authority,W,328,NA,Cortlandt StW,Cortlandt St
+EL203X,No Data,Lexington Av / 53 St,EM,90.10%,93.08%,88.52%,No Data,No Data,No Data,"BP 599 Lexington Avenue LLC, c/o Boston
+Properties",E,#N/A,NA,Lexington Ave-53 StE,Lexington Ave - 53rd St
+EL203X,No Data,Lexington Av / 53 St,EM,90.10%,93.08%,88.52%,No Data,No Data,No Data,"BP 599 Lexington Avenue LLC, c/o Boston
+Properties",M,#N/A,NA,Lexington Ave-53 StM,Lexington Ave - 53rd St
+EL290X,No Data,42 St - Port Authority Bus Terminal,ACE,91.04%,92.18%,91.78%,No Data,No Data,No Data,"Tishman Asset Corporation c/o the
+Intercontinental Hotel",A,163,NA,42 St-Port Authority Bus TermA,42nd St - Port Authority Bus Term
+EL290X,No Data,42 St - Port Authority Bus Terminal,ACE,91.04%,92.18%,91.78%,No Data,No Data,No Data,"Tishman Asset Corporation c/o the
+Intercontinental Hotel",C,163,NA,42 St-Port Authority Bus TermC,42nd St - Port Authority Bus Term
+EL290X,No Data,42 St - Port Authority Bus Terminal,ACE,91.04%,92.18%,91.78%,No Data,No Data,No Data,"Tishman Asset Corporation c/o the
+Intercontinental Hotel",E,163,NA,42 St-Port Authority Bus TermE,42nd St - Port Authority Bus Term
+EL279X,No Data,28 St,6,91.32%,88.89%,92.86%,No Data,No Data,No Data,Park and 28th Street Condominium,6,13,NA,28 St6,28th St
+EL295X,No Data,42 St - Bryant Park,BDFM,91.50%,92.01%,90.93%,No Data,No Data,No Data,Hines Incorporated/Bank of China,B,226,NA,42 St-Bryant ParkB,42nd St - Bryant Pk
+EL295X,No Data,42 St - Bryant Park,BDFM,91.50%,92.01%,90.93%,No Data,No Data,No Data,Hines Incorporated/Bank of China,D,226,NA,42 St-Bryant ParkD,42nd St - Bryant Pk
+EL295X,No Data,42 St - Bryant Park,BDFM,91.50%,92.01%,90.93%,No Data,No Data,No Data,Hines Incorporated/Bank of China,F,226,NA,42 St-Bryant ParkF,42nd St - Bryant Pk
+EL295X,No Data,42 St - Bryant Park,BDFM,91.50%,92.01%,90.93%,No Data,No Data,No Data,Hines Incorporated/Bank of China,M,226,NA,42 St-Bryant ParkM,42nd St - Bryant Pk
+EL276X,No Data,59 St - Columbus Cir,1ABCD,95.78%,96.28%,95.56%,No Data,No Data,No Data,"Columbus Centre LLC, c/o The Related
+Companies",1,161,NA,59 St-Columbus Circle1,59th St - Columbus Circle
+EL276X,No Data,59 St - Columbus Cir,1ABCD,95.78%,96.28%,95.56%,No Data,No Data,No Data,"Columbus Centre LLC, c/o The Related
+Companies",A,161,NA,59 St-Columbus CircleA,59th St - Columbus Circle
+EL276X,No Data,59 St - Columbus Cir,1ABCD,95.78%,96.28%,95.56%,No Data,No Data,No Data,"Columbus Centre LLC, c/o The Related
+Companies",B,161,NA,59 St-Columbus CircleB,59th St - Columbus Circle
+EL276X,No Data,59 St - Columbus Cir,1ABCD,95.78%,96.28%,95.56%,No Data,No Data,No Data,"Columbus Centre LLC, c/o The Related
+Companies",C,161,NA,59 St-Columbus CircleC,59th St - Columbus Circle
+EL276X,No Data,59 St - Columbus Cir,1ABCD,95.78%,96.28%,95.56%,No Data,No Data,No Data,"Columbus Centre LLC, c/o The Related
+Companies",D,161,NA,59 St-Columbus CircleD,59th St - Columbus Circle
+EL288X**,No Data,42 St - Port Authority Bus Terminal,ACE,95.85%,98.88%,90.63%,No Data,No Data,No Data,Port Authority,A,163,NA,42 St-Port Authority Bus TermA,42nd St - Port Authority Bus Term
+EL288X**,No Data,42 St - Port Authority Bus Terminal,ACE,95.85%,98.88%,90.63%,No Data,No Data,No Data,Port Authority,C,163,NA,42 St-Port Authority Bus TermC,42nd St - Port Authority Bus Term
+EL288X**,No Data,42 St - Port Authority Bus Terminal,ACE,95.85%,98.88%,90.63%,No Data,No Data,No Data,Port Authority,E,163,NA,42 St-Port Authority Bus TermE,42nd St - Port Authority Bus Term
+EL717X,No Data,Fulton St,ACJZ2345,95.90%,95.56%,96.67%,No Data,No Data,No Data,Westfield Management,2,292,NA,Fulton St2,Fulton St
+EL717X,No Data,Fulton St,ACJZ2345,95.90%,95.56%,96.67%,No Data,No Data,No Data,Westfield Management,3,292,NA,Fulton St3,Fulton St
+EL717X,No Data,Fulton St,ACJZ2345,95.90%,95.56%,96.67%,No Data,No Data,No Data,Westfield Management,4,292,NA,Fulton St4,Fulton St
+EL717X,No Data,Fulton St,ACJZ2345,95.90%,95.56%,96.67%,No Data,No Data,No Data,Westfield Management,5,292,NA,Fulton St5,Fulton St
+EL717X,No Data,Fulton St,ACJZ2345,95.90%,95.56%,96.67%,No Data,No Data,No Data,Westfield Management,A,292,NA,Fulton StA,Fulton St
+EL717X,No Data,Fulton St,ACJZ2345,95.90%,95.56%,96.67%,No Data,No Data,No Data,Westfield Management,C,292,NA,Fulton StC,Fulton St
+EL717X,No Data,Fulton St,ACJZ2345,95.90%,95.56%,96.67%,No Data,No Data,No Data,Westfield Management,J,292,NA,Fulton StJ,Fulton St
+EL717X,No Data,Fulton St,ACJZ2345,95.90%,95.56%,96.67%,No Data,No Data,No Data,Westfield Management,Z,292,NA,Fulton StZ,Fulton St
+EL747X,No Data,Hoyt Street-Schermerhorn Street,ACG,96.37%,96.34%,96.61%,No Data,No Data,No Data,"Hoyt & Horn, 210 Livingston Street",A,175,NA,Hoyt Street-Schermerhorn StreetA,Hoyt - Schermerhorn Sts
+EL747X,No Data,Hoyt Street-Schermerhorn Street,ACG,96.37%,96.34%,96.61%,No Data,No Data,No Data,"Hoyt & Horn, 210 Livingston Street",C,175,NA,Hoyt Street-Schermerhorn StreetC,Hoyt - Schermerhorn Sts
+EL747X,No Data,Hoyt Street-Schermerhorn Street,ACG,96.37%,96.34%,96.61%,No Data,No Data,No Data,"Hoyt & Horn, 210 Livingston Street",G,175,NA,Hoyt Street-Schermerhorn StreetG,Hoyt - Schermerhorn Sts
+EL22X,No Data,Cortlandt St,RW,96.48%,96.57%,98.84%,No Data,No Data,No Data,Port Authority,R,21,NA,Cortlandt StR,Cortlandt St
+EL22X,No Data,Cortlandt St,RW,96.48%,96.57%,98.84%,No Data,No Data,No Data,Port Authority,W,328,NA,Cortlandt StW,Cortlandt St
+EL445X,No Data,Court Square,G7,96.76%,97.78%,95.80%,No Data,No Data,No Data,Perenially Green c/o Citicorp,7,281,NA,Court Sq7,Court Sq
+EL445X,No Data,Court Square,G7,96.76%,97.78%,95.80%,No Data,No Data,No Data,Perenially Green c/o Citicorp,G,281,NA,Long Island City-Court SqG,Long Island City - Court Sq
+EL291X,No Data,42 St - Port Authority Bus Terminal,ACE,96.93%,96.99%,96.61%,No Data,No Data,No Data,"Tishman Asset Corporation c/o the
+Intercontinental Hotel",A,163,NA,42 St-Port Authority Bus TermA,42nd St - Port Authority Bus Term
+EL291X,No Data,42 St - Port Authority Bus Terminal,ACE,96.93%,96.99%,96.61%,No Data,No Data,No Data,"Tishman Asset Corporation c/o the
+Intercontinental Hotel",C,163,NA,42 St-Port Authority Bus TermC,42nd St - Port Authority Bus Term
+EL291X,No Data,42 St - Port Authority Bus Terminal,ACE,96.93%,96.99%,96.61%,No Data,No Data,No Data,"Tishman Asset Corporation c/o the
+Intercontinental Hotel",E,163,NA,42 St-Port Authority Bus TermE,42nd St - Port Authority Bus Term
+EL492X,No Data,Howard Beach,A,97.06%,96.27%,97.88%,No Data,No Data,No Data,Port Authority,A,198,NA,Howard Beach-JFK AirportA,Howard Beach - JFK Airport
+EL17X,No Data,Cortlandt St,RW,97.35%,98.77%,98.06%,No Data,No Data,No Data,Port Authority,R,21,NA,Cortlandt StR,Cortlandt St
+EL17X,No Data,Cortlandt St,RW,97.35%,98.77%,98.06%,No Data,No Data,No Data,Port Authority,W,328,NA,Cortlandt StW,Cortlandt St
+EL23X,No Data,World Trade Center,E,97.39%,96.81%,99.51%,No Data,No Data,No Data,Port Authority,E,171,NA,World Trade CtrE,World Trade Center
+EL493X,No Data,Howard Beach,A,97.60%,98.19%,97.58%,No Data,No Data,No Data,Port Authority,A,198,NA,Howard Beach-JFK AirportA,Howard Beach - JFK Airport
+EL327X,No Data,Jay St - MetroTech,ACFR,97.65%,97.36%,97.78%,No Data,No Data,No Data,Avalon Willoughby West LLC,A,174,NA,Jay St-MetroTechA,Jay St - MetroTech
+EL327X,No Data,Jay St - MetroTech,ACFR,97.65%,97.36%,97.78%,No Data,No Data,No Data,Avalon Willoughby West LLC,C,174,NA,Jay St-MetroTechC,Jay St - MetroTech
+EL327X,No Data,Jay St - MetroTech,ACFR,97.65%,97.36%,97.78%,No Data,No Data,No Data,Avalon Willoughby West LLC,F,174,NA,Jay St-MetroTechF,Jay St - MetroTech
+EL327X,No Data,Jay St - MetroTech,ACFR,97.65%,97.36%,97.78%,No Data,No Data,No Data,Avalon Willoughby West LLC,R,174,NA,Jay St-MetroTechR,Jay St - MetroTech
+EL449X,No Data,Sutphin Blvd - Archer Av - JFK Airport,EJZ,97.91%,96.96%,98.21%,No Data,No Data,No Data,Port Authority,E,#N/A,NA,Sutphin Blvd-Archer AveE,Sutphin Blvd - Archer Av
+EL449X,No Data,Sutphin Blvd - Archer Av - JFK Airport,EJZ,97.91%,96.96%,98.21%,No Data,No Data,No Data,Port Authority,J,#N/A,NA,Sutphin Blvd-Archer AveJ,Sutphin Blvd - Archer Av
+EL449X,No Data,Sutphin Blvd - Archer Av - JFK Airport,EJZ,97.91%,96.96%,98.21%,No Data,No Data,No Data,Port Authority,Z,#N/A,NA,Sutphin Blvd-Archer AveZ,Sutphin Blvd - Archer Av
+EL207X,No Data,50 St,CE,98.20%,97.80%,98.13%,No Data,No Data,No Data,"WWP Office, LLC c/o RXR Realty",C,61,NA,50 StC,50th St
+EL207X,No Data,50 St,CE,98.20%,97.80%,98.13%,No Data,No Data,No Data,"WWP Office, LLC c/o RXR Realty",E,61,NA,50 StE,50th St
+EL294X,No Data,42 St - Bryant Park,BDFM,98.27%,98.75%,97.10%,No Data,No Data,No Data,3 BP Property Owner LLC,B,226,NA,42 St-Bryant ParkB,42nd St - Bryant Pk
+EL294X,No Data,42 St - Bryant Park,BDFM,98.27%,98.75%,97.10%,No Data,No Data,No Data,3 BP Property Owner LLC,D,226,NA,42 St-Bryant ParkD,42nd St - Bryant Pk
+EL294X,No Data,42 St - Bryant Park,BDFM,98.27%,98.75%,97.10%,No Data,No Data,No Data,3 BP Property Owner LLC,F,226,NA,42 St-Bryant ParkF,42nd St - Bryant Pk
+EL294X,No Data,42 St - Bryant Park,BDFM,98.27%,98.75%,97.10%,No Data,No Data,No Data,3 BP Property Owner LLC,M,226,NA,42 St-Bryant ParkM,42nd St - Bryant Pk
+EL287X,No Data,42 St - Bryant Park,BDFM,98.39%,97.36%,98.89%,No Data,No Data,No Data,The Durst Organization,B,226,NA,42 St-Bryant ParkB,42nd St - Bryant Pk
+EL287X,No Data,42 St - Bryant Park,BDFM,98.39%,97.36%,98.89%,No Data,No Data,No Data,The Durst Organization,D,226,NA,42 St-Bryant ParkD,42nd St - Bryant Pk
+EL287X,No Data,42 St - Bryant Park,BDFM,98.39%,97.36%,98.89%,No Data,No Data,No Data,The Durst Organization,F,226,NA,42 St-Bryant ParkF,42nd St - Bryant Pk
+EL287X,No Data,42 St - Bryant Park,BDFM,98.39%,97.36%,98.89%,No Data,No Data,No Data,The Durst Organization,M,226,NA,42 St-Bryant ParkM,42nd St - Bryant Pk
+EL450X,No Data,Sutphin Blvd - Archer Av - JFK Airport,EJZ,98.49%,96.67%,99.97%,No Data,No Data,No Data,Port Authority,E,#N/A,NA,Sutphin Blvd-Archer AveE,Sutphin Blvd - Archer Av
+EL450X,No Data,Sutphin Blvd - Archer Av - JFK Airport,EJZ,98.49%,96.67%,99.97%,No Data,No Data,No Data,Port Authority,J,#N/A,NA,Sutphin Blvd-Archer AveJ,Sutphin Blvd - Archer Av
+EL450X,No Data,Sutphin Blvd - Archer Av - JFK Airport,EJZ,98.49%,96.67%,99.97%,No Data,No Data,No Data,Port Authority,Z,#N/A,NA,Sutphin Blvd-Archer AveZ,Sutphin Blvd - Archer Av
+EL448X,No Data,Sutphin Blvd - Archer Av - JFK Airport,EJZ,98.54%,98.47%,98.28%,No Data,No Data,No Data,Port Authority,E,#N/A,NA,Sutphin Blvd-Archer AveE,Sutphin Blvd - Archer Av
+EL448X,No Data,Sutphin Blvd - Archer Av - JFK Airport,EJZ,98.54%,98.47%,98.28%,No Data,No Data,No Data,Port Authority,J,#N/A,NA,Sutphin Blvd-Archer AveJ,Sutphin Blvd - Archer Av
+EL448X,No Data,Sutphin Blvd - Archer Av - JFK Airport,EJZ,98.54%,98.47%,98.28%,No Data,No Data,No Data,Port Authority,Z,#N/A,NA,Sutphin Blvd-Archer AveZ,Sutphin Blvd - Archer Av
+EL289X**,No Data,42 St - Port Authority Bus Terminal,ACE,98.57%,98.39%,100.00%,No Data,No Data,No Data,Port Authority,A,163,NA,42 St-Port Authority Bus TermA,42nd St - Port Authority Bus Term
+EL289X**,No Data,42 St - Port Authority Bus Terminal,ACE,98.57%,98.39%,100.00%,No Data,No Data,No Data,Port Authority,C,163,NA,42 St-Port Authority Bus TermC,42nd St - Port Authority Bus Term
+EL289X**,No Data,42 St - Port Authority Bus Terminal,ACE,98.57%,98.39%,100.00%,No Data,No Data,No Data,Port Authority,E,163,NA,42 St-Port Authority Bus TermE,42nd St - Port Authority Bus Term
+EL494X,No Data,Howard Beach,A,98.71%,99.30%,98.36%,No Data,No Data,No Data,Port Authority,A,198,NA,Howard Beach-JFK AirportA,Howard Beach - JFK Airport
+EL208X,No Data,50 St,CE,98.76%,98.94%,98.89%,No Data,No Data,No Data,"WWP Office, LLC c/o RXR Realty",C,61,NA,50 StC,50th St
+EL208X,No Data,50 St,CE,98.76%,98.94%,98.89%,No Data,No Data,No Data,"WWP Office, LLC c/o RXR Realty",E,61,NA,50 StE,50th St
+EL416X,No Data,61 St - Woodside,7,98.81%,98.89%,98.80%,No Data,No Data,No Data,LIRR,7,456,NA,Woodside-61 St7,Woodside - 61st St
+EL495X,No Data,Howard Beach,A,98.89%,98.85%,99.88%,No Data,No Data,No Data,Port Authority,A,198,NA,Howard Beach-JFK AirportA,Howard Beach - JFK Airport
+EL200X,No Data,34 St - Herald Sq,BDFMNQRW,98.90%,100.00%,98.94%,No Data,No Data,No Data,PATH,B,227,NA,Herald Sq-34 StB,Herald Sq - 34th St
+EL200X,No Data,34 St - Herald Sq,BDFMNQRW,98.90%,100.00%,98.94%,No Data,No Data,No Data,PATH,D,227,NA,Herald Sq-34 StD,Herald Sq - 34th St
+EL200X,No Data,34 St - Herald Sq,BDFMNQRW,98.90%,100.00%,98.94%,No Data,No Data,No Data,PATH,F,227,NA,Herald Sq-34 StF,Herald Sq - 34th St
+EL200X,No Data,34 St - Herald Sq,BDFMNQRW,98.90%,100.00%,98.94%,No Data,No Data,No Data,PATH,M,227,NA,Herald Sq-34 StM,Herald Sq - 34th St
+EL200X,No Data,34 St - Herald Sq,BDFMNQRW,98.90%,100.00%,98.94%,No Data,No Data,No Data,PATH,N,12,NA,Herald Sq-34 StN,Herald Sq - 34th St
+EL200X,No Data,34 St - Herald Sq,BDFMNQRW,98.90%,100.00%,98.94%,No Data,No Data,No Data,PATH,Q,12,NA,Herald Sq-34 StQ,Herald Sq - 34th St
+EL200X,No Data,34 St - Herald Sq,BDFMNQRW,98.90%,100.00%,98.94%,No Data,No Data,No Data,PATH,R,12,NA,Herald Sq-34 StR,Herald Sq - 34th St
+EL200X,No Data,34 St - Herald Sq,BDFMNQRW,98.90%,100.00%,98.94%,No Data,No Data,No Data,PATH,W,12,NA,Herald Sq-34 StW,Herald Sq - 34th St
+EL418X,No Data,61 St - Woodside,7,99.00%,98.89%,99.22%,No Data,No Data,No Data,LIRR,7,456,NA,Woodside-61 St7,Woodside - 61st St
+EL12X,No Data,WTC Cortlandt St,1,99.12%,98.89%,99.03%,No Data,No Data,No Data,Port Authority,1,328,NA,WTC Cortlandt St1,Cortlandt St
+EL726X,No Data,Cortlandt St,RW,99.21%,98.36%,100.00%,No Data,No Data,No Data,Westfield Management,R,21,NA,Cortlandt StR,Cortlandt St
+EL726X,No Data,Cortlandt St,RW,99.21%,98.36%,100.00%,No Data,No Data,No Data,Westfield Management,W,328,NA,Cortlandt StW,Cortlandt St
+EL727X,No Data,Cortlandt St,RW,99.24%,99.36%,98.89%,No Data,No Data,No Data,Westfield Management,R,21,NA,Cortlandt StR,Cortlandt St
+EL727X,No Data,Cortlandt St,RW,99.24%,99.36%,98.89%,No Data,No Data,No Data,Westfield Management,W,328,NA,Cortlandt StW,Cortlandt St
+EL415X,No Data,61 St - Woodside,7,99.29%,99.19%,99.90%,No Data,No Data,No Data,LIRR,7,456,NA,Woodside-61 St7,Woodside - 61st St
+EL13X,No Data,WTC Cortlandt St,1,99.30%,98.83%,99.44%,No Data,No Data,No Data,Port Authority,1,328,NA,WTC Cortlandt St1,Cortlandt St
+EL300X,No Data,Atlantic Av-Barclays Ctr,2345BQ,99.37%,98.89%,100.00%,No Data,No Data,No Data,LIRR,2,338,NA,Atlantic Ave-Barclays Ctr2,Atlantic Av - Barclay's Center
+EL300X,No Data,Atlantic Av-Barclays Ctr,2345BQ,99.37%,98.89%,100.00%,No Data,No Data,No Data,LIRR,3,338,NA,Atlantic Ave-Barclays Ctr3,Atlantic Av - Barclay's Center
+EL300X,No Data,Atlantic Av-Barclays Ctr,2345BQ,99.37%,98.89%,100.00%,No Data,No Data,No Data,LIRR,4,338,NA,Atlantic Ave-Barclays Ctr4,Atlantic Av - Barclay's Center
+EL300X,No Data,Atlantic Av-Barclays Ctr,2345BQ,99.37%,98.89%,100.00%,No Data,No Data,No Data,LIRR,5,338,NA,Atlantic Ave-Barclays Ctr5,Atlantic Av - Barclay's Center
+EL300X,No Data,Atlantic Av-Barclays Ctr,2345BQ,99.37%,98.89%,100.00%,No Data,No Data,No Data,LIRR,B,40,NA,Atlantic Ave-Barclays CtrB,Atlantic Av - Barclay's Center
+EL300X,No Data,Atlantic Av-Barclays Ctr,2345BQ,99.37%,98.89%,100.00%,No Data,No Data,No Data,LIRR,Q,40,NA,Atlantic Ave-Barclays CtrQ,Atlantic Av - Barclay's Center
+EL16X,No Data,Cortlandt St,RW,99.40%,100.00%,100.00%,No Data,No Data,No Data,Port Authority,R,21,NA,Cortlandt StR,Cortlandt St
+EL16X,No Data,Cortlandt St,RW,99.40%,100.00%,100.00%,No Data,No Data,No Data,Port Authority,W,328,NA,Cortlandt StW,Cortlandt St
+EL417X,No Data,61 St - Woodside,7,99.42%,100.00%,99.09%,No Data,No Data,No Data,LIRR,7,456,NA,Woodside-61 St7,Woodside - 61st St
+EL729X,No Data,Fulton St,45,99.69%,100.00%,99.57%,No Data,No Data,No Data,Westfield Management,4,292,NA,Fulton St4,Fulton St
+EL729X,No Data,Fulton St,45,99.69%,100.00%,99.57%,No Data,No Data,No Data,Westfield Management,5,292,NA,Fulton St5,Fulton St
+EL728X,No Data,Fulton St,45,99.73%,100.00%,99.78%,No Data,No Data,No Data,Westfield Management,4,292,NA,Fulton St4,Fulton St
+EL728X,No Data,Fulton St,45,99.73%,100.00%,99.78%,No Data,No Data,No Data,Westfield Management,5,292,NA,Fulton St5,Fulton St
+EL737X,No Data,Atlantic Av-Barclays Ctr,2345BQ,99.74%,99.63%,100.00%,No Data,No Data,No Data,LIRR,2,338,NA,Atlantic Ave-Barclays Ctr2,Atlantic Av - Barclay's Center
+EL737X,No Data,Atlantic Av-Barclays Ctr,2345BQ,99.74%,99.63%,100.00%,No Data,No Data,No Data,LIRR,3,338,NA,Atlantic Ave-Barclays Ctr3,Atlantic Av - Barclay's Center
+EL737X,No Data,Atlantic Av-Barclays Ctr,2345BQ,99.74%,99.63%,100.00%,No Data,No Data,No Data,LIRR,4,338,NA,Atlantic Ave-Barclays Ctr4,Atlantic Av - Barclay's Center
+EL737X,No Data,Atlantic Av-Barclays Ctr,2345BQ,99.74%,99.63%,100.00%,No Data,No Data,No Data,LIRR,5,338,NA,Atlantic Ave-Barclays Ctr5,Atlantic Av - Barclay's Center
+EL737X,No Data,Atlantic Av-Barclays Ctr,2345BQ,99.74%,99.63%,100.00%,No Data,No Data,No Data,LIRR,B,40,NA,Atlantic Ave-Barclays CtrB,Atlantic Av - Barclay's Center
+EL737X,No Data,Atlantic Av-Barclays Ctr,2345BQ,99.74%,99.63%,100.00%,No Data,No Data,No Data,LIRR,Q,40,NA,Atlantic Ave-Barclays CtrQ,Atlantic Av - Barclay's Center
+EL11X,No Data,WTC Cortlandt St,1,99.90%,100.00%,100.00%,No Data,No Data,No Data,Port Authority,1,328,NA,WTC Cortlandt St1,Cortlandt St
+EL231X,No Data,Times Sq - 42 St,NQRSW1237,100.00%,100.00%,100.00%,No Data,No Data,No Data,Boston Properties,1,317,NA,Times Sq-42 St1,Times Sq - 42nd St
+EL231X,No Data,Times Sq - 42 St,NQRSW1237,100.00%,100.00%,100.00%,No Data,No Data,No Data,Boston Properties,2,317,NA,Times Sq-42 St2,Times Sq - 42nd St
+EL231X,No Data,Times Sq - 42 St,NQRSW1237,100.00%,100.00%,100.00%,No Data,No Data,No Data,Boston Properties,3,317,NA,Times Sq-42 St3,Times Sq - 42nd St
+EL231X,No Data,Times Sq - 42 St,NQRSW1237,100.00%,100.00%,100.00%,No Data,No Data,No Data,Boston Properties,7,467,NA,Times Sq-42 St7,Times Sq - 42nd St
+EL231X,No Data,Times Sq - 42 St,NQRSW1237,100.00%,100.00%,100.00%,No Data,No Data,No Data,Boston Properties,N,11,NA,Times Sq-42 StN,Times Sq - 42nd St
+EL231X,No Data,Times Sq - 42 St,NQRSW1237,100.00%,100.00%,100.00%,No Data,No Data,No Data,Boston Properties,Q,11,NA,Times Sq-42 StQ,Times Sq - 42nd St
+EL231X,No Data,Times Sq - 42 St,NQRSW1237,100.00%,100.00%,100.00%,No Data,No Data,No Data,Boston Properties,R,11,NA,Times Sq-42 StR,Times Sq - 42nd St
+EL231X,No Data,Times Sq - 42 St,NQRSW1237,100.00%,100.00%,100.00%,No Data,No Data,No Data,Boston Properties,S,11,NA,Times Sq-42 StS,Times Sq - 42nd St
+EL231X,No Data,Times Sq - 42 St,NQRSW1237,100.00%,100.00%,100.00%,No Data,No Data,No Data,Boston Properties,W,11,NA,Times Sq-42 StW,Times Sq - 42nd St
+EL419X,No Data,61 St - Woodside,7,100.00%,100.00%,100.00%,No Data,No Data,No Data,LIRR,7,456,NA,Woodside-61 St7,Woodside - 61st St
+EL490X,No Data,Howard Beach,A,100.00%,100.00%,100.00%,No Data,No Data,No Data,Port Authority,A,198,NA,Howard Beach-JFK AirportA,Howard Beach - JFK Airport
+EL491X,No Data,Howard Beach,A,100.00%,100.00%,100.00%,No Data,No Data,No Data,Port Authority,A,198,NA,Howard Beach-JFK AirportA,Howard Beach - JFK Airport
+EL718X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,2,292,NA,Fulton St2,Fulton St
+EL718X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,3,292,NA,Fulton St3,Fulton St
+EL718X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,4,292,NA,Fulton St4,Fulton St
+EL718X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,5,292,NA,Fulton St5,Fulton St
+EL718X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,A,292,NA,Fulton StA,Fulton St
+EL718X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,C,292,NA,Fulton StC,Fulton St
+EL718X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,J,292,NA,Fulton StJ,Fulton St
+EL718X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,Z,292,NA,Fulton StZ,Fulton St
+EL733X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,2,292,NA,Fulton St2,Fulton St
+EL733X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,3,292,NA,Fulton St3,Fulton St
+EL733X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,4,292,NA,Fulton St4,Fulton St
+EL733X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,5,292,NA,Fulton St5,Fulton St
+EL733X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,A,292,NA,Fulton StA,Fulton St
+EL733X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,C,292,NA,Fulton StC,Fulton St
+EL733X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,J,292,NA,Fulton StJ,Fulton St
+EL733X,No Data,Fulton St,ACJZ2345,100.00%,100.00%,100.00%,No Data,No Data,No Data,Westfield Management,Z,292,NA,Fulton StZ,Fulton St

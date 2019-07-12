@@ -11,6 +11,9 @@ library(tidyr)
 library(purrr)
 library(leaflet.extras)
 
+#borough geojson
+bb=st_read('BoroughBoundaries.geojson') %>%
+  st_transform("+proj=longlat +datum=WGS84")
 #stations and lines -----
 ss=st_read('Subway_Stops_2019/stops_nyc_subway_may2019.shp', layer="stops_nyc_subway_may2019") %>%
   st_transform("+proj=longlat +datum=WGS84")
@@ -83,7 +86,7 @@ allstops1=allstops1 %>%
   mutate(s=map(s,~tibble(s=.))) %>% 
   unnest(s, .drop = FALSE)
 #add subway colors from sublines for filtering by subway lines-----
-allstops1$colors<-c(rep("",nrow(allstops1)))
+allstops1$linecolors<-c(rep("",nrow(allstops1)))
 allstops1[which(allstops1$s=='A'|allstops1$s=='C'|allstops1$s=='E' ),7]<-"#0039A6"
 allstops1[which(allstops1$s=='B'|allstops1$s=='D'|allstops1$s=='F'|allstops1$s=='M'),7]<-"#FF6319"
 allstops1[which(allstops1$s=='G'),7]<-"#6CBE45"
@@ -96,10 +99,35 @@ allstops1[which(allstops1$s=='4'|allstops1$s=='5'|allstops1$s=='6'),7]<-"#00933C
 allstops1[which(allstops1$s=='7'),7]<-"#B933AD"
 allstops1[which(allstops1$s=='SIR'),7]<-"#053159"
 
+###changing ada status labels -----
+allstops1$ADA_StatusLayer=as.character(allstops1$ADA_Status)
+allstops1[allstops1$ADA_StatusLayer=='Partial ADA Acccess southbound only',8]<-"Partial ADA Access"
+allstops1[which(allstops1$ADA_StatusLayer=='Partial ADA Access northbound only'),8]<-'Partial ADA Access'
+allstops1[which(allstops1$ADA_StatusLayer=='Partial ADA Access soutbound only'),8]<-'Partial ADA Access'
+allstops1[which(allstops1$ADA_StatusLayer=='Partial ADA Access Southbound Only'),8]<-'Partial ADA Access'
+allstops1[which(allstops1$ADA_StatusLayer=='ADA Access Under Construction'),8]<-'In Construction'
+allstops1[which(allstops1$ADA_StatusLayer=='No Access - Under Consideration'),8]<-'No ADA: Under Consideration'
+allstops1[which(allstops1$ADA_StatusLayer=='No Access - No Plans for Funding'),8]<-'No ADA: No Funding Plans'
+
+#add subway colors from sublines for filtering by ada status type-----
+allstops1$adacolors<-c(rep("",nrow(allstops1)))
+allstops1[which(allstops1$ADA_StatusLayer=="Full ADA Access"),9]<-"#228AE6"
+allstops1[which(allstops1$ADA_StatusLayer=="Partial ADA Access"),9]<-"#82C91E"
+allstops1[which(allstops1$ADA_StatusLayer=="In Construction"),9]<-"#BE4BDB"
+allstops1[which(allstops1$ADA_StatusLayer=="No ADA: Under Consideration"),9]<-"#D05D4E"
+allstops1[which(allstops1$ADA_StatusLayer=="No ADA: No Funding Plans"),9]<-"#666666"
+
+#adding elevator outages ----
+ee=read.csv('elevator/out_lines_new.csv', stringsAsFactors = FALSE)
+allstops1=left_join(allstops1,ee,by=c("bbl"="BBL"))
+
+
 #converting into shapefile ----
 allstops1<-st_as_sf(allstops1) %>%
   st_transform("+proj=longlat +datum=WGS84")
 
+
+st_write(allstops1, "allstops.geojson", driver = "GeoJSON", delete_dsn=TRUE)
 
 #subsetting each lines into its own shapefile for leaflet layer selector ----
 sub_sir=allstops1[which(allstops1$s==sort(unique(allstops1$s))[22]),]
@@ -261,7 +289,9 @@ sub_sirl=unname(paste0("<div style='background-color:","#053159",
 
 #mapping ------------
 map <- leaflet() %>% 
-  addCouncilStyle() %>% 
+  #addCouncilStyle(add_dists = FALSE) %>% 
+  #addProviderTiles(providers$CartoDB.DarkMatterNoLabels) %>% 
+  addPolygons(data=bb, stroke = FALSE, fillColor = "#666666") %>% 
   #base groups ----
   addCircleMarkers(data = sub1,color =sub1$colors, radius = 4,
                    popup = councilPopup(
@@ -408,19 +438,22 @@ addCircleMarkers(data = ff, color = '#D05D4E', radius = 4,
                            noplan$line, "<br><b>","ADA Status:", "</b><br>",noplan$ADA_Status)),
                    group = un5,label = noplan$name,fillOpacity = 1,weight = 0.5,opacity = 0) %>%
   #layers control -----
-  addLayersControl(overlayGroups = c(un1,un2,un3,un4,un5),
-                   baseGroups = c(sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l,sub_al,sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
+  addLayersControl(baseGroups = 
+                     c(sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l,sub_al,sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
                                   sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,sub_rl,sub_wl,sub_al,sub_jl,sub_zl, sub_sirl),
                    position = "bottomright", 
                    options = layersControlOptions(collapsed = FALSE, sortLayers = FALSE)) %>%
+  addLayersControl(overlayGroups = c(un1,un2,un3,un4,un5),
+                   position = "topright", 
+                   options = layersControlOptions(collapsed = FALSE, sortLayers = FALSE)) %>%
   #search control -----
   addResetMapButton() %>%   
-  addControl("<P>Search by Station Name</P>",position='topright') %>%   
   addSearchFeatures(targetGroups =  c(un1,un2,un3,un4,un5,sub1_l,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l,sub_al, 
                                       sub_cl,sub_el,sub_bl,sub_dl,sub_fl,sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,
                                       sub_rl,sub_wl,sub_al,sub_jl,sub_zl, sub_sirl),
                     options = searchFeaturesOptions(zoom=18, openPopup = TRUE, firstTipSubmit = TRUE,
-                                                    autoCollapse = TRUE, hideMarkerOnCollapse = TRUE, position = "topright" )) %>%
+                                                    autoCollapse = TRUE, hideMarkerOnCollapse = TRUE, position = "topleft" )) %>%
+  addControl("Search by Station Name",position='topleft') %>% 
   hideGroup(c(un1,un2,un3,un4,un5,sub2_l,sub3_l,sub4_l,sub5_l,sub6_l,sub7_l, sub_cl,sub_el,sub_bl,sub_dl,sub_fl,
               sub_ml, sub_gl, sub_ll,sub_nl,sub_ql,sub_rl,sub_wl,sub_al,sub_jl,sub_zl, sub_sirl)) %>%
   
@@ -432,4 +465,28 @@ addCircleMarkers(data = ff, color = '#D05D4E', radius = 4,
 getwd()
 htmlwidgets::saveWidget(map, file = 'subaccessmap.html', selfcontained = F)
 
-    
+#charts for webpage ----
+t=allstops
+class(t$ADA_Status)
+t$ADA_Status=as.character(t$ADA_Status)
+t[which(t$ADA_Status=='Full ADA Access'),3]<-'Full Accessibility'
+t[which(t$ADA_Status=='Partial ADA Acccess southbound only'),3]<-'Partial Accessibility'
+t[which(t$ADA_Status=='Partial ADA Access northbound only'),3]<-'Partial Accessibility'
+t[which(t$ADA_Status=='Partial ADA Access soutbound only'),3]<-'Partial Accessibility'
+t[which(t$ADA_Status=='Partial ADA Access Southbound Only'),3]<-'Partial Accessibility'
+t[which(t$ADA_Status=='ADA Access Under Construction'),3]<-'In Construction'
+t[which(t$ADA_Status=='No Access - Under Consideration'),3]<-'No ADA - Under Consideration'
+t[which(t$ADA_Status=='No Access - No Plans for Funding'),3]<-'No ADA - No Funding Plans'
+
+a=as.data.frame(table(t$ADA_Status))
+names(a)<-c("Status", "Station_Platforms")
+a$percent=a$Station_Platforms/sum(a$Station_Platforms)*100
+write.csv(a,'Station_Platform_ADA_Status.csv', row.names = FALSE)
+
+
+
+
+
+
+st_ids=read.csv('Subway_Stops_2019/stopsmatch.csv', stringsAsFactors = FALSE)
+st_ids$geometry=paste(st_ids$lon,st_ids$lat,sep = ",")

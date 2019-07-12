@@ -1,0 +1,12 @@
+name: subway_accessibility
+title: subway_accessibility
+username:
+account: ccapps
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1011026
+bundleId: 2226504
+url: https://ccapps.shinyapps.io/subway_accessibility/
+when: 1562956053.66803
+asMultiple: FALSE
+asStatic: FALSE
