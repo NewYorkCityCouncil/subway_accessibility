@@ -247,6 +247,32 @@ ee$Station.Name=el_list
 #   uo[i]=ee[which(ee$locationline==unique(ee$locationline)[i]),]$Non_Scheduled_Outages
 # }
 
+#outages ------
+fetm[is.na(fetm$Outages)==TRUE,]$Outages<-0
+fetm[is.na(fetm$Scheduled)==TRUE,]$Scheduled<-0
+fetm[is.na(fetm$Non.Scheduled)==TRUE,]$Non.Scheduled<-0
+so=c()
+for (i in 1:length(unique(fetm$Station.Name))){
+so[i]=sum(fetm[which(fetm$Station.Name==unique(fetm$Station.Name)[i]),]$Scheduled)
+}
+uo=c()
+for (i in 1:length(unique(fetm$Station.Name))){
+  uo[i]=sum(fetm[which(fetm$Station.Name==unique(fetm$Station.Name)[i]),]$Non.Scheduled)
+}
+
+uu=c()
+
+for (i in 1:length(unique(fetm$Station.Name))){
+  uu[i]=sum(fetm[which(fetm$Station.Name==unique(fetm$Station.Name)[i]),]$Outages)
+}
+
+#outages stats for 2019 to may-----
+sum(fetm$Outages, na.rm = TRUE)
+sum(fetm$Scheduled, na.rm = TRUE)
+sum(fetm$Non.Scheduled, na.rm = TRUE)
+
+out=as.data.frame(cbind(so,uo,uu,unique(fetm$Station.Name) ))
+
 #elevator info for map popup ----
 r=list()
 r1=list()
