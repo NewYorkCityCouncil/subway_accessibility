@@ -80,6 +80,10 @@ allstops[which(allstops$ADA_StatusLayer=='No Access - Under Consideration'),6]<-
 allstops[which(allstops$ADA_StatusLayer=='No Access - No Plans for Funding'),6]<-'No ADA Access'
 allstops[which(allstops$ADA_StatusLayer=='No Access - Under Consideration'),6]<-'No ADA Access'
 
+allstops[which(allstops$objectid=='S16'),6]<-'No ADA: Funding Committed'
+allstops[which(allstops$objectid=='S22'),6]<-'No ADA: Funding Committed'
+allstops[which(allstops$objectid=='S28'),6]<-'No ADA: Funding Committed'
+
 #adding station ids
 st_ids=read.csv('Subway_Stops_2019/stopsmatch.csv', stringsAsFactors = FALSE)
 st_ids$match1=paste(st_ids$name,st_ids$objectid,sep = " ")

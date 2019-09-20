@@ -5,8 +5,8 @@ account: ccapps
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1011026
-bundleId: 2226504
+bundleId: 2278021
 url: https://ccapps.shinyapps.io/subway_accessibility/
-when: 1562956053.66803
+when: 1564517796.43515
 asMultiple: FALSE
 asStatic: FALSE
