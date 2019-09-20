@@ -6,7 +6,7 @@ server <- function(input,output,session){
     req(input$ADA)
     
     leaflet() %>%
-      addPolygons(data=bb, stroke = FALSE, fillColor = "#333333") %>%
+      addPolygons(data=bb, stroke = FALSE, fillColor = "#0d0d0d") %>%
       addPolylines(data = sublines2,weight = 3,color = sublines2$color,label = NULL,group = 'Lines',
                    opacity = 0.25, smoothFactor = 3 )%>%
       addCircleMarkers(
@@ -27,10 +27,10 @@ server <- function(input,output,session){
         weight = 2,
         label = allstops1[allstops1$ADA_StatusLayer %in% "Full ADA Access", 1],
         opacity = 0) %>%
-      addLegend(position = "bottomright", colors = c("#228AE6", "#82C91E", "#BE4BDB", "#D05D4E", "#666666"), 
+      addLegend(position = "bottomright", colors = c("#228AE6", "#82C91E", "#BE4BDB", "#3B2483","#D05D4E", "#666666"), 
                 labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
-      setView( -73.933560,40.704343,  zoom = 10.5) %>% 
-      addResetMapButton() 
+      setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
+      #addResetMapButton() 
   })
   
   observeEvent({
@@ -58,8 +58,8 @@ server <- function(input,output,session){
         opacity = 0
         ) %>%
 
-      setView( -73.933560,40.704343,  zoom = 10.5) %>% 
-      addResetMapButton() 
+      setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
+      #addResetMapButton() 
 
     output$stat <- renderText({
      paste((c("There are",nrow(allstops1[!duplicated(allstops1$match1)==TRUE & allstops1$ADA_StatusLayer==input$ADA,]), input$ADA, "stations.")))
@@ -74,7 +74,7 @@ server <- function(input,output,session){
     req(input$lines)
 
     leaflet() %>%
-      addPolygons(data=bb, stroke = FALSE, fillColor = "#333333") %>%
+      addPolygons(data=bb, stroke = FALSE, fillColor = "#0d0d0d") %>%
       addPolylines(data = sublines2,weight = 3,color = sublines2$color,label = NULL,group = 'Lines',
                    opacity = 0.25, smoothFactor = 3 )%>%
       addCircleMarkers(
@@ -94,10 +94,10 @@ server <- function(input,output,session){
         weight = 2,
         label = allstops1[allstops1$s %in% "2",]$name,
         opacity = 0) %>%
-      addLegend(position = "bottomright", colors = c("#228AE6", "#82C91E", "#BE4BDB", "#D05D4E", "#666666"), 
+      addLegend(position = "bottomright", colors = c("#228AE6", "#82C91E", "#BE4BDB","#3B2483", "#D05D4E", "#666666"), 
                 labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
-      setView( -73.933560,40.704343,  zoom = 10.5) %>% 
-      addResetMapButton()   
+      setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
+      #addResetMapButton()   
      
   })
   
@@ -123,8 +123,8 @@ server <- function(input,output,session){
                        weight = 2,
                        label = allstops1[allstops1$s %in% input$lines,]$name,
                        opacity = 0) %>%
-      setView( -73.933560,40.704343,  zoom = 10.5) %>% 
-      addResetMapButton() 
+      setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
+      #addResetMapButton() 
     
     output$stat1 <- renderText({ 
       paste((c("There are",nrow(allstops1[allstops1$s==input$lines,]), "stops on the", input$lines,"line.")))
@@ -152,14 +152,14 @@ server <- function(input,output,session){
     
   })
   
-  ################################### Combinations -----
+  ################################### Combinations: Status & Line-----
   
   output$myMap3 <- renderLeaflet({
     req(input$linesc)
     req(input$ADAc)
     
     leaflet() %>%
-      addPolygons(data=bb, stroke = FALSE, fillColor = "#333333") %>%
+      addPolygons(data=bb, stroke = FALSE, fillColor = "#0d0d0d") %>%
       addPolylines(data = sublines2,weight = 3,color = sublines2$color,label = NULL,group = 'Lines',
                    opacity = 0.25, smoothFactor = 3 )%>%
       addCircleMarkers(
@@ -179,10 +179,10 @@ server <- function(input,output,session){
         weight = 2,
         label = allstops1[allstops1$s %in% "2" & allstops1$ADA_StatusLayer %in% "Full ADA Access",]$name,
         opacity = 0) %>%
-      addLegend(position = "bottomright", colors = c("#228AE6", "#82C91E", "#BE4BDB", "#D05D4E", "#666666"), 
+      addLegend(position = "bottomright", colors = c("#228AE6", "#82C91E", "#BE4BDB","#3B2483", "#D05D4E", "#666666"), 
                 labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
-      setView( -73.933560,40.704343,  zoom = 10.5) %>% 
-      addResetMapButton() 
+      setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
+      #addResetMapButton() 
   })
   
   observeEvent({
@@ -209,8 +209,9 @@ server <- function(input,output,session){
         weight = 2,
         label = allstops1[allstops1$s %in% input$linesc & allstops1$ADA_StatusLayer %in% input$ADAc,]$name,
         opacity = 0) %>%
-      setView( -73.933560,40.704343,  zoom = 10.5) %>% 
-      addResetMapButton()} else{
+      setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
+      #addResetMapButton()
+      } else{
         leafletProxy("myMap3") %>%
           clearMarkers()
       }
@@ -228,10 +229,10 @@ server <- function(input,output,session){
     req(input$search)
     
     leaflet() %>%
-      addPolygons(data=bb, stroke = FALSE, fillColor = "#333333") %>%
+      addPolygons(data=bb, stroke = FALSE, fillColor = "#0d0d0d") %>%
       addPolylines(data = sublines2,weight = 3,color = sublines2$color,label = NULL,group = 'Lines',
                    opacity = 0.25, smoothFactor = 3 )%>%
-      addLegend(position = "bottomright", colors = c("#228AE6", "#82C91E", "#BE4BDB", "#D05D4E", "#666666"), 
+      addLegend(position = "bottomright", colors = c("#228AE6", "#82C91E", "#BE4BDB","#3B2483", "#D05D4E", "#666666"), 
                 labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
       addCircleMarkers(
         data = allstops1[allstops1$stationline %in% "110th St: 6", ],
@@ -250,8 +251,8 @@ server <- function(input,output,session){
         weight = 2,
         label = as.character(allstops1[allstops1$stationline %in% "110th St: 6",]$name),
         opacity = 0) %>%
-      setView( -73.933560,40.704343,  zoom = 10.5) %>% 
-      addResetMapButton() 
+      setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
+      #addResetMapButton() 
     
   })
   
@@ -279,7 +280,7 @@ server <- function(input,output,session){
       weight = 2,
       label = allstops1[allstops1$stationline %in% input$search,]$name,
       opacity = 0) %>%
-    setView( -73.933560,40.704343,  zoom = 10.5) %>% 
-      addResetMapButton() 
+    setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
+      #addResetMapButton() 
   })
 } 

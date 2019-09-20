@@ -29,12 +29,16 @@ full=st_read('ADA/Stations_ADA_Full.shp', layer="Stations_ADA_Full") %>%
   st_transform("+proj=longlat +datum=WGS84")
 partial=st_read('ADA/Stations_ADA_Partial.shp', layer="Stations_ADA_Partial") %>%
   st_transform("+proj=longlat +datum=WGS84")
+partial_full=st_read('ADA/Stations_ADA_NextCapitalPlan_Partial.shp', layer="Stations_ADA_NextCapitalPlan_Partial") %>%
+  st_transform("+proj=longlat +datum=WGS84")
 const=st_read('ADA/Stations_ADA_ConstructionInProgress.shp', layer="Stations_ADA_ConstructionInProgress") %>%
   st_transform("+proj=longlat +datum=WGS84")
-noplan=st_read('NoADA/Stations_NoADA_NoPlans.shp', layer="Stations_NoADA_NoPlans") %>%
+noplan=st_read('NoADA/Stations_NoADA.shp', layer="Stations_NoADA") %>%
   st_transform("+proj=longlat +datum=WGS84")
-ff=st_read('NoADA/Stations_NoADA_UnderConsideration.shp', layer="Stations_NoADA_UnderConsideration") %>%
+ff=st_read('NoADA/Stations_NoADA_NextCapitalPlan_Full.shp', layer="Stations_NoADA_NextCapitalPlan_Full") %>%
   st_transform("+proj=longlat +datum=WGS84")
+ff$ADA_Status=rep("No Access - Committed to Fund", nrow(ff))
+ff=ff[,c(1:6,8,7)]
 
 full_sir=st_read('SIR/SIRail_ADA.shp', layer="SIRail_ADA") %>%
   st_transform("+proj=longlat +datum=WGS84") 
@@ -46,13 +50,14 @@ noplan_sir=st_read('SIR/SIRail_NoADA.shp', layer="SIRail_NoADA") %>%
 noplan_sir$ADA_Status=rep("No Access - No Plans for Funding", nrow(noplan_sir))
 noplan_sir=noplan_sir[,c(2,3,11,1,10)]
 
-ff_sir=st_read('SIR/SIRail_NoADA_UnderConsideration.shp', layer="SIRail_NoADA_UnderConsideration") %>%
+
+ff_sir=st_read('SIR/SIRail_NextCapital.shp', layer="SIRail_NextCapital") %>%
   st_transform("+proj=longlat +datum=WGS84")
 ff_sir$ADA_Status=rep("No Access - Under Consideration", nrow(ff_sir))
 ff_sir=ff_sir[,c(2,3,11,1,10)]
 
 #combining all stops ----
-allstops=rbind(full, partial, const, ff, noplan)
+allstops=rbind(full, partial, partial_full, const, ff, noplan)
 allstops=allstops[,c(3,5,7,4,8)]
 all_sir=rbind(data.frame(full_sir),data.frame(noplan_sir),data.frame(ff_sir))
 names(all_sir)<-names(allstops)
@@ -64,9 +69,16 @@ allstops[allstops$ADA_StatusLayer=='Partial ADA Acccess southbound only',6]<-"Pa
 allstops[which(allstops$ADA_StatusLayer=='Partial ADA Access northbound only'),6]<-'Partial ADA Access'
 allstops[which(allstops$ADA_StatusLayer=='Partial ADA Access soutbound only'),6]<-'Partial ADA Access'
 allstops[which(allstops$ADA_StatusLayer=='Partial ADA Access Southbound Only'),6]<-'Partial ADA Access'
+
+allstops[which(allstops$objectid=='123'),6]<-'Partial: Funding for Full ADA Access'
+allstops[which(allstops$objectid=='286'),6]<-'Partial: Funding for Full ADA Access'
+allstops[which(allstops$objectid=='344'),6]<-'Partial: Funding for Full ADA Access'
+
 allstops[which(allstops$ADA_StatusLayer=='ADA Access Under Construction'),6]<-'Construction in Progress'
-allstops[which(allstops$ADA_StatusLayer=='No Access - Under Consideration'),6]<-'No ADA: Under Consideration'
-allstops[which(allstops$ADA_StatusLayer=='No Access - No Plans for Funding'),6]<-'No ADA: No Funding Plans'
+allstops[which(allstops$ADA_StatusLayer=='No Access - Committed to Fund'),6]<-'No ADA: Funding Committed'
+allstops[which(allstops$ADA_StatusLayer=='No Access - Under Consideration'),6]<-'No ADA Access'
+allstops[which(allstops$ADA_StatusLayer=='No Access - No Plans for Funding'),6]<-'No ADA Access'
+allstops[which(allstops$ADA_StatusLayer=='No Access - Under Consideration'),6]<-'No ADA Access'
 
 #adding station ids
 st_ids=read.csv('Subway_Stops_2019/stopsmatch.csv', stringsAsFactors = FALSE)
@@ -136,9 +148,10 @@ allstops1[which(allstops1$s=='SIR'),]$linecolors<-"#053159"
 allstops1$adacolors<-c(rep("",nrow(allstops1)))
 allstops1[which(allstops1$ADA_StatusLayer=="Full ADA Access"),]$adacolors<-"#228AE6"
 allstops1[which(allstops1$ADA_StatusLayer=="Partial ADA Access"),]$adacolors<-"#82C91E"
-allstops1[which(allstops1$ADA_StatusLayer=="Construction in Progress"),]$adacolors<-"#BE4BDB"
-allstops1[which(allstops1$ADA_StatusLayer=="No ADA: Under Consideration"),]$adacolors<-"#D05D4E"
-allstops1[which(allstops1$ADA_StatusLayer=="No ADA: No Funding Plans"),]$adacolors<-"#666666"
+allstops1[which(allstops1$ADA_StatusLayer=="Partial: Funding for Full ADA Access"),]$adacolors<-"#BE4BDB"
+allstops1[which(allstops1$ADA_StatusLayer=="Construction in Progress"),]$adacolors<-"#3B2483"
+allstops1[which(allstops1$ADA_StatusLayer=="No ADA: Funding Committed"),]$adacolors<-"#D05D4E"
+allstops1[which(allstops1$ADA_StatusLayer=="No ADA Access"),]$adacolors<-"#666666"
 
 #converting into shapefile ----
 allstops1<-st_as_sf(allstops1) %>%
@@ -170,6 +183,9 @@ e2=read.csv('elevator/elevators_feb19.csv', stringsAsFactors = FALSE)
 e3=read.csv('elevator/elevators_march19.csv', stringsAsFactors = FALSE)
 e4=read.csv('elevator/elevators_april19.csv', stringsAsFactors = FALSE)
 e5=read.csv('elevator/elevators_may19.csv', stringsAsFactors = FALSE)
+# e6=read.csv('elevator/elevators_june19.csv', stringsAsFactors = FALSE)
+# e7=read.csv('elevator/elevators_july19.csv', stringsAsFactors = FALSE)
+# e8=read.csv('elevator/elevators_august19.csv', stringsAsFactors = FALSE)
 
 #add month column
 e1$month=rep('January', nrow(e1))
@@ -195,6 +211,9 @@ ne2=read.csv('elevator/not_elevators_feb19.csv', stringsAsFactors = FALSE)
 ne3=read.csv('elevator/not_elevators_march19.csv', stringsAsFactors = FALSE)
 ne4=read.csv('elevator/not_elevators_april19.csv', stringsAsFactors = FALSE)
 ne5=read.csv('elevator/not_elevators_may19.csv', stringsAsFactors = FALSE)
+# ne6=read.csv('elevator/not_elevators_may19.csv', stringsAsFactors = FALSE)
+# ne7=read.csv('elevator/not_elevators_may19.csv', stringsAsFactors = FALSE)
+# ne8=read.csv('elevator/not_elevators_may19.csv', stringsAsFactors = FALSE)
 
 #add month column
 ne1$month=rep('January', nrow(ne1))
