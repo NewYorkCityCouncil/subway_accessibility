@@ -187,19 +187,22 @@ e2=read.csv('elevator/elevators_feb19.csv', stringsAsFactors = FALSE)
 e3=read.csv('elevator/elevators_march19.csv', stringsAsFactors = FALSE)
 e4=read.csv('elevator/elevators_april19.csv', stringsAsFactors = FALSE)
 e5=read.csv('elevator/elevators_may19.csv', stringsAsFactors = FALSE)
-# e6=read.csv('elevator/elevators_june19.csv', stringsAsFactors = FALSE)
-# e7=read.csv('elevator/elevators_july19.csv', stringsAsFactors = FALSE)
-# e8=read.csv('elevator/elevators_august19.csv', stringsAsFactors = FALSE)
+e6=read.csv('elevator/elevators_june19.csv', stringsAsFactors = FALSE)
+e7=read.csv('elevator/elevators_july19.csv', stringsAsFactors = FALSE)
+e8=read.csv('elevator/elevators_aug19.csv', stringsAsFactors = FALSE)
 
 #add month column
 e1$month=rep('January', nrow(e1))
-e2$month=rep('February', nrow(e1))
-e3$month=rep('March', nrow(e1))
-e4$month=rep('April', nrow(e1))
-e5$month=rep('May', nrow(e1))
+e2$month=rep('February', nrow(e2))
+e3$month=rep('March', nrow(e3))
+e4$month=rep('April', nrow(e4))
+e5$month=rep('May', nrow(e5))
+e6$month=rep('June', nrow(e6))
+e7$month=rep('July', nrow(e7))
+e8$month=rep('August', nrow(e8))
 
 #rbind months
-etm=rbind(e1,e2,e3,e4,e5)
+etm=rbind(e1,e2,e3,e4,e5,e6,e7,e8)
 
 #add accessibility status column
 etm$ADA_Status=rep('ADA', nrow(etm))
@@ -215,9 +218,9 @@ ne2=read.csv('elevator/not_elevators_feb19.csv', stringsAsFactors = FALSE)
 ne3=read.csv('elevator/not_elevators_march19.csv', stringsAsFactors = FALSE)
 ne4=read.csv('elevator/not_elevators_april19.csv', stringsAsFactors = FALSE)
 ne5=read.csv('elevator/not_elevators_may19.csv', stringsAsFactors = FALSE)
-# ne6=read.csv('elevator/not_elevators_may19.csv', stringsAsFactors = FALSE)
-# ne7=read.csv('elevator/not_elevators_may19.csv', stringsAsFactors = FALSE)
-# ne8=read.csv('elevator/not_elevators_may19.csv', stringsAsFactors = FALSE)
+ne6=read.csv('elevator/not_elevators_june19.csv', stringsAsFactors = FALSE)
+ne7=read.csv('elevator/not_elevators_july19.csv', stringsAsFactors = FALSE)
+ne8=read.csv('elevator/not_elevators_aug19.csv', stringsAsFactors = FALSE)
 
 #add month column
 ne1$month=rep('January', nrow(ne1))
@@ -225,9 +228,13 @@ ne2$month=rep('February', nrow(ne2))
 ne3$month=rep('March', nrow(ne3))
 ne4$month=rep('April', nrow(ne4))
 ne5$month=rep('May', nrow(ne5))
+ne6$month=rep('June', nrow(ne6))
+ne7$month=rep('July', nrow(ne7))
+ne8$month=rep('August', nrow(ne8))
+
 
 #rbind months
-netm=rbind(ne1,ne2,ne3,ne4,ne5)
+netm=rbind(ne1,ne2,ne3,ne4,ne5,ne6,ne7,ne8)
 
 #add accessibility status column
 netm$ADA_Status=rep('Not ADA', nrow(netm))
@@ -289,7 +296,7 @@ for (i in 1:length(unique(fetm$Station.Name))){
   uu[i]=sum(fetm[which(fetm$Station.Name==unique(fetm$Station.Name)[i]),]$Outages)
 }
 
-#outages stats for 2019 to may-----
+#outages stats for 2019 to aug-----
 sum(fetm$Outages, na.rm = TRUE)
 sum(fetm$Scheduled, na.rm = TRUE)
 sum(fetm$Non.Scheduled, na.rm = TRUE)
