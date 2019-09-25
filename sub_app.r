@@ -150,12 +150,13 @@ allstops1[which(allstops1$s=='SIR'),]$linecolors<-"#053159"
 
 #add subway colors from sublines for filtering by ada status type-----
 allstops1$adacolors<-c(rep("",nrow(allstops1)))
-allstops1[which(allstops1$ADA_StatusLayer=="Full ADA Access"),]$adacolors<-"#228AE6"
-allstops1[which(allstops1$ADA_StatusLayer=="Partial ADA Access"),]$adacolors<-"#82C91E"
-allstops1[which(allstops1$ADA_StatusLayer=="Partial: Funding for Full ADA Access"),]$adacolors<-"#BE4BDB"
-allstops1[which(allstops1$ADA_StatusLayer=="Construction in Progress"),]$adacolors<-"#3B2483"
-allstops1[which(allstops1$ADA_StatusLayer=="No ADA: Funding Committed"),]$adacolors<-"#D05D4E"
-allstops1[which(allstops1$ADA_StatusLayer=="No ADA Access"),]$adacolors<-"#666666"
+allstops1[which(allstops1$ADA_StatusLayer=="Full ADA Access"),]$adacolors<-"#1D5ED7"
+allstops1[which(allstops1$ADA_StatusLayer=="Partial ADA Access"),]$adacolors<-"#007535"
+allstops1[which(allstops1$ADA_StatusLayer=="Partial: Funding for Full ADA Access"),]$adacolors<-"#A427C4"
+allstops1[which(allstops1$ADA_StatusLayer=="Construction in Progress"),]$adacolors<-"#6C4BCE"
+allstops1[which(allstops1$ADA_StatusLayer=="No ADA: Funding Committed"),]$adacolors<-"#A80000"
+allstops1[which(allstops1$ADA_StatusLayer=="No ADA Access"),]$adacolors<-"#4A4A4A"
+
 
 #converting into shapefile ----
 allstops1<-st_as_sf(allstops1) %>%

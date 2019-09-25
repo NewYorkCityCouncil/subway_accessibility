@@ -6,9 +6,9 @@ server <- function(input,output,session){
     req(input$ADA)
     
     leaflet() %>%
-      addPolygons(data=bb, stroke = FALSE, fillColor = "#0d0d0d") %>%
+      addPolygons(data=bb, stroke = FALSE, color = "#666666", fill = TRUE, fillColor = "#E6E6E6", fillOpacity = 1) %>%
       addPolylines(data = sublines2,weight = 3,color = sublines2$color,label = NULL,group = 'Lines',
-                   opacity = 0.25, smoothFactor = 3 )%>%
+                   opacity = 0.3, smoothFactor = 3 )%>%
       addCircleMarkers(
         data = allstops1[allstops1$ADA_StatusLayer %in% "Full ADA Access", ],
         color = allstops1[allstops1$ADA_StatusLayer %in% "Full ADA Access",]$adacolors,
@@ -27,7 +27,7 @@ server <- function(input,output,session){
         weight = 2,
         label = allstops1[allstops1$ADA_StatusLayer %in% "Full ADA Access", 1],
         opacity = 0) %>%
-      addLegend(position = "bottomright", colors = c("#228AE6", "#82C91E", "#BE4BDB", "#3B2483","#D05D4E", "#666666"), 
+      addLegend(position = "bottomright", colors = c("#1D5ED7", "#007535", "#A427C4", "#6C4BCE","#A80000", "#4A4A4A"), 
                 labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
       setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
       #addResetMapButton() 
@@ -74,9 +74,9 @@ server <- function(input,output,session){
     req(input$lines)
 
     leaflet() %>%
-      addPolygons(data=bb, stroke = FALSE, fillColor = "#0d0d0d") %>%
+      addPolygons(data=bb, stroke = FALSE, color = "#666666", fill = TRUE, fillColor = "#E6E6E6", fillOpacity = 1) %>%
       addPolylines(data = sublines2,weight = 3,color = sublines2$color,label = NULL,group = 'Lines',
-                   opacity = 0.25, smoothFactor = 3 )%>%
+                   opacity = 0.3, smoothFactor = 3 )%>%
       addCircleMarkers(
         data = allstops1[allstops1$s == "2", ],
         color = allstops1[allstops1$s == "2",]$adacolors,
@@ -94,7 +94,7 @@ server <- function(input,output,session){
         weight = 2,
         label = allstops1[allstops1$s %in% "2",]$name,
         opacity = 0) %>%
-      addLegend(position = "bottomright", colors = c("#228AE6", "#82C91E", "#BE4BDB","#3B2483", "#D05D4E", "#666666"), 
+      addLegend(position = "bottomright", colors = c("#1D5ED7", "#007535", "#A427C4","#6C4BCE", "#A80000", "#4A4A4A"), 
                 labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
       setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
       #addResetMapButton()   
@@ -159,9 +159,9 @@ server <- function(input,output,session){
     req(input$ADAc)
     
     leaflet() %>%
-      addPolygons(data=bb, stroke = FALSE, fillColor = "#0d0d0d") %>%
+      addPolygons(data=bb, stroke = FALSE, color = "#666666", fill = TRUE, fillColor = "#E6E6E6", fillOpacity = 1) %>%
       addPolylines(data = sublines2,weight = 3,color = sublines2$color,label = NULL,group = 'Lines',
-                   opacity = 0.25, smoothFactor = 3 )%>%
+                   opacity = 0.3, smoothFactor = 3 )%>%
       addCircleMarkers(
         data = allstops1[allstops1$s =="2" & allstops1$ADA_StatusLayer %in% "Full ADA Access", ],
         color = allstops1[allstops1$s == "2" & allstops1$ADA_StatusLayer %in% "Full ADA Access",]$adacolors,
@@ -179,7 +179,7 @@ server <- function(input,output,session){
         weight = 2,
         label = allstops1[allstops1$s %in% "2" & allstops1$ADA_StatusLayer %in% "Full ADA Access",]$name,
         opacity = 0) %>%
-      addLegend(position = "bottomright", colors = c("#228AE6", "#82C91E", "#BE4BDB","#3B2483", "#D05D4E", "#666666"), 
+      addLegend(position = "bottomright", colors = c("#1D5ED7", "#007535", "#A427C4","#6C4BCE", "#A80000", "#4A4A4A"), 
                 labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
       setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
       #addResetMapButton() 
@@ -229,10 +229,10 @@ server <- function(input,output,session){
     req(input$search)
     
     leaflet() %>%
-      addPolygons(data=bb, stroke = FALSE, fillColor = "#0d0d0d") %>%
+      addPolygons(data=bb, stroke = FALSE, color = "#666666", fill = TRUE, fillColor = "#E6E6E6", fillOpacity = 1) %>%
       addPolylines(data = sublines2,weight = 3,color = sublines2$color,label = NULL,group = 'Lines',
-                   opacity = 0.25, smoothFactor = 3 )%>%
-      addLegend(position = "bottomright", colors = c("#228AE6", "#82C91E", "#BE4BDB","#3B2483", "#D05D4E", "#666666"), 
+                   opacity = 0.3, smoothFactor = 3 )%>%
+      addLegend(position = "bottomright", colors = c("#1D5ED7", "#007535", "#A427C4", "#6C4BCE","#A80000", "#4A4A4A"), 
                 labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
       addCircleMarkers(
         data = allstops1[allstops1$stationline %in% "110th St: 6", ],
