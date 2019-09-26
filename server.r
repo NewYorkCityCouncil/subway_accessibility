@@ -22,7 +22,7 @@ server <- function(input,output,session){
     legend_colors <- make_shapes(colors, sizes, borders, shapes)
     legend_labels <- unique(allstops1$ADA_StatusLayer)
     
-    return(addLegend(map, colors = legend_colors, labels = legend_labels, opacity = opacity))
+    return(addLegend(map, colors = legend_colors, labels = legend_labels, opacity = opacity, position = "bottomright"))
   
   }
   
