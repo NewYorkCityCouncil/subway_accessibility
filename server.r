@@ -1,17 +1,43 @@
 server <- function(input,output,session){
   
+  # set legend features
+  colors <- c("#1D5ED7", "#007535", "#A427C4", "#6C4BCE","#A80000", "#4A4A4A")
+  labels <- rep("filled_circle",6)
+  sizes <- rep(18,6)
+  shapes <- rep("circle",6)
+  borders <- rep("#ffffff",6)
+  
+  addLegendCustom <- function(map, colors, labels, sizes, shapes, borders, opacity = 1){
+    
+    make_shapes <- function(colors, sizes, borders, shapes) {
+      shapes <- gsub("circle", "50%", shapes)
+      paste0(colors, "; width:", sizes, "px; height:", sizes, "px; border:3px solid ", borders, "; border-radius:", shapes)
+    }
+    make_labels <- function(sizes, labels) {
+      paste0("<div style='display: inline-block;height: ", 
+             sizes, "px;margin-top: 4px;line-height: ", 
+             sizes, "px;'>", labels, "</div>")
+    }
+    
+    legend_colors <- make_shapes(colors, sizes, borders, shapes)
+    legend_labels <- unique(allstops1$ADA_StatusLayer)
+    
+    return(addLegend(map, colors = legend_colors, labels = legend_labels, opacity = opacity))
+  
+  }
+  
   ############################ By ada status ----
  
   output$myMap <- renderLeaflet({
     req(input$ADA)
     
     leaflet() %>%
-      addPolygons(data=bb, stroke = FALSE, color = "#666666", fill = TRUE, fillColor = "#E6E6E6", fillOpacity = 1) %>%
+      addPolygons(data=bb, stroke = TRUE, color = "#666666", weight = 0.5, fill = TRUE, fillColor = "#E6E6E6", fillOpacity = 1) %>%
       addPolylines(data = sublines2,weight = 3,color = sublines2$color,label = NULL,group = 'Lines',
                    opacity = 0.3, smoothFactor = 3 )%>%
       addCircleMarkers(
         data = allstops1[allstops1$ADA_StatusLayer %in% "Full ADA Access", ],
-        color = allstops1[allstops1$ADA_StatusLayer %in% "Full ADA Access",]$adacolors,
+        fillColor = allstops1[allstops1$ADA_StatusLayer %in% "Full ADA Access",]$adacolors,
         radius = 4,
         popup = councilPopup(
           paste("<h4 class=","header-tiny",">","<u>",allstops1[allstops1$ADA_StatusLayer %in% "Full ADA Access",]$name,"</u></h4><br>", 
@@ -23,12 +49,13 @@ server <- function(input,output,session){
                 allstops1[allstops1$ADA_StatusLayer %in% "Full ADA Access",]$no_service, "<small>", "(Range)", "</small>")
           ),
         group = "sub1_l", 
-        fillOpacity = 1,
+        fillOpacity = 1, stroke = TRUE, color = "#FFF",
         weight = 2,
         label = allstops1[allstops1$ADA_StatusLayer %in% "Full ADA Access", 1],
-        opacity = 0) %>%
-      addLegend(position = "bottomright", colors = c("#1D5ED7", "#007535", "#A427C4", "#6C4BCE","#A80000", "#4A4A4A"), 
-                labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
+        opacity = 0.3) %>%
+      addLegendCustom(colors, labels, sizes, shapes, borders) %>%
+      #addLegend(position = "bottomright", colors = c("#1D5ED7", "#007535", "#A427C4", "#6C4BCE","#A80000", "#4A4A4A"), 
+      #          labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
       setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
       #addResetMapButton() 
   })
@@ -41,7 +68,7 @@ server <- function(input,output,session){
       clearMarkers() %>%
       addCircleMarkers(
         data = allstops1[allstops1$ADA_StatusLayer %in% input$ADA, ],
-        color = allstops1[ allstops1$ADA_StatusLayer %in% input$ADA,]$adacolors,
+        fillColor = allstops1[ allstops1$ADA_StatusLayer %in% input$ADA,]$adacolors,
         radius = 4,
         popup = councilPopup(
           paste("<h4 class=","header-tiny",">","<u>",allstops1[allstops1$ADA_StatusLayer %in% input$ADA,]$name,"</u></h4><br>",
@@ -52,10 +79,10 @@ server <- function(input,output,session){
                 allstops1[allstops1$ADA_StatusLayer %in% input$ADA,]$el_stat, "<br>", "Unavailability (24-Hr Average):","<br>",
                 allstops1[allstops1$ADA_StatusLayer %in% input$ADA,]$no_service, "<small>", "(Range)", "</small>")
         ),
-        fillOpacity = 1,
+        fillOpacity = 1,stroke = TRUE, color = "#FFF",
         weight = 2,
         label = allstops1[allstops1$ADA_StatusLayer %in% input$ADA,]$name,
-        opacity = 0
+        opacity = 0.3
         ) %>%
 
       setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
@@ -74,12 +101,12 @@ server <- function(input,output,session){
     req(input$lines)
 
     leaflet() %>%
-      addPolygons(data=bb, stroke = FALSE, color = "#666666", fill = TRUE, fillColor = "#E6E6E6", fillOpacity = 1) %>%
+      addPolygons(data=bb, stroke = TRUE, color = "#666666", weight = 0.5, fill = TRUE, fillColor = "#E6E6E6", fillOpacity = 1) %>%
       addPolylines(data = sublines2,weight = 3,color = sublines2$color,label = NULL,group = 'Lines',
                    opacity = 0.3, smoothFactor = 3 )%>%
       addCircleMarkers(
         data = allstops1[allstops1$s == "2", ],
-        color = allstops1[allstops1$s == "2",]$adacolors,
+        fillColor = allstops1[allstops1$s == "2",]$adacolors,
         radius = 4,
         popup = councilPopup(
           paste("<h4 class=","header-tiny",">","<u>",allstops1[allstops1$s == "2",]$name,"</u></h4><br>",
@@ -90,12 +117,13 @@ server <- function(input,output,session){
                 allstops1[allstops1$s == "2",]$el_stat, "<br>", "Unavailability (24-Hr Average):","<br>",
                 allstops1[allstops1$s == "2",]$no_service, "<small>", "(Range)", "</small>")),
         group = "a",
-        fillOpacity = 1,
+        fillOpacity = 1, stroke = TRUE, color = "#FFF",
         weight = 2,
         label = allstops1[allstops1$s %in% "2",]$name,
-        opacity = 0) %>%
-      addLegend(position = "bottomright", colors = c("#1D5ED7", "#007535", "#A427C4","#6C4BCE", "#A80000", "#4A4A4A"), 
-                labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
+        opacity = 0.3) %>%
+      addLegendCustom(colors, labels, sizes, shapes, borders) %>%
+      #addLegend(position = "bottomright", colors = c("#1D5ED7", "#007535", "#A427C4","#6C4BCE", "#A80000", "#4A4A4A"), 
+      #          labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
       setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
       #addResetMapButton()   
      
@@ -108,7 +136,7 @@ server <- function(input,output,session){
     leafletProxy("myMap2") %>%
       clearMarkers() %>%
       addCircleMarkers(data = allstops1[allstops1$s == input$lines, ],
-                       color = allstops1[allstops1$s == input$lines,]$adacolors,
+                       fillColor = allstops1[allstops1$s == input$lines,]$adacolors,
                        radius = 4,
                        popup = councilPopup(
                          paste("<h4 class=","header-tiny",">","<u>",allstops1[allstops1$s == input$lines,]$name,"</u></h4><br>",
@@ -119,10 +147,10 @@ server <- function(input,output,session){
                                allstops1[allstops1$s == input$lines,]$el_stat, "<br>", "Unavailability (24-Hr Average):","<br>",
                                allstops1[allstops1$s == input$lines,]$no_service, "<small>", "(Range)", "</small>")),
                        group = "a",
-                       fillOpacity = 1,
+                       fillOpacity = 1, stroke = TRUE, color = "#FFF",
                        weight = 2,
                        label = allstops1[allstops1$s %in% input$lines,]$name,
-                       opacity = 0) %>%
+                       opacity = 0.3) %>%
       setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
       #addResetMapButton() 
     
@@ -159,12 +187,12 @@ server <- function(input,output,session){
     req(input$ADAc)
     
     leaflet() %>%
-      addPolygons(data=bb, stroke = FALSE, color = "#666666", fill = TRUE, fillColor = "#E6E6E6", fillOpacity = 1) %>%
+      addPolygons(data=bb, stroke = TRUE, color = "#666666", weight = 0.5, fill = TRUE, fillColor = "#E6E6E6", fillOpacity = 1) %>%
       addPolylines(data = sublines2,weight = 3,color = sublines2$color,label = NULL,group = 'Lines',
                    opacity = 0.3, smoothFactor = 3 )%>%
       addCircleMarkers(
         data = allstops1[allstops1$s =="2" & allstops1$ADA_StatusLayer %in% "Full ADA Access", ],
-        color = allstops1[allstops1$s == "2" & allstops1$ADA_StatusLayer %in% "Full ADA Access",]$adacolors,
+        fillColor = allstops1[allstops1$s == "2" & allstops1$ADA_StatusLayer %in% "Full ADA Access",]$adacolors,
         radius = 4,
         popup = councilPopup(
           paste("<h4 class=","header-tiny",">","<u>",allstops1[allstops1$s == input$lines & allstops1$ADA_StatusLayer %in% input$ADAc,]$name,"</u></h4><br>", 
@@ -175,12 +203,13 @@ server <- function(input,output,session){
                 allstops1[allstops1$s == "2" & allstops1$ADA_StatusLayer %in% "Full ADA Access",]$el_stat, "<br>", "Unavailability (24-Hr Average):","<br>",
                 allstops1[allstops1$s == "2" & allstops1$ADA_StatusLayer %in% "Full ADA Access",]$no_service, "<small>", "(Range)", "</small>")),
         group = "a",
-        fillOpacity = 1,
+        fillOpacity = 1, stroke = TRUE, color = "#FFF",
         weight = 2,
         label = allstops1[allstops1$s %in% "2" & allstops1$ADA_StatusLayer %in% "Full ADA Access",]$name,
-        opacity = 0) %>%
-      addLegend(position = "bottomright", colors = c("#1D5ED7", "#007535", "#A427C4","#6C4BCE", "#A80000", "#4A4A4A"), 
-                labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
+        opacity = 0.3) %>%
+      addLegendCustom(colors, labels, sizes, shapes, borders) %>%
+      #addLegend(position = "bottomright", colors = c("#1D5ED7", "#007535", "#A427C4","#6C4BCE", "#A80000", "#4A4A4A"), 
+      #          labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
       setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
       #addResetMapButton() 
   })
@@ -194,7 +223,7 @@ server <- function(input,output,session){
       clearMarkers() %>%
       addCircleMarkers(
         data = allstops1[allstops1$s == input$linesc & allstops1$ADA_StatusLayer %in% input$ADAc, ],
-        color = allstops1[allstops1$s == input$linesc & allstops1$ADA_StatusLayer %in% input$ADAc,]$adacolors,
+        fillColor = allstops1[allstops1$s == input$linesc & allstops1$ADA_StatusLayer %in% input$ADAc,]$adacolors,
         radius = 4,
         popup = councilPopup(
           paste("<h4 class=","header-tiny",">","<u>",allstops1[allstops1$s == input$lines & allstops1$ADA_StatusLayer %in% input$ADAc,]$name,"</u></h4><br>", 
@@ -205,10 +234,10 @@ server <- function(input,output,session){
                 allstops1[allstops1$s == input$linesc & allstops1$ADA_StatusLayer %in% input$ADAc,]$el_stat, "<br>", "Unavailability (24-Hr Average):","<br>",
                 allstops1[allstops1$s == input$linesc & allstops1$ADA_StatusLayer %in% input$ADAc,]$no_service, "<small>", "(Range)", "</small>")),
         group = "a",
-        fillOpacity = 1,
+        fillOpacity = 1, stroke = TRUE, color = "#FFF",
         weight = 2,
         label = allstops1[allstops1$s %in% input$linesc & allstops1$ADA_StatusLayer %in% input$ADAc,]$name,
-        opacity = 0) %>%
+        opacity = 0.3) %>%
       setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
       #addResetMapButton()
       } else{
@@ -229,14 +258,15 @@ server <- function(input,output,session){
     req(input$search)
     
     leaflet() %>%
-      addPolygons(data=bb, stroke = FALSE, color = "#666666", fill = TRUE, fillColor = "#E6E6E6", fillOpacity = 1) %>%
+      addPolygons(data=bb, stroke = TRUE, color = "#666666", weight = 0.5, fill = TRUE, fillColor = "#E6E6E6", fillOpacity = 1) %>%
       addPolylines(data = sublines2,weight = 3,color = sublines2$color,label = NULL,group = 'Lines',
                    opacity = 0.3, smoothFactor = 3 )%>%
-      addLegend(position = "bottomright", colors = c("#1D5ED7", "#007535", "#A427C4", "#6C4BCE","#A80000", "#4A4A4A"), 
-                labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
+      addLegendCustom(colors, labels, sizes, shapes, borders) %>%
+      #addLegend(position = "bottomright", colors = c("#1D5ED7", "#007535", "#A427C4", "#6C4BCE","#A80000", "#4A4A4A"), 
+      #          labels = unique(allstops1$ADA_StatusLayer), opacity = 1 ) %>%
       addCircleMarkers(
         data = allstops1[allstops1$stationline %in% "110th St: 6", ],
-        color = allstops1[allstops1$stationline %in% "110th St: 6",]$adacolors,
+        fillColor = allstops1[allstops1$stationline %in% "110th St: 6",]$adacolors,
         radius = 4,
         popup = councilPopup(
           paste("<h4 class=","header-tiny",">","<u>",allstops1[allstops1$stationline %in% "110th St: 6",]$name,"</u></h4><br>", 
@@ -247,10 +277,10 @@ server <- function(input,output,session){
                 allstops1[allstops1$stationline %in% "110th St: 6",]$el_stat, "<br>", "Unavailability (24-Hr Average):","<br>",
                 allstops1[allstops1$stationline %in% "110th St: 6",]$no_service, "<small>", "(Range)", "</small>")),
         group = "a",
-        fillOpacity = 1,
+        fillOpacity = 1, stroke = TRUE, color = "#FFF",
         weight = 2,
         label = as.character(allstops1[allstops1$stationline %in% "110th St: 6",]$name),
-        opacity = 0) %>%
+        opacity = 0.3) %>%
       setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
       #addResetMapButton() 
     
@@ -265,7 +295,7 @@ server <- function(input,output,session){
       clearMarkers() %>%
     addCircleMarkers(
       data = allstops1[allstops1$stationline %in% input$search, ],
-      color = allstops1[allstops1$stationline %in% input$search,]$adacolors,
+      fillColor = allstops1[allstops1$stationline %in% input$search,]$adacolors,
       radius = 4,
       popup = councilPopup(
         paste("<h4 class=","header-tiny",">","<u>",allstops1[allstops1$stationline %in% input$lines,]$name,"</u></h4><br>",
@@ -276,10 +306,10 @@ server <- function(input,output,session){
               allstops1[allstops1$stationline %in% input$search,]$el_stat, "<br>", "Unavailability (24-Hr Average):","<br>",
               allstops1[allstops1$stationline %in% input$search,]$no_service, "<small>", "(Range)", "</small>")),
       group = "a",
-      fillOpacity = 1,
+      fillOpacity = 1, stroke = TRUE, color = "#FFF",
       weight = 2,
       label = allstops1[allstops1$stationline %in% input$search,]$name,
-      opacity = 0) %>%
+      opacity = 0.3) %>%
     setView( -73.933560,40.704343,  zoom = 10.5) #%>% 
       #addResetMapButton() 
   })
